@@ -28,38 +28,38 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `84.147.62.67` | DE | Deutsche Telekom AG | `SPIDER_TRAP_HIT` | 80 | 0.53 MB |
+| `84.147.62.67` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 80 | 0.53 MB |
 | `2a06:98c0:3600::103` | ?? | unknown | `EXPLOIT_SCANNER` | 13 | 0.2 MB |
 | `41.143.185.23` | ?? | unknown | `HONEYTOKEN_HIT` | 12 | 0.0 MB |
 | `92.222.9.185` | FR | OVH SAS | `DATACENTER` | 10 | 8018.0 MB |
-| `148.113.205.188` | CA | OVH Hosting, Inc | `DATACENTER` | 8 | 176.0 MB |
+| `148.113.205.188` | ?? | unknown | `unknown` | 8 | 176.0 MB |
 | `65.21.124.77` | FI | Hetzner | `DATACENTER` | 5 | 110.0 MB |
 | `193.32.162.60` | ?? | spoofed-browser-header-mismatch | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
 | `203.159.90.218` | ?? | unknown | `HONEYTOKEN_HIT` | 3 | 0.0 MB |
 | `72.153.230.168` | US | Microsoft Azure Cloud (westus) | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
 | `62.60.130.227` | ?? | spoofed-browser-header-mismatch | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `49.51.183.75` | US | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
+| `49.51.183.75` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `45.45.237.214` | US | Infraly, LLC | `unknown` | 2 | 39.0 MB |
 | `43.166.226.186` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
-| `43.166.224.244` | US |  | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
-| `43.159.34.167` | SG | Aceville Pte.ltd | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
+| `43.166.224.244` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
+| `43.159.34.167` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.130.154.56` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `216.73.216.64` | ?? | spoofed-browser-header-mismatch | `HONEYTOKEN_HIT` | 2 | 0.04 MB |
 | `216.26.227.100` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 25.0 MB |
 | `198.51.100.92` | ?? | unknown | `BRUTE_FORCE_BOT` | 2 | 0.0 MB |
 | `198.51.100.91` | ?? | unknown | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `198.51.100.90` | ?? | unknown | `BRUTE_FORCE_BOT` | 2 | 0.0 MB |
-| `98.91.77.46` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
-| `8.231.138.73` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
+| `98.91.77.46` | ?? | spoofed-browser-header-mismatch | `SPOOFED_BOT` | 1 | 0.0 MB |
+| `8.231.138.73` | ?? | unknown | `unknown` | 1 | 19.0 MB |
 | `54.37.10.247` | GB | OVH | `DATACENTER` | 1 | 17.0 MB |
 | `49.51.33.159` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `49.51.245.241` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `49.51.204.74` | US | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `49.51.204.74` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `49.51.132.100` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.167.241.46` | JP | Tencent Cloud Computing (Beijing) Co., Ltd | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.163.112.239` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.159.62.129` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.159.36.180` | SG | Aceville Pte.ltd | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.159.36.180` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.159.149.56` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.159.140.236` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.159.135.203` | US | Tencent Cloud Computing | `DATACENTER` | 1 | 13.0 MB |
@@ -68,30 +68,30 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `43.157.158.178` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.157.153.236` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.155.27.244` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.153.7.191` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.153.62.161` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.153.7.191` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.153.62.161` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.153.35.128` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.153.12.58` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.153.12.58` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.152.72.244` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.135.144.126` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.134.94.96` | SG | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.135.144.126` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.134.94.96` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.134.56.214` | SG | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.134.54.246` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.133.253.253` | KR | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.133.220.37` | JP | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.133.220.37` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.133.187.11` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.133.14.237` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.131.45.213` | DE |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.131.243.61` | KR | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.131.23.154` | DE |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.130.9.111` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.130.57.76` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.131.243.61` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.131.23.154` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.130.9.111` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.130.57.76` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.130.57.46` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.130.34.74` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.130.26.3` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.130.34.74` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.130.26.3` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.130.150.80` | US | Tencent Cloud Computing | `DATACENTER` | 1 | 12.0 MB |
 | `43.130.102.7` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `34.127.118.148` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
+| `34.127.118.148` | ?? | unknown | `unknown` | 1 | 19.0 MB |
 | `3.224.234.70` | US | AWS EC2 (us-east-1) | `DATACENTER` | 1 | 4.0 MB |
 | `23.23.253.54` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
 | `23.161.169.113` | GB | Infraly, LLC | `unknown` | 1 | 19.0 MB |
@@ -99,7 +99,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `170.106.72.178` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.197.109` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.180.153` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `170.106.165.76` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `170.106.165.76` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.140.110` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `150.109.10.41` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `139.99.237.180` | AU | OVH Australia PTY LTD | `SPOOFED_BOT` | 1 | 0.39 MB |
@@ -109,7 +109,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `124.156.157.91` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `119.28.89.249` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `119.28.140.106` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `101.33.81.73` | KR |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `101.33.81.73` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `101.32.208.70` | HK | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 
 ---
