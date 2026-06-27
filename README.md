@@ -79,16 +79,16 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `43.155.27.244` | HK | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `124.156.157.91` | HK |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.159.140.236` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.159.62.129` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.157.82.252` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.159.62.129` | SG | Aceville Pte.ltd | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.157.82.252` | DE | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.140.110` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.133.187.11` | JP | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.133.14.237` | JP |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `119.28.89.249` | HK | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.134.54.246` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.134.54.246` | SG | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.157.153.236` | BR | Acevillepteltd SG | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `49.51.33.159` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.153.35.128` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `49.51.33.159` | US | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.153.35.128` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.159.149.56` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.130.57.46` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.72.178` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |

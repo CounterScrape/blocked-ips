@@ -7,8 +7,8 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     ],
     "target_hosts": [
-      "auth-service.dev-node-sync-99.xyz",
-      "db-backup.dev-node-sync-99.xyz"
+      "db-backup.dev-node-sync-99.xyz",
+      "auth-service.dev-node-sync-99.xyz"
     ],
     "connection_count": 80,
     "total_bytes_sent": 556565,
@@ -42,14 +42,14 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ],
     "target_hosts": [
-      "jenkins.dev-node-sync-99.xyz",
-      "config-vault.dev-node-sync-99.xyz",
       "staging-db.dev-node-sync-99.xyz",
+      "api-dev.dev-node-sync-99.xyz",
       "aws-api.dev-node-sync-99.xyz",
       "telemetry.dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
       "git.dev-node-sync-99.xyz",
-      "prod-api.dev-node-sync-99.xyz",
-      "api-dev.dev-node-sync-99.xyz"
+      "prod-api.dev-node-sync-99.xyz"
     ],
     "connection_count": 8,
     "total_bytes_sent": 184549376,
@@ -67,10 +67,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ],
     "target_hosts": [
-      "jenkins.dev-node-sync-99.xyz",
       "dev-node-sync-99.xyz",
       "aws-api.dev-node-sync-99.xyz",
       "telemetry.dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz",
       "admin.dev-node-sync-99.xyz"
     ],
     "connection_count": 5,
@@ -86,8 +86,8 @@
     "first_seen": "2026-06-26T04:15:16.657Z",
     "last_seen": "2026-06-27T06:07:18.600Z",
     "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.175 Safari/537.36",
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.162 Safari/537.36"
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.162 Safari/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.175 Safari/537.36"
     ],
     "target_hosts": [
       "config-vault.dev-node-sync-99.xyz"
@@ -105,8 +105,8 @@
     "first_seen": "2026-06-26T18:51:13.689Z",
     "last_seen": "2026-06-26T18:51:33.589Z",
     "user_agents": [
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)",
-      "CCBot/2.0 (https://commoncrawl.org/faq/)"
+      "CCBot/2.0 (https://commoncrawl.org/faq/)",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)"
     ],
     "target_hosts": [],
     "connection_count": 2,
@@ -1078,8 +1078,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "SG",
+    "org": "Aceville Pte.ltd"
   },
   {
     "ip": "43.157.82.252",
@@ -1096,8 +1096,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "DE",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "170.106.140.110",
@@ -1186,8 +1186,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "SG",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "43.157.153.236",
@@ -1222,8 +1222,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "US",
+    "org": "Tencent cloud computing (Beijing) Co., Ltd."
   },
   {
     "ip": "43.153.35.128",
@@ -1240,8 +1240,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "US",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "43.159.149.56",
