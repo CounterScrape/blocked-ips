@@ -439,17 +439,17 @@
       <div class="metric-card">
         <div class="metric-label">Total Blocked IPs</div>
         <div class="metric-value text-teal" id="statTotalIps">-</div>
-        <div class="metric-subtext">Unique attacker nodes identified</div>
+        <div class="metric-subtext">Unique threat nodes identified</div>
       </div>
       <div class="metric-card">
-        <div class="metric-label">Bandwidth Wasted</div>
-        <div class="metric-value text-indigo" id="statBandwidth">-</div>
-        <div class="metric-subtext">Decoy base64 payloads served</div>
+        <div class="metric-label">Intrusions Intercepted</div>
+        <div class="metric-value text-indigo" id="statTotalHits">-</div>
+        <div class="metric-subtext">Scan & scrape attempts contained</div>
       </div>
       <div class="metric-card">
-        <div class="metric-label">Attacker Proxy Cost</div>
-        <div class="metric-value text-teal" id="statProxyCost">-</div>
-        <div class="metric-subtext">Volumetric residential billing loss</div>
+        <div class="metric-label">AbuseIPDB Reports</div>
+        <div class="metric-value text-teal" id="statReports">-</div>
+        <div class="metric-subtext">Attackers reported globally</div>
       </div>
       <div class="metric-card">
         <div class="metric-label">Active Decoy Services</div>
@@ -467,7 +467,7 @@
         </div>
       </div>
       <div class="chart-card">
-        <div class="chart-title">Top Offenders (Bandwidth Drained)</div>
+        <div class="chart-title">Top Offenders (Total Hits)</div>
         <div class="chart-container">
           <canvas id="offendersChart"></canvas>
         </div>
@@ -574,16 +574,14 @@
     // Render Metrics
     function renderMetrics() {
       document.getElementById('statTotalIps').textContent = threatData.length;
+      document.getElementById('statReports').textContent = threatData.length; // 1:1 mapping of unique IPs to AbuseIPDB reports
       
-      let totalBytes = 0;
-      let totalCost = 0.0;
+      let totalHits = 0;
       threatData.forEach(item => {
-        totalBytes += item.total_bytes_sent || 0;
-        totalCost += item.estimated_cost_usd || 0.0;
+        totalHits += item.connection_count || 0;
       });
 
-      document.getElementById('statBandwidth').textContent = formatBytes(totalBytes);
-      document.getElementById('statProxyCost').textContent = '$' + totalCost.toFixed(2) + ' USD';
+      document.getElementById('statTotalHits').textContent = totalHits.toLocaleString();
     }
 
     // Render Charts (Chart.js)
@@ -640,13 +638,13 @@
       });
 
       // 2. Top Offenders
-      // Sort data by bytes sent desc
+      // Sort data by connection hits desc
       const sortedOffenders = [...threatData]
-        .sort((a, b) => (b.total_bytes_sent || 0) - (a.total_bytes_sent || 0))
+        .sort((a, b) => (b.connection_count || 0) - (a.connection_count || 0))
         .slice(0, 7);
 
       const offenderLabels = sortedOffenders.map(o => o.ip);
-      const offenderValues = sortedOffenders.map(o => (o.total_bytes_sent / 1024 / 1024).toFixed(1)); // MBs
+      const offenderValues = sortedOffenders.map(o => o.connection_count || 0);
 
       const ctxOffenders = document.getElementById('offendersChart').getContext('2d');
       offendersChartObj = new Chart(ctxOffenders, {
@@ -654,7 +652,7 @@
         data: {
           labels: offenderLabels,
           datasets: [{
-            label: 'Data Consumed (MB)',
+            label: 'Intrusion Hits',
             data: offenderValues,
             backgroundColor: 'rgba(99, 102, 241, 0.85)',
             hoverBackgroundColor: '#6366f1',
