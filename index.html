@@ -587,6 +587,7 @@
         if (p === 'SPIDER_TRAP_HIT') return 'Spider Trap Hit';
         if (p === 'AI_BOT') return 'AI Bot / Indexer';
         if (p === 'BRUTE_FORCE_BOT') return 'Brute Force Bot';
+        if (p === 'HONEYTOKEN_HIT') return 'Honeytoken Target Hit';
         return p;
       });
       const profileValues = Object.values(profiles);
@@ -722,6 +723,9 @@
         } else if (profile === 'BRUTE_FORCE_BOT') {
           profileClass = 'badge-exploit';
           profileLabel = 'Brute Force';
+        } else if (profile === 'HONEYTOKEN_HIT') {
+          profileClass = 'badge-exploit';
+          profileLabel = 'Honeytoken Hit';
         }
 
         const tr = document.createElement('tr');
