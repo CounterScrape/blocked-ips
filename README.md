@@ -20,31 +20,31 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `84.147.62.67` | DE | Deutsche Telekom AG | `SPIDER_TRAP_HIT` | 80 | 0.53 MB |
-| `92.222.9.185` | FR | OVH SAS | `DATACENTER` | 10 | 8018.0 MB |
-| `148.113.205.188` | CA | OVH Hosting, Inc | `DATACENTER` | 8 | 176.0 MB |
-| `65.21.124.77` | FI | Hetzner | `DATACENTER` | 5 | 110.0 MB |
-| `72.153.230.168` | US | Microsoft Azure Cloud (westus) | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
-| `45.45.237.214` | US | Infraly, LLC | `unknown` | 2 | 39.0 MB |
+| `84.147.62.67` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 80 | 0.53 MB |
+| `92.222.9.185` | ?? | unknown | `unknown` | 10 | 8018.0 MB |
+| `148.113.205.188` | ?? | unknown | `unknown` | 8 | 176.0 MB |
+| `65.21.124.77` | ?? | unknown | `unknown` | 5 | 110.0 MB |
+| `72.153.230.168` | ?? | unknown | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
+| `45.45.237.214` | ?? | unknown | `unknown` | 2 | 39.0 MB |
 | `43.166.224.244` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `49.51.183.75` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.159.34.167` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.130.154.56` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.166.226.186` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
-| `43.130.150.80` | US | Tencent Cloud Computing | `DATACENTER` | 1 | 12.0 MB |
-| `43.159.135.203` | US | Tencent Cloud Computing | `DATACENTER` | 1 | 13.0 MB |
-| `136.66.29.81` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 14.0 MB |
-| `23.161.169.113` | GB | Infraly, LLC | `unknown` | 1 | 19.0 MB |
-| `54.37.10.247` | GB | OVH | `DATACENTER` | 1 | 17.0 MB |
-| `8.231.138.73` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
-| `34.127.118.148` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
-| `136.117.197.130` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 21.0 MB |
-| `3.224.234.70` | US | AWS EC2 (us-east-1) | `DATACENTER` | 1 | 4.0 MB |
+| `43.130.150.80` | ?? | unknown | `unknown` | 1 | 12.0 MB |
+| `43.159.135.203` | ?? | unknown | `unknown` | 1 | 13.0 MB |
+| `136.66.29.81` | ?? | unknown | `unknown` | 1 | 14.0 MB |
+| `23.161.169.113` | ?? | unknown | `unknown` | 1 | 19.0 MB |
+| `54.37.10.247` | ?? | unknown | `unknown` | 1 | 17.0 MB |
+| `8.231.138.73` | ?? | unknown | `unknown` | 1 | 19.0 MB |
+| `34.127.118.148` | ?? | unknown | `unknown` | 1 | 19.0 MB |
+| `136.117.197.130` | ?? | unknown | `unknown` | 1 | 21.0 MB |
+| `3.224.234.70` | ?? | unknown | `unknown` | 1 | 4.0 MB |
 | `98.91.77.46` | ?? | spoofed-browser-header-mismatch | `SPOOFED_BOT` | 1 | 0.0 MB |
-| `23.23.253.54` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
-| `139.99.237.180` | AU | OVH Australia PTY LTD | `SPOOFED_BOT` | 1 | 0.39 MB |
-| `170.106.197.109` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `43.167.241.46` | JP | Tencent Cloud Computing (Beijing) Co., Ltd | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `23.23.253.54` | ?? | spoofed-browser-header-mismatch | `SPOOFED_BOT` | 1 | 0.0 MB |
+| `139.99.237.180` | ?? | spoofed-browser-header-mismatch | `SPOOFED_BOT` | 1 | 0.39 MB |
+| `170.106.197.109` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
+| `43.167.241.46` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `101.32.208.70` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.134.56.214` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.130.102.7` | ?? | spider-trap-active-containment | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
