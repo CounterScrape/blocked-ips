@@ -3,9 +3,9 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `73`
-* **Total Bandwidth Consumed:** `9123 MB` (~8.91 GB)
-* **Estimated Attacker Financial Loss (Proxy Billing):** `$26.73 USD`
+* **Total Unique IPs Blocked:** `75`
+* **Total Bandwidth Consumed:** `9148 MB` (~8.93 GB)
+* **Estimated Attacker Financial Loss (Proxy Billing):** `$26.8 USD`
 
 ---
 
@@ -24,6 +24,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `92.222.9.185` | FR | OVH SAS | `DATACENTER` | 10 | 8018.0 MB |
 | `148.113.205.188` | CA | OVH Hosting, Inc | `DATACENTER` | 8 | 176.0 MB |
 | `65.21.124.77` | FI | Hetzner | `DATACENTER` | 5 | 110.0 MB |
+| `193.32.162.60` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
 | `72.153.230.168` | US | Microsoft Azure Cloud (westus) | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
 | `49.51.183.75` | US | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `45.45.237.214` | US | Infraly, LLC | `unknown` | 2 | 39.0 MB |
@@ -31,6 +32,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `43.166.224.244` | US |  | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.159.34.167` | SG | Aceville Pte.ltd | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.130.154.56` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
+| `216.26.227.100` | US | 3xK Tech GmbH | `SPIDER_TRAP_HIT` | 2 | 25.0 MB |
 | `198.51.100.99` | RO | TEST-NET-2 RFC5737 | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `98.91.77.46` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
 | `8.231.138.73` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |

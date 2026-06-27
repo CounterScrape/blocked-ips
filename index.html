@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CounterScrape | Live Threat Intelligence Feed</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg-dark: #030712;
+      --card-bg: rgba(17, 24, 39, 0.6);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --accent-teal: #0ad1c8;
+      --accent-indigo: #6366f1;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 5% 5%, rgba(99, 102, 241, 0.15) 0%, transparent 35%),
+        radial-gradient(circle at 95% 95%, rgba(10, 209, 200, 0.1) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    header {
+      border-bottom: 1px solid var(--card-border);
+      backdrop-filter: blur(12px);
+      background: rgba(3, 7, 18, 0.5);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 1.25rem 2rem;
+    }
+
+    .header-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #ffffff 0%, var(--accent-teal) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo::before {
+      content: '🛡️';
+      font-size: 1.25rem;
+    }
+
+    .feed-status {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      background: rgba(10, 209, 200, 0.1);
+      border: 1px solid rgba(10, 209, 200, 0.2);
+      color: var(--accent-teal);
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      font-weight: 600;
+    }
+
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      background-color: var(--accent-teal);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--accent-teal);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.4; }
+      50% { opacity: 1; }
+      100% { opacity: 0.4; }
+    }
+
+    main {
+      max-width: 1280px;
+      margin: 2.5rem auto;
+      padding: 0 2rem;
+    }
+
+    /* Hero section */
+    .hero {
+      margin-bottom: 2.5rem;
+    }
+
+    .hero h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 800px;
+      line-height: 1.5;
+    }
+
+    /* Metrics Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .metric-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+      transition: border-color 0.3s ease;
+    }
+
+    .metric-card:hover {
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+
+    .metric-label {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .metric-value {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+
+    .metric-subtext {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .text-teal { color: var(--accent-teal); }
+    .text-indigo { color: var(--accent-indigo); }
+
+    /* Visual Charts Section */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .charts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .chart-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+      min-height: 380px;
+    }
+
+    .chart-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      border-left: 3px solid var(--accent-teal);
+      padding-left: 0.5rem;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 280px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Registry Table Section */
+    .registry-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.75rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+      margin-bottom: 2.5rem;
+    }
+
+    .registry-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .registry-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      border-left: 3px solid var(--accent-indigo);
+      padding-left: 0.5rem;
+    }
+
+    .search-wrapper {
+      position: relative;
+      min-width: 280px;
+    }
+
+    .search-input {
+      width: 100%;
+      background: rgba(3, 7, 18, 0.6);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      color: var(--text-main);
+      padding: 0.6rem 1rem 0.6rem 2.25rem;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--accent-teal);
+      box-shadow: 0 0 10px rgba(10, 209, 200, 0.15);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.8rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+      font-size: 0.95rem;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin-bottom: 1.25rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 1rem;
+      border-bottom: 1px solid var(--card-border);
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.5px;
+    }
+
+    td {
+      padding: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      vertical-align: middle;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .ip-badge {
+      font-family: monospace;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      color: #ffffff;
+      font-weight: 500;
+    }
+
+    .country-flag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-weight: 500;
+    }
+
+    .badge-profile {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-residential {
+      background: rgba(245, 158, 11, 0.1);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+    }
+
+    .badge-datacenter {
+      background: rgba(99, 102, 241, 0.1);
+      color: #a5b4fc;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+
+    .badge-exploit {
+      background: rgba(239, 68, 68, 0.1);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+    .badge-spider {
+      background: rgba(16, 185, 129, 0.1);
+      color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+
+    /* Pagination */
+    .pagination-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .pagination-buttons {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .page-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 0.85rem;
+      transition: all 0.2s ease;
+    }
+
+    .page-btn:hover:not(:disabled) {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .page-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 5rem;
+      padding: 3rem 2rem;
+      border-top: 1px solid var(--card-border);
+      background: rgba(3, 7, 18, 0.6);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    footer p {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">COUNTER SCRAPE</div>
+      <div class="feed-status">
+        <div class="status-dot"></div>
+        <span>Live Threat Feed Online</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Active Bot Deception Telemetry</h1>
+      <p>Automated telemetry feed tracking crawlers, scrapers, and exploit scanners caught in the CounterScrape high-volume economic data pumps and connection locks.</p>
+    </section>
+
+    <!-- Metrics row -->
+    <section class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-label">Total Blocked IPs</div>
+        <div class="metric-value text-teal" id="statTotalIps">-</div>
+        <div class="metric-subtext">Unique attacker nodes identified</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Bandwidth Wasted</div>
+        <div class="metric-value text-indigo" id="statBandwidth">-</div>
+        <div class="metric-subtext">Decoy base64 payloads served</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Attacker Proxy Cost</div>
+        <div class="metric-value text-teal" id="statProxyCost">-</div>
+        <div class="metric-subtext">Volumetric residential billing loss</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Active Decoy Services</div>
+        <div class="metric-value text-indigo">15</div>
+        <div class="metric-subtext">Dangling honeytoken subdomains</div>
+      </div>
+    </section>
+
+    <!-- Charts row -->
+    <section class="charts-grid">
+      <div class="chart-card">
+        <div class="chart-title">Bot Profile Distribution</div>
+        <div class="chart-container">
+          <canvas id="profileChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Top Offenders (Bandwidth Drained)</div>
+        <div class="chart-container">
+          <canvas id="offendersChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registry table -->
+    <section class="registry-card">
+      <div class="registry-header">
+        <div class="registry-title">Live Blocklist Registry</div>
+        <div class="search-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="tableSearch" class="search-input" placeholder="Search by IP, Country, ASN...">
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>IP Address</th>
+              <th>Country</th>
+              <th>Organization / ISP</th>
+              <th>Client Profile</th>
+              <th>Hits</th>
+              <th>Data Sent</th>
+            </tr>
+          </thead>
+          <tbody id="registryBody">
+            <tr>
+              <td colspan="6" style="text-align: center; color: var(--text-muted);">Loading registry data...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pagination-container">
+        <div id="paginationInfo">Showing 0-0 of 0 entries</div>
+        <div class="pagination-buttons">
+          <button class="page-btn" id="prevPageBtn" disabled>Previous</button>
+          <button class="page-btn" id="nextPageBtn" disabled>Next</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>CounterScrape Deception Infrastructure Threat Feed. Data updated automatically on 30-minute intervals. Consumable raw endpoints available in repository root.</p>
+  </footer>
+
+  <script>
+    let threatData = [];
+    let filteredData = [];
+    let currentPage = 1;
+    const itemsPerPage = 10;
+    
+    let profileChartObj = null;
+    let offendersChartObj = null;
+
+    // Helper: format bytes cleanly
+    function formatBytes(bytes) {
+      if (bytes === 0) return '0 Bytes';
+      const k = 1024;
+      const dm = 2;
+      const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+      const i = Math.floor(Math.log(bytes) / Math.log(k));
+      return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    }
+
+    // Get country emoji flag from country code
+    function getFlagEmoji(countryCode) {
+      if (!countryCode || countryCode === '??') return '🌐';
+      const codePoints = countryCode
+        .toUpperCase()
+        .split('')
+        .map(char =>  127397 + char.charCodeAt(0));
+      return String.fromCodePoint(...codePoints);
+    }
+
+    // Load threat data from JSON
+    async function loadData() {
+      try {
+        const response = await fetch('./blocked_ips.json');
+        if (!response.ok) throw new Error('Network error');
+        threatData = await response.json();
+        filteredData = [...threatData];
+        
+        renderMetrics();
+        renderCharts();
+        renderTable();
+        setupPagination();
+      } catch (err) {
+        console.error('Failed to load threat JSON:', err);
+        document.getElementById('registryBody').innerHTML = `
+          <tr>
+            <td colspan="6" style="text-align: center; color: #ef4444; font-weight: 500;">
+              ❌ Failed to retrieve threat intelligence feeds. Ensure blocked_ips.json is present.
+            </td>
+          </tr>
+        `;
+      }
+    }
+
+    // Render Metrics
+    function renderMetrics() {
+      document.getElementById('statTotalIps').textContent = threatData.length;
+      
+      let totalBytes = 0;
+      let totalCost = 0.0;
+      threatData.forEach(item => {
+        totalBytes += item.total_bytes_sent || 0;
+        totalCost += item.estimated_cost_usd || 0.0;
+      });
+
+      document.getElementById('statBandwidth').textContent = formatBytes(totalBytes);
+      document.getElementById('statProxyCost').textContent = '$' + totalCost.toFixed(2) + ' USD';
+    }
+
+    // Render Charts (Chart.js)
+    function renderCharts() {
+      // 1. Profile Distribution
+      const profiles = {};
+      threatData.forEach(item => {
+        const p = item.client_type || 'unknown';
+        profiles[p] = (profiles[p] || 0) + 1;
+      });
+
+      const profileLabels = Object.keys(profiles).map(p => {
+        if (p === 'RESIDENTIAL_PROXY') return 'Residential Proxy';
+        if (p === 'DATACENTER') return 'Datacenter Router';
+        if (p === 'EXPLOIT_SCANNER') return 'Exploit Scanner';
+        if (p === 'SPIDER_TRAP_HIT') return 'Spider Trap Hit';
+        if (p === 'AI_BOT') return 'AI Bot / Indexer';
+        return p;
+      });
+      const profileValues = Object.values(profiles);
+
+      const ctxProfile = document.getElementById('profileChart').getContext('2d');
+      profileChartObj = new Chart(ctxProfile, {
+        type: 'doughnut',
+        data: {
+          labels: profileLabels,
+          datasets: [{
+            data: profileValues,
+            backgroundColor: [
+              '#0ad1c8',
+              '#6366f1',
+              '#ef4444',
+              '#10b981',
+              '#f59e0b',
+              '#8b5cf6'
+            ],
+            borderColor: '#0b0f19',
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              position: 'right',
+              labels: {
+                color: '#9ca3af',
+                font: { family: 'Plus Jakarta Sans', size: 11 }
+              }
+            }
+          }
+        }
+      });
+
+      // 2. Top Offenders
+      // Sort data by bytes sent desc
+      const sortedOffenders = [...threatData]
+        .sort((a, b) => (b.total_bytes_sent || 0) - (a.total_bytes_sent || 0))
+        .slice(0, 7);
+
+      const offenderLabels = sortedOffenders.map(o => o.ip);
+      const offenderValues = sortedOffenders.map(o => (o.total_bytes_sent / 1024 / 1024).toFixed(1)); // MBs
+
+      const ctxOffenders = document.getElementById('offendersChart').getContext('2d');
+      offendersChartObj = new Chart(ctxOffenders, {
+        type: 'bar',
+        data: {
+          labels: offenderLabels,
+          datasets: [{
+            label: 'Data Consumed (MB)',
+            data: offenderValues,
+            backgroundColor: 'rgba(99, 102, 241, 0.85)',
+            hoverBackgroundColor: '#6366f1',
+            borderRadius: 6,
+            borderWidth: 0
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { color: '#9ca3af', font: { family: 'Plus Jakarta Sans' } }
+            },
+            x: {
+              grid: { display: false },
+              ticks: { color: '#9ca3af', font: { family: 'Plus Jakarta Sans', size: 10 } }
+            }
+          },
+          plugins: {
+            legend: { display: false }
+          }
+        }
+      });
+    }
+
+    // Render Table Page
+    function renderTable() {
+      const tbody = document.getElementById('registryBody');
+      tbody.innerHTML = '';
+
+      if (filteredData.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="6" style="text-align: center; color: var(--text-muted);">
+              No matching records found.
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = Math.min(startIndex + itemsPerPage, filteredData.length);
+      const pageItems = filteredData.slice(startIndex, endIndex);
+
+      pageItems.forEach(item => {
+        const flag = getFlagEmoji(item.country);
+        const countryLabel = flag + ' ' + (item.country || 'Unknown');
+        const dataSentStr = formatBytes(item.total_bytes_sent || 0);
+
+        // Profile Badge type
+        let profileClass = 'badge-residential';
+        let profileLabel = 'Residential';
+        const profile = item.client_type || 'unknown';
+
+        if (profile === 'DATACENTER') {
+          profileClass = 'badge-datacenter';
+          profileLabel = 'Datacenter';
+        } else if (profile === 'EXPLOIT_SCANNER') {
+          profileClass = 'badge-exploit';
+          profileLabel = 'Exploit Scanner';
+        } else if (profile === 'SPIDER_TRAP_HIT') {
+          profileClass = 'badge-spider';
+          profileLabel = 'Spider Trap';
+        } else if (profile === 'AI_BOT') {
+          profileClass = 'badge-datacenter';
+          profileLabel = 'AI Bot';
+        }
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><span class="ip-badge">` + item.ip + `</span></td>
+          <td><span class="country-flag">` + countryLabel + `</span></td>
+          <td><span style="font-weight: 500;">` + (item.org || 'Unknown ISP') + `</span></td>
+          <td><span class="badge-profile ` + profileClass + `">` + profileLabel + `</span></td>
+          <td style="font-weight: 600;">` + (item.connection_count || 0) + `</td>
+          <td style="font-weight: 600; color: #ffffff;">` + dataSentStr + `</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Update Pagination info text
+      document.getElementById('paginationInfo').textContent = 
+        `Showing ` + (filteredData.length === 0 ? 0 : startIndex + 1) + `-` + endIndex + ` of ` + filteredData.length + ` entries`;
+    }
+
+    // Setup Pagination click actions
+    function setupPagination() {
+      const prevBtn = document.getElementById('prevPageBtn');
+      const nextBtn = document.getElementById('nextPageBtn');
+
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = currentPage * itemsPerPage >= filteredData.length;
+
+      prevBtn.onclick = () => {
+        if (currentPage > 1) {
+          currentPage--;
+          renderTable();
+          setupPagination();
+        }
+      };
+
+      nextBtn.onclick = () => {
+        if (currentPage * itemsPerPage < filteredData.length) {
+          currentPage++;
+          renderTable();
+          setupPagination();
+        }
+      };
+    }
+
+    // Search filter input action
+    const searchInput = document.getElementById('tableSearch');
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      
+      filteredData = threatData.filter(item => 
+        item.ip.toLowerCase().includes(query) ||
+        (item.country && item.country.toLowerCase().includes(query)) ||
+        (item.org && item.org.toLowerCase().includes(query)) ||
+        (item.client_type && item.client_type.toLowerCase().includes(query))
+      );
+
+      currentPage = 1;
+      renderTable();
+      setupPagination();
+    });
+
+    // Run initialization
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>

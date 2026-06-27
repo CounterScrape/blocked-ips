@@ -82,6 +82,24 @@
     "org": "Hetzner"
   },
   {
+    "ip": "193.32.162.60",
+    "first_seen": "2026-06-27T17:30:33.051Z",
+    "last_seen": "2026-06-27T17:30:40.015Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 4096,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "NL",
+    "org": "Techoff SRV Limited"
+  },
+  {
     "ip": "72.153.230.168",
     "first_seen": "2026-06-26T04:15:16.657Z",
     "last_seen": "2026-06-27T06:07:18.600Z",
@@ -206,6 +224,24 @@
     "hostname": "spider-trap-active-containment",
     "country": "US",
     "org": "Tencent Cloud Computing"
+  },
+  {
+    "ip": "216.26.227.100",
+    "first_seen": "2026-06-27T17:33:21.888Z",
+    "last_seen": "2026-06-27T17:33:22.482Z",
+    "user_agents": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 26215848,
+    "estimated_cost_usd": 0.0732,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "US",
+    "org": "3xK Tech GmbH"
   },
   {
     "ip": "198.51.100.99",
