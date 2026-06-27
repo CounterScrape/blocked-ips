@@ -114,8 +114,8 @@
     "estimated_cost_usd": 0.0003,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
+    "country": "US",
+    "org": "Cloudflare, Inc."
   },
   {
     "ip": "72.153.230.168",
@@ -151,8 +151,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "45.45.237.214",
@@ -222,8 +222,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": "Aceville Pte.ltd"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.130.154.56",
@@ -366,8 +366,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "49.51.204.74",
@@ -384,8 +384,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "49.51.132.100",
@@ -474,8 +474,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": "Aceville Pte.ltd"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.159.149.56",
@@ -562,8 +562,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "BR",
-    "org": "Acevillepteltd SG"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.157.158.178",
@@ -634,8 +634,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.153.62.161",
@@ -652,8 +652,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.153.35.128",
@@ -688,8 +688,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.152.72.244",
@@ -724,8 +724,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.134.94.96",
@@ -760,8 +760,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.134.54.246",
@@ -796,8 +796,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "KR",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.133.220.37",
@@ -814,8 +814,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "JP",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.133.187.11",
@@ -868,8 +868,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "DE",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.131.243.61",
@@ -922,8 +922,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.130.57.76",
@@ -940,8 +940,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.130.57.46",
@@ -976,8 +976,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.130.26.3",
@@ -994,8 +994,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.130.150.80",
@@ -1028,8 +1028,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "34.127.118.148",
@@ -1152,8 +1152,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "170.106.165.76",
@@ -1206,8 +1206,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "139.99.237.180",
@@ -1348,8 +1348,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "KR",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "101.32.208.70",
