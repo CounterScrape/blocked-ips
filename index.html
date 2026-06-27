@@ -588,6 +588,8 @@
         if (p === 'AI_BOT') return 'AI Bot / Indexer';
         if (p === 'BRUTE_FORCE_BOT') return 'Brute Force Bot';
         if (p === 'HONEYTOKEN_HIT') return 'Honeytoken Target Hit';
+        if (p === 'DATABASE_SCANNER') return 'Database Decoy Hit';
+        if (p === 'REDIS_SCANNER') return 'Redis Decoy Hit';
         return p;
       });
       const profileValues = Object.values(profiles);
@@ -726,6 +728,12 @@
         } else if (profile === 'HONEYTOKEN_HIT') {
           profileClass = 'badge-exploit';
           profileLabel = 'Honeytoken Hit';
+        } else if (profile === 'DATABASE_SCANNER') {
+          profileClass = 'badge-exploit';
+          profileLabel = 'MySQL Decoy';
+        } else if (profile === 'REDIS_SCANNER') {
+          profileClass = 'badge-exploit';
+          profileLabel = 'Redis Decoy';
         }
 
         const tr = document.createElement('tr');
