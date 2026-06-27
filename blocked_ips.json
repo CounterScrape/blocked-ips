@@ -1216,6 +1216,24 @@
     "org": "Infraly, LLC"
   },
   {
+    "ip": "203.159.90.217",
+    "first_seen": "2026-06-27T18:30:58.025Z",
+    "last_seen": "2026-06-27T18:30:58.025Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "nexus-dev.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "dns.google",
+    "country": "NL",
+    "org": "1337 Services GmbH"
+  },
+  {
     "ip": "170.106.72.178",
     "first_seen": "2026-06-27T16:58:18.965Z",
     "last_seen": "2026-06-27T16:58:18.965Z",

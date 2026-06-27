@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--6a676627-33fa-4934-b550-958159d5b856",
+  "id": "bundle--74e6fb68-e911-4669-b0ae-ae73083d1563",
   "objects": [
     {
       "type": "identity",
@@ -1684,6 +1684,31 @@
       "modified": "2026-06-26T12:33:30.619Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--e1546e0e-74c6-5384-8b22-4e689cc57207",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9310a5f1-a6c3-518e-97fa-af15a48fe6ba",
+      "created": "2026-06-27T18:30:58.025Z",
+      "modified": "2026-06-27T18:30:58.025Z",
+      "name": "Attacker Node - 203.159.90.217",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: 1337 Services GmbH. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '203.159.90.217']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T18:30:58.025Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e7edc035-a3d7-541b-92c9-e32cce759091",
+      "created": "2026-06-27T18:30:58.025Z",
+      "modified": "2026-06-27T18:30:58.025Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9310a5f1-a6c3-518e-97fa-af15a48fe6ba",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {

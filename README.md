@@ -3,7 +3,7 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `82`
+* **Total Unique IPs Blocked:** `83`
 * **Total Bandwidth Consumed:** `9148 MB` (~8.93 GB)
 * **Estimated Attacker Financial Loss (Proxy Billing):** `$26.8 USD`
 
@@ -87,6 +87,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `3.224.234.70` | US | AWS EC2 (us-east-1) | `DATACENTER` | 1 | 4.0 MB |
 | `23.23.253.54` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
 | `23.161.169.113` | GB | Infraly, LLC | `unknown` | 1 | 19.0 MB |
+| `203.159.90.217` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 1 | 0.0 MB |
 | `170.106.72.178` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.197.109` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.180.153` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
@@ -119,4 +120,74 @@ ufw route deny proto tcp from any to any port 80,443 comment "CounterScrape Bloc
 while read -r ip; do
     ufw insert 1 deny from "$ip" to any comment "CounterScrape Bot"
 done < /tmp/blocked.txt
+```
+
+---
+
+## 🐝 Build Your Own Honeypot: A Quick-Start Guide
+
+Interested in setting up your own deception network? Here are three lightweight techniques to intercept, catalog, and report malicious actors targeting your systems.
+
+### 1. The HTTP Traversal Trap (Node.js Express)
+Catch bots hunting for sensitive files like `.env`, `.git/config`, or admin panels:
+
+```javascript
+const express = require('express');
+const app = express();
+
+const EXPLOIT_PATHS = [/\/\.env/, /\/\.git/, /\/admin\/login/];
+
+app.use((req, res, next) => {
+  if (EXPLOIT_PATHS.some(regex => regex.test(req.path))) {
+    const clientIp = req.ip;
+    console.warn(`[ATTACK_DETECTED] IP: ${clientIp} probed path ${req.path}`);
+    
+    // Slow-drip tarpit: send data slowly to freeze their scanner thread
+    res.writeHead(200, { 'Content-Type': 'text/plain', 'Transfer-Encoding': 'chunked' });
+    let bytesSent = 0;
+    const interval = setInterval(() => {
+      res.write(`LOCKING_THREAD_WARNING: Bytes sent: ${bytesSent}\n`);
+      bytesSent += 1024;
+    }, 1500);
+
+    req.on('close', () => clearInterval(interval));
+    return;
+  }
+  next();
+});
+```
+
+### 2. The TCP Port Decoy (Python)
+Listen on common, unused database ports (e.g., MySQL `3306` or Redis `6379`) to log database-seeking worms:
+
+```python
+import socket
+
+def run_port_decoy(port):
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    server.bind(("0.0.0.0", port))
+    server.listen(5)
+    print(f"[*] Port Decoy Active on port {port}")
+
+    while True:
+        client, addr = server.accept()
+        print(f"[+] Connection from {addr[0]} detected!")
+        # Optional: Send a fake protocol banner to prompt further actions
+        client.sendall(b"Server Version 8.0.32-Ubuntu\n")
+        client.close()
+
+run_port_decoy(3306)
+```
+
+### 3. Reporting caught attackers to AbuseIPDB
+Use their API to automatically report threats and crowdsource defense:
+
+```bash
+curl -v -X POST https://api.abuseipdb.com/api/v2/report \
+  -H "Key: YOUR_API_KEY" \
+  -H "Accept: application/json" \
+  --data-urlencode "ip=ATTACKER_IP" \
+  --data-urlencode "categories=19" \
+  --data-urlencode "comment=Unauthorized vulnerability scanning and exploit probe caught by honeypot."
 ```
