@@ -699,10 +699,19 @@
       const startIndex = (currentPage - 1) * itemsPerPage;
       const endIndex = Math.min(startIndex + itemsPerPage, filteredData.length);
       const pageItems = filteredData.slice(startIndex, endIndex);
+      const regionNames = new Intl.DisplayNames(['en'], {type: 'region'});
 
       pageItems.forEach(item => {
         const flag = getFlagEmoji(item.country);
-        const countryLabel = flag + ' ' + (item.country || 'Unknown');
+        let countryName = 'Unknown';
+        if (item.country && item.country !== '??') {
+          try {
+            countryName = regionNames.of(item.country.toUpperCase()) || item.country;
+          } catch(e) {
+            countryName = item.country;
+          }
+        }
+        const countryLabel = flag + ' ' + countryName;
         const dataSentStr = formatBytes(item.total_bytes_sent || 0);
 
         // Profile Badge type
