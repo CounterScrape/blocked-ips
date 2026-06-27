@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--a428bbe4-53ee-4b69-b21f-9447421207d5",
+  "id": "bundle--6a676627-33fa-4934-b550-958159d5b856",
   "objects": [
     {
       "type": "identity",
@@ -184,6 +184,31 @@
       "modified": "2026-06-27T17:30:40.015Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--922a7bf8-d854-5595-abda-76ad439b42bf",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
+      "created": "2026-06-27T18:21:02.015Z",
+      "modified": "2026-06-27T18:29:43.320Z",
+      "name": "Attacker Node - 203.159.90.218",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: 1337 Services GmbH. Trapped connection hits: 3.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '203.159.90.218']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T18:21:02.015Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e561bf5b-26a6-5249-8350-1e53926a60bc",
+      "created": "2026-06-27T18:21:02.015Z",
+      "modified": "2026-06-27T18:29:43.320Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -439,26 +464,26 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
-      "created": "2026-06-27T18:21:02.015Z",
-      "modified": "2026-06-27T18:24:10.891Z",
-      "name": "Attacker Node - 203.159.90.218",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: 1337 Services GmbH. Trapped connection hits: 2.",
+      "id": "indicator--ca71820b-c080-5f33-b5cb-e420716ddfc8",
+      "created": "2026-06-27T18:29:45.963Z",
+      "modified": "2026-06-27T18:29:49.816Z",
+      "name": "Attacker Node - 198.51.100.92",
+      "description": "Verified attacker node profile: BRUTE_FORCE_BOT. Org/ISP: TEST-NET-2 RFC5737. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
-      "pattern": "[ipv4-addr:value = '203.159.90.218']",
+      "pattern": "[ipv4-addr:value = '198.51.100.92']",
       "pattern_type": "stix",
-      "valid_from": "2026-06-27T18:21:02.015Z"
+      "valid_from": "2026-06-27T18:29:45.963Z"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--e561bf5b-26a6-5249-8350-1e53926a60bc",
-      "created": "2026-06-27T18:21:02.015Z",
-      "modified": "2026-06-27T18:24:10.891Z",
+      "id": "relationship--783f9210-8027-5be7-a92b-b28650c42fa6",
+      "created": "2026-06-27T18:29:45.963Z",
+      "modified": "2026-06-27T18:29:49.816Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
+      "source_ref": "indicator--ca71820b-c080-5f33-b5cb-e420716ddfc8",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
