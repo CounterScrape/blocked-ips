@@ -203,8 +203,8 @@
     "estimated_cost_usd": 0.0021,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "FR",
+    "org": ""
   },
   {
     "ip": "148.113.205.188",
@@ -268,8 +268,8 @@
     "estimated_cost_usd": 0.0033,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
+    "country": "NL",
+    "org": "1337 Services GmbH"
   },
   {
     "ip": "45.92.85.110",
@@ -287,8 +287,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "216.73.216.64",
@@ -324,8 +324,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "NL",
+    "org": "Techoff SRV Limited"
   },
   {
     "ip": "203.159.90.217",
@@ -487,8 +487,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.87.165",
@@ -523,8 +523,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.87.132",
@@ -541,8 +541,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.86.6",
@@ -577,8 +577,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.86.171",
@@ -595,8 +595,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.86.162",
@@ -613,8 +613,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.85.244",
@@ -631,8 +631,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.85.185",
@@ -649,8 +649,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.85.143",
@@ -667,8 +667,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.84.87",
@@ -685,8 +685,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.84.76",
@@ -703,8 +703,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.84.58",
@@ -721,8 +721,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.84.56",
@@ -739,8 +739,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.84.52",
@@ -757,8 +757,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.84.49",
@@ -811,8 +811,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.84.216",
@@ -847,8 +847,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.84.0",
@@ -900,8 +900,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "DZ",
-    "org": "Algiers"
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "45.130.203.160",
@@ -918,8 +918,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "DZ",
-    "org": "Algiers"
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "45.130.203.149",
@@ -936,8 +936,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "DZ",
-    "org": "Algiers"
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "43.166.226.186",
@@ -1026,8 +1026,8 @@
     "estimated_cost_usd": 0.0732,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "3xK Tech GmbH"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "198.51.100.92",
@@ -1062,8 +1062,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
+    "country": "RO",
+    "org": "TEST-NET-2 RFC5737"
   },
   {
     "ip": "198.51.100.90",
@@ -1080,8 +1080,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "BRUTE_FORCE_BOT",
     "hostname": "unknown",
-    "country": "RO",
-    "org": "TEST-NET-2 RFC5737"
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "198.46.129.85",
@@ -1098,8 +1098,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "US",
-    "org": "Ankit Jain"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "155.94.203.12",
@@ -1116,8 +1116,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "155.94.203.116",
@@ -1152,8 +1152,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
+    "country": "GB",
+    "org": "DigitalOcean, LLC"
   },
   {
     "ip": "104.64.149.106",
@@ -1188,8 +1188,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPOOFED_BOT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "US",
-    "org": "AWS EC2 (us-east-1)"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "87.236.176.146",
@@ -1242,8 +1242,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "REDIS_SCANNER",
     "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
+    "country": "GB",
+    "org": "Zentyx Limited"
   },
   {
     "ip": "54.37.10.247",
@@ -1278,8 +1278,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "US",
+    "org": "Tencent cloud computing (Beijing) Co., Ltd."
   },
   {
     "ip": "49.51.245.241",
@@ -1332,8 +1332,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "DE",
+    "org": "Tencent cloud computing (Beijing) Co., Ltd."
   },
   {
     "ip": "43.167.241.46",
@@ -1386,8 +1386,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": "Aceville Pte.ltd"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.159.36.180",
@@ -1422,8 +1422,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "US",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "43.159.140.236",
@@ -1474,8 +1474,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "DE",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "43.157.175.122",
@@ -1528,8 +1528,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "BR",
-    "org": "Acevillepteltd SG"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.155.27.244",
@@ -1546,8 +1546,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "HK",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "43.153.7.191",
@@ -1654,8 +1654,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "US",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "43.134.94.96",
@@ -1708,8 +1708,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "SG",
+    "org": "Tencent Cloud Computing"
   },
   {
     "ip": "43.133.253.253",
@@ -1780,8 +1780,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "JP",
+    "org": ""
   },
   {
     "ip": "43.131.45.213",
@@ -1834,8 +1834,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "DE",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.130.9.111",
@@ -1992,10 +1992,10 @@
     "connection_count": 1,
     "total_bytes_sent": 4194304,
     "estimated_cost_usd": 0.0117,
-    "client_type": "DATACENTER",
+    "client_type": "unknown",
     "hostname": "unknown",
-    "country": "US",
-    "org": "AWS EC2 (us-east-1)"
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "23.23.253.54",
@@ -2012,8 +2012,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPOOFED_BOT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "US",
-    "org": "AWS EC2 (us-east-1)"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "23.161.169.113",
@@ -2064,8 +2064,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "170.106.180.153",
@@ -2082,8 +2082,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "US",
+    "org": ""
   },
   {
     "ip": "170.106.165.76",
@@ -2100,8 +2100,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "170.106.140.110",
@@ -2118,8 +2118,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "US",
+    "org": ""
   },
   {
     "ip": "164.92.91.136",
@@ -2136,8 +2136,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
+    "country": "US",
+    "org": "DigitalOcean, LLC"
   },
   {
     "ip": "150.109.10.41",
@@ -2172,8 +2172,8 @@
     "estimated_cost_usd": 0.0011,
     "client_type": "SPOOFED_BOT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "AU",
-    "org": "OVH Australia PTY LTD"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "136.66.29.81",
@@ -2242,8 +2242,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "HK",
+    "org": ""
   },
   {
     "ip": "119.28.89.249",
@@ -2260,8 +2260,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "??",
-    "org": "spider-trap-active-containment"
+    "country": "HK",
+    "org": "Tencent cloud computing (Beijing) Co., Ltd."
   },
   {
     "ip": "119.28.140.106",
@@ -2278,8 +2278,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "HK",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "101.33.81.73",

@@ -106,7 +106,7 @@ drop ip 43.130.26.3 any -> any any (msg:"CounterScrape Blocked Bot Node (SPIDER_
 drop ip 43.130.150.80 any -> any any (msg:"CounterScrape Blocked Bot Node (unknown)"; sid:2026105; rev:1;)
 drop ip 43.130.102.7 any -> any any (msg:"CounterScrape Blocked Bot Node (SPIDER_TRAP_HIT)"; sid:2026106; rev:1;)
 drop ip 34.127.118.148 any -> any any (msg:"CounterScrape Blocked Bot Node (unknown)"; sid:2026107; rev:1;)
-drop ip 3.224.234.70 any -> any any (msg:"CounterScrape Blocked Bot Node (DATACENTER)"; sid:2026108; rev:1;)
+drop ip 3.224.234.70 any -> any any (msg:"CounterScrape Blocked Bot Node (unknown)"; sid:2026108; rev:1;)
 drop ip 23.23.253.54 any -> any any (msg:"CounterScrape Blocked Bot Node (SPOOFED_BOT)"; sid:2026109; rev:1;)
 drop ip 23.161.169.113 any -> any any (msg:"CounterScrape Blocked Bot Node (unknown)"; sid:2026110; rev:1;)
 drop ip 170.106.72.178 any -> any any (msg:"CounterScrape Blocked Bot Node (SPIDER_TRAP_HIT)"; sid:2026111; rev:1;)
