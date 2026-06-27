@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--89bb7fdb-bd8c-44e8-a802-c1ff0579f732",
+  "id": "bundle--5f5a41d2-3027-4fa4-906e-fd66d7aefa5c",
   "objects": [
     {
       "type": "identity",
@@ -16,9 +16,9 @@
       "spec_version": "2.1",
       "id": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-06-27T21:48:54.293Z",
+      "modified": "2026-06-27T22:25:18.598Z",
       "name": "Attacker Node - 2a06:98c0:3600::103",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 85.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 97.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -31,7 +31,7 @@
       "spec_version": "2.1",
       "id": "relationship--4133dc6f-476f-5058-b885-a23fb6b37133",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-06-27T21:48:54.293Z",
+      "modified": "2026-06-27T22:25:18.598Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -43,7 +43,7 @@
       "created": "2026-06-27T04:03:05.451Z",
       "modified": "2026-06-27T05:59:37.369Z",
       "name": "Attacker Node - 84.147.62.67",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Deutsche Telekom AG. Trapped connection hits: 80.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 80.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -143,7 +143,7 @@
       "created": "2026-06-27T18:09:27.948Z",
       "modified": "2026-06-27T18:09:28.304Z",
       "name": "Attacker Node - 41.143.185.23",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 12.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: unknown. Trapped connection hits: 12.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -168,7 +168,7 @@
       "created": "2026-06-26T04:23:42.318Z",
       "modified": "2026-06-26T04:52:22.189Z",
       "name": "Attacker Node - 92.222.9.185",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: OVH SAS. Trapped connection hits: 10.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 10.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -193,7 +193,7 @@
       "created": "2026-06-27T17:38:18.604Z",
       "modified": "2026-06-27T21:39:09.118Z",
       "name": "Attacker Node - 62.60.130.227",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: UAB Host Baltic. Trapped connection hits: 10.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 10.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -243,7 +243,7 @@
       "created": "2026-06-27T20:19:40.083Z",
       "modified": "2026-06-27T20:36:56.437Z",
       "name": "Attacker Node - ::ffff:216.180.246.121",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 8.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 8.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -268,7 +268,7 @@
       "created": "2026-06-27T01:20:34.472Z",
       "modified": "2026-06-27T01:20:39.856Z",
       "name": "Attacker Node - 148.113.205.188",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: OVH Hosting, Inc. Trapped connection hits: 8.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 8.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -293,7 +293,7 @@
       "created": "2026-06-27T01:17:50.488Z",
       "modified": "2026-06-27T01:17:52.210Z",
       "name": "Attacker Node - 65.21.124.77",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: Hetzner. Trapped connection hits: 5.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 5.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -314,11 +314,36 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
+      "created": "2026-06-27T18:21:02.015Z",
+      "modified": "2026-06-27T22:14:34.390Z",
+      "name": "Attacker Node - 203.159.90.218",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: unknown. Trapped connection hits: 5.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '203.159.90.218']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T18:21:02.015Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e561bf5b-26a6-5249-8350-1e53926a60bc",
+      "created": "2026-06-27T18:21:02.015Z",
+      "modified": "2026-06-27T22:14:34.390Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--fa7173e5-3b5a-5ab7-bd62-fa2a4b8df712",
       "created": "2026-06-27T20:24:12.585Z",
       "modified": "2026-06-27T21:04:47.809Z",
       "name": "Attacker Node - 45.92.85.110",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 4.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 4.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -364,36 +389,11 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
-      "created": "2026-06-27T18:21:02.015Z",
-      "modified": "2026-06-27T18:58:38.592Z",
-      "name": "Attacker Node - 203.159.90.218",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: 1337 Services GmbH. Trapped connection hits: 4.",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[ipv4-addr:value = '203.159.90.218']",
-      "pattern_type": "stix",
-      "valid_from": "2026-06-27T18:21:02.015Z"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--e561bf5b-26a6-5249-8350-1e53926a60bc",
-      "created": "2026-06-27T18:21:02.015Z",
-      "modified": "2026-06-27T18:58:38.592Z",
-      "relationship_type": "indicates",
-      "source_ref": "indicator--14f665b3-fc83-55d4-a58f-40f0a6b49482",
-      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
       "id": "indicator--922a7bf8-d854-5595-abda-76ad439b42bf",
       "created": "2026-06-27T17:30:33.051Z",
       "modified": "2026-06-27T17:30:40.015Z",
       "name": "Attacker Node - 193.32.162.60",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Techoff SRV Limited. Trapped connection hits: 4.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 4.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -409,6 +409,31 @@
       "modified": "2026-06-27T17:30:40.015Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--922a7bf8-d854-5595-abda-76ad439b42bf",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9310a5f1-a6c3-518e-97fa-af15a48fe6ba",
+      "created": "2026-06-27T18:30:58.025Z",
+      "modified": "2026-06-27T22:14:52.641Z",
+      "name": "Attacker Node - 203.159.90.217",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: dns.google. Trapped connection hits: 3.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '203.159.90.217']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T18:30:58.025Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e7edc035-a3d7-541b-92c9-e32cce759091",
+      "created": "2026-06-27T18:30:58.025Z",
+      "modified": "2026-06-27T22:14:52.641Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9310a5f1-a6c3-518e-97fa-af15a48fe6ba",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -468,7 +493,7 @@
       "created": "2026-06-26T04:15:16.657Z",
       "modified": "2026-06-27T06:07:18.600Z",
       "name": "Attacker Node - 72.153.230.168",
-      "description": "Verified attacker node profile: RESIDENTIAL_PROXY. Org/ISP: Microsoft Azure Cloud (westus). Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: RESIDENTIAL_PROXY. Org/ISP: unknown. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -489,11 +514,36 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--d816cbe2-d888-5100-a91f-16997cbb8864",
+      "created": "2026-06-27T22:05:49.832Z",
+      "modified": "2026-06-27T22:05:49.965Z",
+      "name": "Attacker Node - 64.226.71.148",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '64.226.71.148']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T22:05:49.832Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ee2f728a-0eaa-539b-869b-40e590b8a7c3",
+      "created": "2026-06-27T22:05:49.832Z",
+      "modified": "2026-06-27T22:05:49.965Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--d816cbe2-d888-5100-a91f-16997cbb8864",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--9facca52-f56d-5acc-a936-5ed2056c7ee2",
       "created": "2026-06-27T08:58:03.637Z",
       "modified": "2026-06-27T14:55:56.473Z",
       "name": "Attacker Node - 49.51.183.75",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent cloud computing (Beijing) Co., Ltd.. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -518,7 +568,7 @@
       "created": "2026-06-27T20:55:01.184Z",
       "modified": "2026-06-27T20:55:02.878Z",
       "name": "Attacker Node - 45.92.87.89",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -568,7 +618,7 @@
       "created": "2026-06-27T21:05:59.598Z",
       "modified": "2026-06-27T21:06:01.301Z",
       "name": "Attacker Node - 45.92.87.175",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -593,7 +643,7 @@
       "created": "2026-06-27T20:43:29.817Z",
       "modified": "2026-06-27T20:43:31.496Z",
       "name": "Attacker Node - 45.92.87.165",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -693,7 +743,7 @@
       "created": "2026-06-27T20:55:02.104Z",
       "modified": "2026-06-27T20:55:03.845Z",
       "name": "Attacker Node - 45.92.86.172",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -718,7 +768,7 @@
       "created": "2026-06-27T20:42:45.836Z",
       "modified": "2026-06-27T20:42:47.538Z",
       "name": "Attacker Node - 45.92.86.171",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -743,7 +793,7 @@
       "created": "2026-06-27T20:23:17.877Z",
       "modified": "2026-06-27T20:23:19.580Z",
       "name": "Attacker Node - 45.92.86.162",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -768,7 +818,7 @@
       "created": "2026-06-27T20:42:47.050Z",
       "modified": "2026-06-27T20:42:48.727Z",
       "name": "Attacker Node - 45.92.85.244",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -818,7 +868,7 @@
       "created": "2026-06-27T21:11:13.408Z",
       "modified": "2026-06-27T21:11:15.092Z",
       "name": "Attacker Node - 45.92.85.143",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -843,7 +893,7 @@
       "created": "2026-06-27T20:20:04.852Z",
       "modified": "2026-06-27T20:20:06.546Z",
       "name": "Attacker Node - 45.92.84.87",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -918,7 +968,7 @@
       "created": "2026-06-27T20:20:05.590Z",
       "modified": "2026-06-27T20:20:07.284Z",
       "name": "Attacker Node - 45.92.84.56",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -943,7 +993,7 @@
       "created": "2026-06-27T20:31:48.359Z",
       "modified": "2026-06-27T20:31:50.058Z",
       "name": "Attacker Node - 45.92.84.52",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -968,7 +1018,7 @@
       "created": "2026-06-27T20:51:28.861Z",
       "modified": "2026-06-27T20:51:30.556Z",
       "name": "Attacker Node - 45.92.84.49",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1018,7 +1068,7 @@
       "created": "2026-06-27T21:04:46.750Z",
       "modified": "2026-06-27T21:04:48.434Z",
       "name": "Attacker Node - 45.92.84.247",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1043,7 +1093,7 @@
       "created": "2026-06-27T20:23:17.110Z",
       "modified": "2026-06-27T20:23:18.792Z",
       "name": "Attacker Node - 45.92.84.216",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1068,7 +1118,7 @@
       "created": "2026-06-27T20:51:29.573Z",
       "modified": "2026-06-27T20:51:31.260Z",
       "name": "Attacker Node - 45.92.84.167",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1093,7 +1143,7 @@
       "created": "2026-06-27T20:24:11.837Z",
       "modified": "2026-06-27T20:24:13.543Z",
       "name": "Attacker Node - 45.92.84.0",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1118,7 +1168,7 @@
       "created": "2026-06-26T18:51:13.689Z",
       "modified": "2026-06-26T18:51:33.589Z",
       "name": "Attacker Node - 45.45.237.214",
-      "description": "Verified attacker node profile: unknown. Org/ISP: Infraly, LLC. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1134,6 +1184,81 @@
       "modified": "2026-06-26T18:51:33.589Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--fb5785e2-3d87-5441-8f0b-54603a5ea755",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4573c18c-b398-54b6-b34c-94c48f5db749",
+      "created": "2026-06-27T22:18:04.243Z",
+      "modified": "2026-06-27T22:18:05.844Z",
+      "name": "Attacker Node - 45.130.203.179",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Algiers. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.130.203.179']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T22:18:04.243Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--68fe0a0a-7dcc-5784-b671-597ca9a9984a",
+      "created": "2026-06-27T22:18:04.243Z",
+      "modified": "2026-06-27T22:18:05.844Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4573c18c-b398-54b6-b34c-94c48f5db749",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c8be6e1a-ef2c-513d-9746-4c7396c97de8",
+      "created": "2026-06-27T22:18:04.230Z",
+      "modified": "2026-06-27T22:18:05.833Z",
+      "name": "Attacker Node - 45.130.203.160",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Algiers. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.130.203.160']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T22:18:04.230Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--8b81e044-f25a-50d7-8e8c-07ca15a5a091",
+      "created": "2026-06-27T22:18:04.230Z",
+      "modified": "2026-06-27T22:18:05.833Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c8be6e1a-ef2c-513d-9746-4c7396c97de8",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6939b026-a254-52dd-9a26-2ccf9b71b271",
+      "created": "2026-06-27T22:18:04.354Z",
+      "modified": "2026-06-27T22:18:05.956Z",
+      "name": "Attacker Node - 45.130.203.149",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Algiers. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.130.203.149']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T22:18:04.354Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--59d81873-1485-56e1-8aee-d0aa35afe963",
+      "created": "2026-06-27T22:18:04.354Z",
+      "modified": "2026-06-27T22:18:05.956Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--6939b026-a254-52dd-9a26-2ccf9b71b271",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -1168,7 +1293,7 @@
       "created": "2026-06-27T08:41:57.640Z",
       "modified": "2026-06-27T15:48:35.523Z",
       "name": "Attacker Node - 43.166.224.244",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1193,7 +1318,7 @@
       "created": "2026-06-27T09:27:27.110Z",
       "modified": "2026-06-27T12:56:39.654Z",
       "name": "Attacker Node - 43.159.34.167",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Aceville Pte.ltd. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1218,7 +1343,7 @@
       "created": "2026-06-27T13:48:19.596Z",
       "modified": "2026-06-27T14:29:09.172Z",
       "name": "Attacker Node - 43.130.154.56",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1264,36 +1389,11 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9310a5f1-a6c3-518e-97fa-af15a48fe6ba",
-      "created": "2026-06-27T18:30:58.025Z",
-      "modified": "2026-06-27T18:58:25.045Z",
-      "name": "Attacker Node - 203.159.90.217",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: 1337 Services GmbH. Trapped connection hits: 2.",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[ipv4-addr:value = '203.159.90.217']",
-      "pattern_type": "stix",
-      "valid_from": "2026-06-27T18:30:58.025Z"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--e7edc035-a3d7-541b-92c9-e32cce759091",
-      "created": "2026-06-27T18:30:58.025Z",
-      "modified": "2026-06-27T18:58:25.045Z",
-      "relationship_type": "indicates",
-      "source_ref": "indicator--9310a5f1-a6c3-518e-97fa-af15a48fe6ba",
-      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
       "id": "indicator--ca71820b-c080-5f33-b5cb-e420716ddfc8",
       "created": "2026-06-27T18:29:45.963Z",
       "modified": "2026-06-27T18:29:49.816Z",
       "name": "Attacker Node - 198.51.100.92",
-      "description": "Verified attacker node profile: BRUTE_FORCE_BOT. Org/ISP: TEST-NET-2 RFC5737. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: BRUTE_FORCE_BOT. Org/ISP: unknown. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1318,7 +1418,7 @@
       "created": "2026-06-27T17:59:52.157Z",
       "modified": "2026-06-27T17:59:56.016Z",
       "name": "Attacker Node - 198.51.100.91",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: TEST-NET-2 RFC5737. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: unknown. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1418,7 +1518,7 @@
       "created": "2026-06-27T20:31:47.517Z",
       "modified": "2026-06-27T20:31:49.501Z",
       "name": "Attacker Node - 155.94.203.116",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: HostRoyale Technologies. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1443,7 +1543,7 @@
       "created": "2026-06-27T19:09:53.982Z",
       "modified": "2026-06-27T19:09:59.691Z",
       "name": "Attacker Node - 134.209.178.19",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: DigitalOcean, LLC. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: unknown. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1468,7 +1568,7 @@
       "created": "2026-06-27T19:18:02.566Z",
       "modified": "2026-06-27T19:18:03.395Z",
       "name": "Attacker Node - 104.64.149.106",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Akamai Technologies, Inc.. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: spoofed-browser-header-mismatch. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1518,7 +1618,7 @@
       "created": "2026-06-27T21:59:22.773Z",
       "modified": "2026-06-27T21:59:22.773Z",
       "name": "Attacker Node - 87.236.176.146",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1543,7 +1643,7 @@
       "created": "2026-06-27T01:35:02.111Z",
       "modified": "2026-06-27T01:35:02.111Z",
       "name": "Attacker Node - 8.231.138.73",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: Google Cloud (us-west1). Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1568,7 +1668,7 @@
       "created": "2026-06-27T19:29:07.079Z",
       "modified": "2026-06-27T19:29:07.079Z",
       "name": "Attacker Node - 62.141.63.15",
-      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Zentyx Limited. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1593,7 +1693,7 @@
       "created": "2026-06-27T01:29:40.918Z",
       "modified": "2026-06-27T01:29:40.918Z",
       "name": "Attacker Node - 54.37.10.247",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: OVH. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1618,7 +1718,7 @@
       "created": "2026-06-27T16:07:56.401Z",
       "modified": "2026-06-27T16:07:56.401Z",
       "name": "Attacker Node - 49.51.33.159",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent cloud computing (Beijing) Co., Ltd.. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1643,7 +1743,7 @@
       "created": "2026-06-27T11:07:15.411Z",
       "modified": "2026-06-27T11:07:15.411Z",
       "name": "Attacker Node - 49.51.245.241",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent cloud computing (Beijing) Co., Ltd.. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1668,7 +1768,7 @@
       "created": "2026-06-27T10:19:16.283Z",
       "modified": "2026-06-27T10:19:16.283Z",
       "name": "Attacker Node - 49.51.204.74",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent cloud computing (Beijing) Co., Ltd.. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1693,7 +1793,7 @@
       "created": "2026-06-27T13:17:36.538Z",
       "modified": "2026-06-27T13:17:36.538Z",
       "name": "Attacker Node - 49.51.132.100",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent cloud computing (Beijing) Co., Ltd.. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1718,7 +1818,7 @@
       "created": "2026-06-27T07:29:44.591Z",
       "modified": "2026-06-27T07:29:44.591Z",
       "name": "Attacker Node - 43.167.241.46",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing (Beijing) Co., Ltd. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1743,7 +1843,7 @@
       "created": "2026-06-27T13:08:36.052Z",
       "modified": "2026-06-27T13:08:36.052Z",
       "name": "Attacker Node - 43.163.112.239",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing (Beijing) Co., Ltd. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1793,7 +1893,7 @@
       "created": "2026-06-27T10:49:32.715Z",
       "modified": "2026-06-27T10:49:32.715Z",
       "name": "Attacker Node - 43.159.36.180",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Aceville Pte.ltd. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1818,7 +1918,7 @@
       "created": "2026-06-27T16:39:32.967Z",
       "modified": "2026-06-27T16:39:32.967Z",
       "name": "Attacker Node - 43.159.149.56",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1843,7 +1943,7 @@
       "created": "2026-06-27T13:58:29.207Z",
       "modified": "2026-06-27T13:58:29.207Z",
       "name": "Attacker Node - 43.159.140.236",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1868,7 +1968,7 @@
       "created": "2026-06-26T07:36:31.550Z",
       "modified": "2026-06-26T07:36:31.550Z",
       "name": "Attacker Node - 43.159.135.203",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1893,7 +1993,7 @@
       "created": "2026-06-27T14:17:44.114Z",
       "modified": "2026-06-27T14:17:44.114Z",
       "name": "Attacker Node - 43.157.82.252",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1918,7 +2018,7 @@
       "created": "2026-06-27T09:57:39.832Z",
       "modified": "2026-06-27T09:57:39.832Z",
       "name": "Attacker Node - 43.157.175.122",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Acevillepteltd SG. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1943,7 +2043,7 @@
       "created": "2026-06-27T12:47:24.862Z",
       "modified": "2026-06-27T12:47:24.862Z",
       "name": "Attacker Node - 43.157.158.178",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Acevillepteltd SG. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -1993,7 +2093,7 @@
       "created": "2026-06-27T13:26:25.152Z",
       "modified": "2026-06-27T13:26:25.152Z",
       "name": "Attacker Node - 43.155.27.244",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2018,7 +2118,7 @@
       "created": "2026-06-27T08:30:41.610Z",
       "modified": "2026-06-27T08:30:41.610Z",
       "name": "Attacker Node - 43.153.7.191",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2043,7 +2143,7 @@
       "created": "2026-06-27T10:09:02.323Z",
       "modified": "2026-06-27T10:09:02.323Z",
       "name": "Attacker Node - 43.153.62.161",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2068,7 +2168,7 @@
       "created": "2026-06-27T16:28:33.868Z",
       "modified": "2026-06-27T16:28:33.868Z",
       "name": "Attacker Node - 43.153.35.128",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2093,7 +2193,7 @@
       "created": "2026-06-27T09:08:47.546Z",
       "modified": "2026-06-27T09:08:47.546Z",
       "name": "Attacker Node - 43.153.12.58",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2118,7 +2218,7 @@
       "created": "2026-06-27T11:59:19.587Z",
       "modified": "2026-06-27T11:59:19.587Z",
       "name": "Attacker Node - 43.152.72.244",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing (Beijing) Co., Ltd. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2143,7 +2243,7 @@
       "created": "2026-06-27T11:29:28.924Z",
       "modified": "2026-06-27T11:29:28.924Z",
       "name": "Attacker Node - 43.135.144.126",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2168,7 +2268,7 @@
       "created": "2026-06-27T08:47:49.235Z",
       "modified": "2026-06-27T08:47:49.235Z",
       "name": "Attacker Node - 43.134.94.96",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2193,7 +2293,7 @@
       "created": "2026-06-27T07:47:33.646Z",
       "modified": "2026-06-27T07:47:33.646Z",
       "name": "Attacker Node - 43.134.56.214",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2218,7 +2318,7 @@
       "created": "2026-06-27T15:38:26.377Z",
       "modified": "2026-06-27T15:38:26.377Z",
       "name": "Attacker Node - 43.134.54.246",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2243,7 +2343,7 @@
       "created": "2026-06-27T08:19:26.987Z",
       "modified": "2026-06-27T08:19:26.987Z",
       "name": "Attacker Node - 43.133.253.253",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2268,7 +2368,7 @@
       "created": "2026-06-27T09:17:21.308Z",
       "modified": "2026-06-27T09:17:21.308Z",
       "name": "Attacker Node - 43.133.220.37",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2318,7 +2418,7 @@
       "created": "2026-06-27T15:18:07.993Z",
       "modified": "2026-06-27T15:18:07.993Z",
       "name": "Attacker Node - 43.133.14.237",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2343,7 +2443,7 @@
       "created": "2026-06-27T08:10:04.991Z",
       "modified": "2026-06-27T08:10:04.991Z",
       "name": "Attacker Node - 43.131.45.213",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2443,7 +2543,7 @@
       "created": "2026-06-27T09:48:42.882Z",
       "modified": "2026-06-27T09:48:42.882Z",
       "name": "Attacker Node - 43.130.57.76",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2493,7 +2593,7 @@
       "created": "2026-06-27T09:40:07.878Z",
       "modified": "2026-06-27T09:40:07.878Z",
       "name": "Attacker Node - 43.130.34.74",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2518,7 +2618,7 @@
       "created": "2026-06-27T10:31:55.521Z",
       "modified": "2026-06-27T10:31:55.521Z",
       "name": "Attacker Node - 43.130.26.3",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2543,7 +2643,7 @@
       "created": "2026-06-26T07:17:35.922Z",
       "modified": "2026-06-26T07:17:35.922Z",
       "name": "Attacker Node - 43.130.150.80",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2568,7 +2668,7 @@
       "created": "2026-06-27T07:59:27.429Z",
       "modified": "2026-06-27T07:59:27.429Z",
       "name": "Attacker Node - 43.130.102.7",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2593,7 +2693,7 @@
       "created": "2026-06-27T01:35:28.244Z",
       "modified": "2026-06-27T01:35:28.244Z",
       "name": "Attacker Node - 34.127.118.148",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: Google Cloud (us-west1). Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2668,7 +2768,7 @@
       "created": "2026-06-26T12:33:30.619Z",
       "modified": "2026-06-26T12:33:30.619Z",
       "name": "Attacker Node - 23.161.169.113",
-      "description": "Verified attacker node profile: unknown. Org/ISP: Infraly, LLC. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2693,7 +2793,7 @@
       "created": "2026-06-27T16:58:18.965Z",
       "modified": "2026-06-27T16:58:18.965Z",
       "name": "Attacker Node - 170.106.72.178",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2743,7 +2843,7 @@
       "created": "2026-06-27T11:39:14.440Z",
       "modified": "2026-06-27T11:39:14.440Z",
       "name": "Attacker Node - 170.106.180.153",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2793,7 +2893,7 @@
       "created": "2026-06-27T14:37:45.205Z",
       "modified": "2026-06-27T14:37:45.205Z",
       "name": "Attacker Node - 170.106.140.110",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2818,7 +2918,7 @@
       "created": "2026-06-27T20:52:57.227Z",
       "modified": "2026-06-27T20:52:57.227Z",
       "name": "Attacker Node - 164.92.91.136",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: DigitalOcean, LLC. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2843,7 +2943,7 @@
       "created": "2026-06-27T11:18:33.854Z",
       "modified": "2026-06-27T11:18:33.854Z",
       "name": "Attacker Node - 150.109.10.41",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2893,7 +2993,7 @@
       "created": "2026-06-26T08:12:55.336Z",
       "modified": "2026-06-26T08:12:55.336Z",
       "name": "Attacker Node - 136.66.29.81",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: Google Cloud (us-west1). Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2918,7 +3018,7 @@
       "created": "2026-06-27T01:37:47.478Z",
       "modified": "2026-06-27T01:37:47.478Z",
       "name": "Attacker Node - 136.117.197.130",
-      "description": "Verified attacker node profile: DATACENTER. Org/ISP: Google Cloud (us-west1). Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: unknown. Org/ISP: unknown. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2943,7 +3043,7 @@
       "created": "2026-06-27T12:38:15.812Z",
       "modified": "2026-06-27T12:38:15.812Z",
       "name": "Attacker Node - 124.156.206.145",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2968,7 +3068,7 @@
       "created": "2026-06-27T13:35:20.960Z",
       "modified": "2026-06-27T13:35:20.960Z",
       "name": "Attacker Node - 124.156.157.91",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -2993,7 +3093,7 @@
       "created": "2026-06-27T15:27:22.538Z",
       "modified": "2026-06-27T15:27:22.538Z",
       "name": "Attacker Node - 119.28.89.249",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent cloud computing (Beijing) Co., Ltd.. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -3043,7 +3143,7 @@
       "created": "2026-06-27T10:39:09.251Z",
       "modified": "2026-06-27T10:39:09.251Z",
       "name": "Attacker Node - 101.33.81.73",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: . Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -3068,7 +3168,7 @@
       "created": "2026-06-27T07:39:55.624Z",
       "modified": "2026-06-27T07:39:55.624Z",
       "name": "Attacker Node - 101.32.208.70",
-      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: Tencent Cloud Computing. Trapped connection hits: 1.",
+      "description": "Verified attacker node profile: SPIDER_TRAP_HIT. Org/ISP: spider-trap-active-containment. Trapped connection hits: 1.",
       "indicator_types": [
         "malicious-activity"
       ],
