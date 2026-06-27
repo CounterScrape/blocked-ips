@@ -323,10 +323,7 @@
       font-weight: 500;
     }
 
-    .country-flag {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
+    .country-label {
       font-weight: 500;
     }
 
@@ -537,16 +534,6 @@
       return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
     }
 
-    // Get country emoji flag from country code
-    function getFlagEmoji(countryCode) {
-      if (!countryCode || countryCode === '??') return '🌐';
-      const codePoints = countryCode
-        .toUpperCase()
-        .split('')
-        .map(char =>  127397 + char.charCodeAt(0));
-      return String.fromCodePoint(...codePoints);
-    }
-
     // Load threat data from JSON
     async function loadData() {
       try {
@@ -702,7 +689,6 @@
       const regionNames = new Intl.DisplayNames(['en'], {type: 'region'});
 
       pageItems.forEach(item => {
-        const flag = getFlagEmoji(item.country);
         let countryName = 'Unknown';
         if (item.country && item.country !== '??') {
           try {
@@ -711,7 +697,7 @@
             countryName = item.country;
           }
         }
-        const countryLabel = flag + ' ' + countryName;
+        const countryLabel = countryName;
         const dataSentStr = formatBytes(item.total_bytes_sent || 0);
 
         // Profile Badge type
@@ -736,7 +722,7 @@
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td><span class="ip-badge">` + item.ip + `</span></td>
-          <td><span class="country-flag">` + countryLabel + `</span></td>
+          <td><span class="country-label">` + countryLabel + `</span></td>
           <td><span style="font-weight: 500;">` + (item.org || 'Unknown ISP') + `</span></td>
           <td><span class="badge-profile ` + profileClass + `">` + profileLabel + `</span></td>
           <td style="font-weight: 600;">` + (item.connection_count || 0) + `</td>
