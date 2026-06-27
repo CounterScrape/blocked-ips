@@ -7,8 +7,8 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     ],
     "target_hosts": [
-      "db-backup.dev-node-sync-99.xyz",
-      "auth-service.dev-node-sync-99.xyz"
+      "auth-service.dev-node-sync-99.xyz",
+      "db-backup.dev-node-sync-99.xyz"
     ],
     "connection_count": 80,
     "total_bytes_sent": 556565,
@@ -42,13 +42,13 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ],
     "target_hosts": [
+      "api-dev.dev-node-sync-99.xyz",
       "aws-api.dev-node-sync-99.xyz",
       "config-vault.dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
       "jenkins.dev-node-sync-99.xyz",
       "prod-api.dev-node-sync-99.xyz",
-      "git.dev-node-sync-99.xyz",
       "staging-db.dev-node-sync-99.xyz",
-      "api-dev.dev-node-sync-99.xyz",
       "telemetry.dev-node-sync-99.xyz"
     ],
     "connection_count": 8,
@@ -67,11 +67,11 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ],
     "target_hosts": [
-      "aws-api.dev-node-sync-99.xyz",
-      "jenkins.dev-node-sync-99.xyz",
       "admin.dev-node-sync-99.xyz",
-      "telemetry.dev-node-sync-99.xyz",
-      "dev-node-sync-99.xyz"
+      "aws-api.dev-node-sync-99.xyz",
+      "dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz"
     ],
     "connection_count": 5,
     "total_bytes_sent": 115343360,
@@ -86,8 +86,8 @@
     "first_seen": "2026-06-26T04:15:16.657Z",
     "last_seen": "2026-06-27T06:07:18.600Z",
     "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.175 Safari/537.36",
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.162 Safari/537.36"
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.162 Safari/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.175 Safari/537.36"
     ],
     "target_hosts": [
       "config-vault.dev-node-sync-99.xyz"
@@ -99,41 +99,6 @@
     "hostname": "unknown",
     "country": "US",
     "org": "Microsoft Azure Cloud (westus)"
-  },
-  {
-    "ip": "45.45.237.214",
-    "first_seen": "2026-06-26T18:51:13.689Z",
-    "last_seen": "2026-06-26T18:51:33.589Z",
-    "user_agents": [
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)",
-      "CCBot/2.0 (https://commoncrawl.org/faq/)"
-    ],
-    "target_hosts": [],
-    "connection_count": 2,
-    "total_bytes_sent": 40894464,
-    "estimated_cost_usd": 0.1143,
-    "client_type": "unknown",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Infraly, LLC"
-  },
-  {
-    "ip": "43.166.224.244",
-    "first_seen": "2026-06-27T08:41:57.640Z",
-    "last_seen": "2026-06-27T15:48:35.523Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 4143,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
   },
   {
     "ip": "49.51.183.75",
@@ -152,6 +117,59 @@
     "hostname": "spider-trap-active-containment",
     "country": "US",
     "org": "Tencent cloud computing (Beijing) Co., Ltd."
+  },
+  {
+    "ip": "45.45.237.214",
+    "first_seen": "2026-06-26T18:51:13.689Z",
+    "last_seen": "2026-06-26T18:51:33.589Z",
+    "user_agents": [
+      "CCBot/2.0 (https://commoncrawl.org/faq/)",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)"
+    ],
+    "target_hosts": [],
+    "connection_count": 2,
+    "total_bytes_sent": 40894464,
+    "estimated_cost_usd": 0.1143,
+    "client_type": "unknown",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Infraly, LLC"
+  },
+  {
+    "ip": "43.166.226.186",
+    "first_seen": "2026-06-27T15:09:02.299Z",
+    "last_seen": "2026-06-27T16:18:30.063Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 4009,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.166.224.244",
+    "first_seen": "2026-06-27T08:41:57.640Z",
+    "last_seen": "2026-06-27T15:48:35.523Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 4143,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "US",
+    "org": ""
   },
   {
     "ip": "43.159.34.167",
@@ -186,180 +204,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.166.226.186",
-    "first_seen": "2026-06-27T15:09:02.299Z",
-    "last_seen": "2026-06-27T16:18:30.063Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 4009,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
-  },
-  {
-    "ip": "43.130.150.80",
-    "first_seen": "2026-06-26T07:17:35.922Z",
-    "last_seen": "2026-06-26T07:17:35.922Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [],
-    "connection_count": 1,
-    "total_bytes_sent": 12582912,
-    "estimated_cost_usd": 0.0352,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.159.135.203",
-    "first_seen": "2026-06-26T07:36:31.550Z",
-    "last_seen": "2026-06-26T07:36:31.550Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [],
-    "connection_count": 1,
-    "total_bytes_sent": 13631488,
-    "estimated_cost_usd": 0.0381,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "136.66.29.81",
-    "first_seen": "2026-06-26T08:12:55.336Z",
-    "last_seen": "2026-06-26T08:12:55.336Z",
-    "user_agents": [
-      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
-    ],
-    "target_hosts": [],
-    "connection_count": 1,
-    "total_bytes_sent": 14680064,
-    "estimated_cost_usd": 0.041,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Google Cloud (us-west1)"
-  },
-  {
-    "ip": "23.161.169.113",
-    "first_seen": "2026-06-26T12:33:30.619Z",
-    "last_seen": "2026-06-26T12:33:30.619Z",
-    "user_agents": [
-      "Mozilla/5.0 (compatible; DeepSeekBot/1.0; +https://www.deepseek.com/bot)"
-    ],
-    "target_hosts": [],
-    "connection_count": 1,
-    "total_bytes_sent": 19922944,
-    "estimated_cost_usd": 0.0557,
-    "client_type": "unknown",
-    "hostname": "unknown",
-    "country": "GB",
-    "org": "Infraly, LLC"
-  },
-  {
-    "ip": "54.37.10.247",
-    "first_seen": "2026-06-27T01:29:40.918Z",
-    "last_seen": "2026-06-27T01:29:40.918Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 17825792,
-    "estimated_cost_usd": 0.0498,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "GB",
-    "org": "OVH"
-  },
-  {
-    "ip": "8.231.138.73",
-    "first_seen": "2026-06-27T01:35:02.111Z",
-    "last_seen": "2026-06-27T01:35:02.111Z",
-    "user_agents": [
-      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 19922944,
-    "estimated_cost_usd": 0.0557,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Google Cloud (us-west1)"
-  },
-  {
-    "ip": "34.127.118.148",
-    "first_seen": "2026-06-27T01:35:28.244Z",
-    "last_seen": "2026-06-27T01:35:28.244Z",
-    "user_agents": [
-      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 19922944,
-    "estimated_cost_usd": 0.0557,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Google Cloud (us-west1)"
-  },
-  {
-    "ip": "136.117.197.130",
-    "first_seen": "2026-06-27T01:37:47.478Z",
-    "last_seen": "2026-06-27T01:37:47.478Z",
-    "user_agents": [
-      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
-    ],
-    "target_hosts": [
-      "api-dev.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 22020096,
-    "estimated_cost_usd": 0.0615,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Google Cloud (us-west1)"
-  },
-  {
-    "ip": "3.224.234.70",
-    "first_seen": "2026-06-27T01:56:58.267Z",
-    "last_seen": "2026-06-27T01:56:58.267Z",
-    "user_agents": [
-      "Mozilla/5.0 (compatible)"
-    ],
-    "target_hosts": [
-      "config-vault.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 4194304,
-    "estimated_cost_usd": 0.0117,
-    "client_type": "DATACENTER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "AWS EC2 (us-east-1)"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "98.91.77.46",
@@ -380,45 +226,45 @@
     "org": "AWS EC2 (us-east-1)"
   },
   {
-    "ip": "23.23.253.54",
-    "first_seen": "2026-06-27T02:27:14.817Z",
-    "last_seen": "2026-06-27T02:27:14.817Z",
+    "ip": "8.231.138.73",
+    "first_seen": "2026-06-27T01:35:02.111Z",
+    "last_seen": "2026-06-27T01:35:02.111Z",
     "user_agents": [
-      "Mozilla/5.0 (compatible)"
+      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
     ],
     "target_hosts": [
-      "aws-api.dev-node-sync-99.xyz"
+      "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPOOFED_BOT",
-    "hostname": "spoofed-browser-header-mismatch",
+    "total_bytes_sent": 19922944,
+    "estimated_cost_usd": 0.0557,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
     "country": "US",
-    "org": "AWS EC2 (us-east-1)"
+    "org": "Google Cloud (us-west1)"
   },
   {
-    "ip": "139.99.237.180",
-    "first_seen": "2026-06-27T06:24:39.920Z",
-    "last_seen": "2026-06-27T06:24:39.920Z",
+    "ip": "54.37.10.247",
+    "first_seen": "2026-06-27T01:29:40.918Z",
+    "last_seen": "2026-06-27T01:29:40.918Z",
     "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
     ],
     "target_hosts": [
-      "auth-service.dev-node-sync-99.xyz"
+      "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 407552,
-    "estimated_cost_usd": 0.0011,
-    "client_type": "SPOOFED_BOT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "AU",
-    "org": "OVH Australia PTY LTD"
+    "total_bytes_sent": 17825792,
+    "estimated_cost_usd": 0.0498,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "OVH"
   },
   {
-    "ip": "170.106.197.109",
-    "first_seen": "2026-06-27T07:19:03.614Z",
-    "last_seen": "2026-06-27T07:19:03.614Z",
+    "ip": "49.51.33.159",
+    "first_seen": "2026-06-27T16:07:56.401Z",
+    "last_seen": "2026-06-27T16:07:56.401Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -426,12 +272,66 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 2243,
+    "total_bytes_sent": 2198,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
     "country": "US",
-    "org": ""
+    "org": "Tencent cloud computing (Beijing) Co., Ltd."
+  },
+  {
+    "ip": "49.51.245.241",
+    "first_seen": "2026-06-27T11:07:15.411Z",
+    "last_seen": "2026-06-27T11:07:15.411Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1784,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "49.51.204.74",
+    "first_seen": "2026-06-27T10:19:16.283Z",
+    "last_seen": "2026-06-27T10:19:16.283Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1663,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "49.51.132.100",
+    "first_seen": "2026-06-27T13:17:36.538Z",
+    "last_seen": "2026-06-27T13:17:36.538Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1614,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.167.241.46",
@@ -452,9 +352,9 @@
     "org": "Tencent Cloud Computing (Beijing) Co., Ltd"
   },
   {
-    "ip": "101.32.208.70",
-    "first_seen": "2026-06-27T07:39:55.624Z",
-    "last_seen": "2026-06-27T07:39:55.624Z",
+    "ip": "43.163.112.239",
+    "first_seen": "2026-06-27T13:08:36.052Z",
+    "last_seen": "2026-06-27T13:08:36.052Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -462,17 +362,17 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 2126,
+    "total_bytes_sent": 1932,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "HK",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
-    "ip": "43.134.56.214",
-    "first_seen": "2026-06-27T07:47:33.646Z",
-    "last_seen": "2026-06-27T07:47:33.646Z",
+    "ip": "43.159.62.129",
+    "first_seen": "2026-06-27T14:09:29.196Z",
+    "last_seen": "2026-06-27T14:09:29.196Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -480,17 +380,17 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 1639,
+    "total_bytes_sent": 1759,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
-    "ip": "43.130.102.7",
-    "first_seen": "2026-06-27T07:59:27.429Z",
-    "last_seen": "2026-06-27T07:59:27.429Z",
+    "ip": "43.159.36.180",
+    "first_seen": "2026-06-27T10:49:32.715Z",
+    "last_seen": "2026-06-27T10:49:32.715Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -498,7 +398,25 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 1663,
+    "total_bytes_sent": 2068,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.159.149.56",
+    "first_seen": "2026-06-27T16:39:32.967Z",
+    "last_seen": "2026-06-27T16:39:32.967Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2198,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
@@ -506,9 +424,9 @@
     "org": "Tencent Cloud Computing"
   },
   {
-    "ip": "43.131.45.213",
-    "first_seen": "2026-06-27T08:10:04.991Z",
-    "last_seen": "2026-06-27T08:10:04.991Z",
+    "ip": "43.159.140.236",
+    "first_seen": "2026-06-27T13:58:29.207Z",
+    "last_seen": "2026-06-27T13:58:29.207Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -516,17 +434,33 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 2190,
+    "total_bytes_sent": 2066,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "DE",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
-    "ip": "43.133.253.253",
-    "first_seen": "2026-06-27T08:19:26.987Z",
-    "last_seen": "2026-06-27T08:19:26.987Z",
+    "ip": "43.159.135.203",
+    "first_seen": "2026-06-26T07:36:31.550Z",
+    "last_seen": "2026-06-26T07:36:31.550Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [],
+    "connection_count": 1,
+    "total_bytes_sent": 13631488,
+    "estimated_cost_usd": 0.0381,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Tencent Cloud Computing"
+  },
+  {
+    "ip": "43.157.82.252",
+    "first_seen": "2026-06-27T14:17:44.114Z",
+    "last_seen": "2026-06-27T14:17:44.114Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -534,12 +468,84 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 1497,
+    "total_bytes_sent": 1486,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "KR",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.157.175.122",
+    "first_seen": "2026-06-27T09:57:39.832Z",
+    "last_seen": "2026-06-27T09:57:39.832Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1782,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "BR",
+    "org": "Acevillepteltd SG"
+  },
+  {
+    "ip": "43.157.158.178",
+    "first_seen": "2026-06-27T12:47:24.862Z",
+    "last_seen": "2026-06-27T12:47:24.862Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1473,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.157.153.236",
+    "first_seen": "2026-06-27T15:56:48.929Z",
+    "last_seen": "2026-06-27T15:56:48.929Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2243,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "BR",
+    "org": "Acevillepteltd SG"
+  },
+  {
+    "ip": "43.155.27.244",
+    "first_seen": "2026-06-27T13:26:25.152Z",
+    "last_seen": "2026-06-27T13:26:25.152Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1927,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.153.7.191",
@@ -560,9 +566,9 @@
     "org": "Tencent Cloud Computing"
   },
   {
-    "ip": "43.134.94.96",
-    "first_seen": "2026-06-27T08:47:49.235Z",
-    "last_seen": "2026-06-27T08:47:49.235Z",
+    "ip": "43.153.62.161",
+    "first_seen": "2026-06-27T10:09:02.323Z",
+    "last_seen": "2026-06-27T10:09:02.323Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -570,11 +576,29 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 1612,
+    "total_bytes_sent": 2076,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "SG",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.153.35.128",
+    "first_seen": "2026-06-27T16:28:33.868Z",
+    "last_seen": "2026-06-27T16:28:33.868Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1883,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "US",
     "org": "Tencent Cloud Computing"
   },
   {
@@ -596,27 +620,9 @@
     "org": "Tencent Cloud Computing"
   },
   {
-    "ip": "43.133.220.37",
-    "first_seen": "2026-06-27T09:17:21.308Z",
-    "last_seen": "2026-06-27T09:17:21.308Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1778,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "JP",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.130.34.74",
-    "first_seen": "2026-06-27T09:40:07.878Z",
-    "last_seen": "2026-06-27T09:40:07.878Z",
+    "ip": "43.152.72.244",
+    "first_seen": "2026-06-27T11:59:19.587Z",
+    "last_seen": "2026-06-27T11:59:19.587Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -628,188 +634,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.130.57.76",
-    "first_seen": "2026-06-27T09:48:42.882Z",
-    "last_seen": "2026-06-27T09:48:42.882Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1633,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.157.175.122",
-    "first_seen": "2026-06-27T09:57:39.832Z",
-    "last_seen": "2026-06-27T09:57:39.832Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1782,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "BR",
-    "org": "Acevillepteltd SG"
-  },
-  {
-    "ip": "43.153.62.161",
-    "first_seen": "2026-06-27T10:09:02.323Z",
-    "last_seen": "2026-06-27T10:09:02.323Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2076,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "49.51.204.74",
-    "first_seen": "2026-06-27T10:19:16.283Z",
-    "last_seen": "2026-06-27T10:19:16.283Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1663,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
-  },
-  {
-    "ip": "43.130.26.3",
-    "first_seen": "2026-06-27T10:31:55.521Z",
-    "last_seen": "2026-06-27T10:31:55.521Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1921,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "101.33.81.73",
-    "first_seen": "2026-06-27T10:39:09.251Z",
-    "last_seen": "2026-06-27T10:39:09.251Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2215,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "KR",
-    "org": ""
-  },
-  {
-    "ip": "43.159.36.180",
-    "first_seen": "2026-06-27T10:49:32.715Z",
-    "last_seen": "2026-06-27T10:49:32.715Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2068,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": "Aceville Pte.ltd"
-  },
-  {
-    "ip": "43.130.9.111",
-    "first_seen": "2026-06-27T10:58:05.805Z",
-    "last_seen": "2026-06-27T10:58:05.805Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2271,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "49.51.245.241",
-    "first_seen": "2026-06-27T11:07:15.411Z",
-    "last_seen": "2026-06-27T11:07:15.411Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1784,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
-  },
-  {
-    "ip": "150.109.10.41",
-    "first_seen": "2026-06-27T11:18:33.854Z",
-    "last_seen": "2026-06-27T11:18:33.854Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2173,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": ""
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
     "ip": "43.135.144.126",
@@ -826,13 +652,13 @@
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
+    "country": "??",
+    "org": "spider-trap-active-containment"
   },
   {
-    "ip": "170.106.180.153",
-    "first_seen": "2026-06-27T11:39:14.440Z",
-    "last_seen": "2026-06-27T11:39:14.440Z",
+    "ip": "43.134.94.96",
+    "first_seen": "2026-06-27T08:47:49.235Z",
+    "last_seen": "2026-06-27T08:47:49.235Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -840,125 +666,17 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 1904,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
-  },
-  {
-    "ip": "43.131.243.61",
-    "first_seen": "2026-06-27T11:48:03.356Z",
-    "last_seen": "2026-06-27T11:48:03.356Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1923,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "KR",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.152.72.244",
-    "first_seen": "2026-06-27T11:59:19.587Z",
-    "last_seen": "2026-06-27T11:59:19.587Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1925,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "CN",
-    "org": "Tencent Cloud Computing (Beijing) Co., Ltd"
-  },
-  {
-    "ip": "170.106.165.76",
-    "first_seen": "2026-06-27T12:10:17.375Z",
-    "last_seen": "2026-06-27T12:10:17.375Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1836,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
-  },
-  {
-    "ip": "43.131.23.154",
-    "first_seen": "2026-06-27T12:19:21.276Z",
-    "last_seen": "2026-06-27T12:19:21.276Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1633,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "DE",
-    "org": ""
-  },
-  {
-    "ip": "119.28.140.106",
-    "first_seen": "2026-06-27T12:29:19.839Z",
-    "last_seen": "2026-06-27T12:29:19.839Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1643,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "HK",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
-  },
-  {
-    "ip": "124.156.206.145",
-    "first_seen": "2026-06-27T12:38:15.812Z",
-    "last_seen": "2026-06-27T12:38:15.812Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2219,
+    "total_bytes_sent": 1612,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
     "country": "SG",
-    "org": ""
+    "org": "Tencent Cloud Computing"
   },
   {
-    "ip": "43.157.158.178",
-    "first_seen": "2026-06-27T12:47:24.862Z",
-    "last_seen": "2026-06-27T12:47:24.862Z",
+    "ip": "43.134.56.214",
+    "first_seen": "2026-06-27T07:47:33.646Z",
+    "last_seen": "2026-06-27T07:47:33.646Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -966,210 +684,12 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 1473,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "BR",
-    "org": "Acevillepteltd SG"
-  },
-  {
-    "ip": "43.163.112.239",
-    "first_seen": "2026-06-27T13:08:36.052Z",
-    "last_seen": "2026-06-27T13:08:36.052Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1932,
+    "total_bytes_sent": 1639,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
     "country": "SG",
-    "org": "Tencent Cloud Computing (Beijing) Co., Ltd"
-  },
-  {
-    "ip": "49.51.132.100",
-    "first_seen": "2026-06-27T13:17:36.538Z",
-    "last_seen": "2026-06-27T13:17:36.538Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1614,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "DE",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
-  },
-  {
-    "ip": "43.155.27.244",
-    "first_seen": "2026-06-27T13:26:25.152Z",
-    "last_seen": "2026-06-27T13:26:25.152Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1927,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "HK",
     "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "124.156.157.91",
-    "first_seen": "2026-06-27T13:35:20.960Z",
-    "last_seen": "2026-06-27T13:35:20.960Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1927,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "HK",
-    "org": ""
-  },
-  {
-    "ip": "43.159.140.236",
-    "first_seen": "2026-06-27T13:58:29.207Z",
-    "last_seen": "2026-06-27T13:58:29.207Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2066,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.159.62.129",
-    "first_seen": "2026-06-27T14:09:29.196Z",
-    "last_seen": "2026-06-27T14:09:29.196Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1759,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "SG",
-    "org": "Aceville Pte.ltd"
-  },
-  {
-    "ip": "43.157.82.252",
-    "first_seen": "2026-06-27T14:17:44.114Z",
-    "last_seen": "2026-06-27T14:17:44.114Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1486,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "DE",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "170.106.140.110",
-    "first_seen": "2026-06-27T14:37:45.205Z",
-    "last_seen": "2026-06-27T14:37:45.205Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1757,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": ""
-  },
-  {
-    "ip": "43.133.187.11",
-    "first_seen": "2026-06-27T14:47:38.746Z",
-    "last_seen": "2026-06-27T14:47:38.746Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1614,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "JP",
-    "org": "Tencent Cloud Computing"
-  },
-  {
-    "ip": "43.133.14.237",
-    "first_seen": "2026-06-27T15:18:07.993Z",
-    "last_seen": "2026-06-27T15:18:07.993Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1635,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "JP",
-    "org": ""
-  },
-  {
-    "ip": "119.28.89.249",
-    "first_seen": "2026-06-27T15:27:22.538Z",
-    "last_seen": "2026-06-27T15:27:22.538Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2074,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "HK",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
   },
   {
     "ip": "43.134.54.246",
@@ -1190,9 +710,9 @@
     "org": "Tencent Cloud Computing"
   },
   {
-    "ip": "43.157.153.236",
-    "first_seen": "2026-06-27T15:56:48.929Z",
-    "last_seen": "2026-06-27T15:56:48.929Z",
+    "ip": "43.133.253.253",
+    "first_seen": "2026-06-27T08:19:26.987Z",
+    "last_seen": "2026-06-27T08:19:26.987Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -1200,53 +720,17 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 2243,
+    "total_bytes_sent": 1497,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
-    "country": "BR",
-    "org": "Acevillepteltd SG"
-  },
-  {
-    "ip": "49.51.33.159",
-    "first_seen": "2026-06-27T16:07:56.401Z",
-    "last_seen": "2026-06-27T16:07:56.401Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 2198,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
-    "org": "Tencent cloud computing (Beijing) Co., Ltd."
-  },
-  {
-    "ip": "43.153.35.128",
-    "first_seen": "2026-06-27T16:28:33.868Z",
-    "last_seen": "2026-06-27T16:28:33.868Z",
-    "user_agents": [
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 1883,
-    "estimated_cost_usd": 0.0,
-    "client_type": "SPIDER_TRAP_HIT",
-    "hostname": "spider-trap-active-containment",
-    "country": "US",
+    "country": "KR",
     "org": "Tencent Cloud Computing"
   },
   {
-    "ip": "43.159.149.56",
-    "first_seen": "2026-06-27T16:39:32.967Z",
-    "last_seen": "2026-06-27T16:39:32.967Z",
+    "ip": "43.133.220.37",
+    "first_seen": "2026-06-27T09:17:21.308Z",
+    "last_seen": "2026-06-27T09:17:21.308Z",
     "user_agents": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
     ],
@@ -1254,7 +738,133 @@
       "dev-node-sync-99.xyz"
     ],
     "connection_count": 1,
-    "total_bytes_sent": 2198,
+    "total_bytes_sent": 1778,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "JP",
+    "org": "Tencent Cloud Computing"
+  },
+  {
+    "ip": "43.133.187.11",
+    "first_seen": "2026-06-27T14:47:38.746Z",
+    "last_seen": "2026-06-27T14:47:38.746Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1614,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.133.14.237",
+    "first_seen": "2026-06-27T15:18:07.993Z",
+    "last_seen": "2026-06-27T15:18:07.993Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1635,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "JP",
+    "org": ""
+  },
+  {
+    "ip": "43.131.45.213",
+    "first_seen": "2026-06-27T08:10:04.991Z",
+    "last_seen": "2026-06-27T08:10:04.991Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2190,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "DE",
+    "org": ""
+  },
+  {
+    "ip": "43.131.243.61",
+    "first_seen": "2026-06-27T11:48:03.356Z",
+    "last_seen": "2026-06-27T11:48:03.356Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1923,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.131.23.154",
+    "first_seen": "2026-06-27T12:19:21.276Z",
+    "last_seen": "2026-06-27T12:19:21.276Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1633,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.130.9.111",
+    "first_seen": "2026-06-27T10:58:05.805Z",
+    "last_seen": "2026-06-27T10:58:05.805Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2271,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.130.57.76",
+    "first_seen": "2026-06-27T09:48:42.882Z",
+    "last_seen": "2026-06-27T09:48:42.882Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1633,
     "estimated_cost_usd": 0.0,
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
@@ -1280,6 +890,146 @@
     "org": "Tencent Cloud Computing"
   },
   {
+    "ip": "43.130.34.74",
+    "first_seen": "2026-06-27T09:40:07.878Z",
+    "last_seen": "2026-06-27T09:40:07.878Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1925,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "US",
+    "org": "Tencent Cloud Computing"
+  },
+  {
+    "ip": "43.130.26.3",
+    "first_seen": "2026-06-27T10:31:55.521Z",
+    "last_seen": "2026-06-27T10:31:55.521Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1921,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "43.130.150.80",
+    "first_seen": "2026-06-26T07:17:35.922Z",
+    "last_seen": "2026-06-26T07:17:35.922Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [],
+    "connection_count": 1,
+    "total_bytes_sent": 12582912,
+    "estimated_cost_usd": 0.0352,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Tencent Cloud Computing"
+  },
+  {
+    "ip": "43.130.102.7",
+    "first_seen": "2026-06-27T07:59:27.429Z",
+    "last_seen": "2026-06-27T07:59:27.429Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1663,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "US",
+    "org": "Tencent Cloud Computing"
+  },
+  {
+    "ip": "34.127.118.148",
+    "first_seen": "2026-06-27T01:35:28.244Z",
+    "last_seen": "2026-06-27T01:35:28.244Z",
+    "user_agents": [
+      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 19922944,
+    "estimated_cost_usd": 0.0557,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Google Cloud (us-west1)"
+  },
+  {
+    "ip": "3.224.234.70",
+    "first_seen": "2026-06-27T01:56:58.267Z",
+    "last_seen": "2026-06-27T01:56:58.267Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible)"
+    ],
+    "target_hosts": [
+      "config-vault.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 4194304,
+    "estimated_cost_usd": 0.0117,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "AWS EC2 (us-east-1)"
+  },
+  {
+    "ip": "23.23.253.54",
+    "first_seen": "2026-06-27T02:27:14.817Z",
+    "last_seen": "2026-06-27T02:27:14.817Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible)"
+    ],
+    "target_hosts": [
+      "aws-api.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPOOFED_BOT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "US",
+    "org": "AWS EC2 (us-east-1)"
+  },
+  {
+    "ip": "23.161.169.113",
+    "first_seen": "2026-06-26T12:33:30.619Z",
+    "last_seen": "2026-06-26T12:33:30.619Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; DeepSeekBot/1.0; +https://www.deepseek.com/bot)"
+    ],
+    "target_hosts": [],
+    "connection_count": 1,
+    "total_bytes_sent": 19922944,
+    "estimated_cost_usd": 0.0557,
+    "client_type": "unknown",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Infraly, LLC"
+  },
+  {
     "ip": "170.106.72.178",
     "first_seen": "2026-06-27T16:58:18.965Z",
     "last_seen": "2026-06-27T16:58:18.965Z",
@@ -1296,5 +1046,255 @@
     "hostname": "spider-trap-active-containment",
     "country": "US",
     "org": ""
+  },
+  {
+    "ip": "170.106.197.109",
+    "first_seen": "2026-06-27T07:19:03.614Z",
+    "last_seen": "2026-06-27T07:19:03.614Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2243,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "US",
+    "org": ""
+  },
+  {
+    "ip": "170.106.180.153",
+    "first_seen": "2026-06-27T11:39:14.440Z",
+    "last_seen": "2026-06-27T11:39:14.440Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1904,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "170.106.165.76",
+    "first_seen": "2026-06-27T12:10:17.375Z",
+    "last_seen": "2026-06-27T12:10:17.375Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1836,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "170.106.140.110",
+    "first_seen": "2026-06-27T14:37:45.205Z",
+    "last_seen": "2026-06-27T14:37:45.205Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1757,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "150.109.10.41",
+    "first_seen": "2026-06-27T11:18:33.854Z",
+    "last_seen": "2026-06-27T11:18:33.854Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2173,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "139.99.237.180",
+    "first_seen": "2026-06-27T06:24:39.920Z",
+    "last_seen": "2026-06-27T06:24:39.920Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"
+    ],
+    "target_hosts": [
+      "auth-service.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 407552,
+    "estimated_cost_usd": 0.0011,
+    "client_type": "SPOOFED_BOT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "AU",
+    "org": "OVH Australia PTY LTD"
+  },
+  {
+    "ip": "136.66.29.81",
+    "first_seen": "2026-06-26T08:12:55.336Z",
+    "last_seen": "2026-06-26T08:12:55.336Z",
+    "user_agents": [
+      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
+    ],
+    "target_hosts": [],
+    "connection_count": 1,
+    "total_bytes_sent": 14680064,
+    "estimated_cost_usd": 0.041,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Google Cloud (us-west1)"
+  },
+  {
+    "ip": "136.117.197.130",
+    "first_seen": "2026-06-27T01:37:47.478Z",
+    "last_seen": "2026-06-27T01:37:47.478Z",
+    "user_agents": [
+      "Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
+    ],
+    "target_hosts": [
+      "api-dev.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 22020096,
+    "estimated_cost_usd": 0.0615,
+    "client_type": "DATACENTER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Google Cloud (us-west1)"
+  },
+  {
+    "ip": "124.156.206.145",
+    "first_seen": "2026-06-27T12:38:15.812Z",
+    "last_seen": "2026-06-27T12:38:15.812Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2219,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "124.156.157.91",
+    "first_seen": "2026-06-27T13:35:20.960Z",
+    "last_seen": "2026-06-27T13:35:20.960Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1927,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "119.28.89.249",
+    "first_seen": "2026-06-27T15:27:22.538Z",
+    "last_seen": "2026-06-27T15:27:22.538Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2074,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "HK",
+    "org": "Tencent cloud computing (Beijing) Co., Ltd."
+  },
+  {
+    "ip": "119.28.140.106",
+    "first_seen": "2026-06-27T12:29:19.839Z",
+    "last_seen": "2026-06-27T12:29:19.839Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 1643,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "101.33.81.73",
+    "first_seen": "2026-06-27T10:39:09.251Z",
+    "last_seen": "2026-06-27T10:39:09.251Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2215,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "??",
+    "org": "spider-trap-active-containment"
+  },
+  {
+    "ip": "101.32.208.70",
+    "first_seen": "2026-06-27T07:39:55.624Z",
+    "last_seen": "2026-06-27T07:39:55.624Z",
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 2126,
+    "estimated_cost_usd": 0.0,
+    "client_type": "SPIDER_TRAP_HIT",
+    "hostname": "spider-trap-active-containment",
+    "country": "HK",
+    "org": "Tencent Cloud Computing"
   }
 ]
