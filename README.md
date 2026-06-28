@@ -30,7 +30,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
 | `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 1706 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 265 | 10.46 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 267 | 10.62 MB |
 | `155.2.228.196` | CH | iway AG | `HONEYTOKEN_HIT` | 221 | 0.0 MB |
 | `45.45.237.214` | US | Infraly, LLC | `HONEYTOKEN_HIT` | 114 | 39.0 MB |
 | `45.148.10.62` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 98 | 0.0 MB |
@@ -44,6 +44,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `::ffff:45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 17 | 0.0 MB |
 | `45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 12 | 0.0 MB |
 | `41.143.185.23` | MA |  | `HONEYTOKEN_HIT` | 12 | 0.0 MB |
+| `203.159.90.218` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 11 | 1.13 MB |
 | `::ffff:216.126.225.168` | US | anyNode | `EXPLOIT_SCANNER` | 10 | 0.17 MB |
 | `92.222.9.185` | FR | OVH SAS | `DATACENTER` | 10 | 8018.0 MB |
 | `72.145.76.82` | IE | Microsoft Azure Cloud (northeurope) | `HONEYTOKEN_HIT` | 10 | 0.01 MB |
@@ -62,7 +63,6 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `162.141.167.17` | US | Interserver, Inc | `HONEYTOKEN_HIT` | 8 | 0.0 MB |
 | `148.113.205.188` | CA | OVH Hosting, Inc | `DATACENTER` | 8 | 176.0 MB |
 | `unknown` | ?? | unknown | `DATABASE_SCANNER` | 7 | 0.0 MB |
-| `203.159.90.218` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 7 | 1.13 MB |
 | `16.58.56.214` | US | AWS EC2 (us-east-2) | `REDIS_SCANNER` | 7 | 0.0 MB |
 | `54.70.53.60` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
 | `34.169.104.30` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
@@ -88,6 +88,8 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `193.32.162.60` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
 | `185.152.39.42` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `62.141.63.15` | GB | Zentyx Limited | `REDIS_SCANNER` | 3 | 0.0 MB |
+| `2.58.56.61` | FR | Mifsud Florian | `EXPLOIT_SCANNER` | 3 | 0.0 MB |
+| `164.92.91.136` | US | DigitalOcean, LLC | `EXPLOIT_SCANNER` | 3 | 0.0 MB |
 | `::ffff:65.49.1.72` | US | The Shadow Server Foundation | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `::ffff:47.84.57.225` | SG | Delta Centric LLC, Zenlayer Inc | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `95.209.202.165` | SE | Hi3gaccess | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -168,6 +170,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `173.239.254.94` | US |  | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `172.252.31.96` | US | EGIHosting | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `170.64.252.169` | AU | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `170.64.234.149` | AU | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `166.88.121.28` | US | OpenVPN | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `164.92.218.246` | NL | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `164.90.231.69` | DE | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -249,15 +252,12 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `23.23.253.54` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
 | `23.161.169.113` | GB | Infraly, LLC | `unknown` | 1 | 19.0 MB |
 | `20.118.217.162` | US | Microsoft Azure Cloud (centralus) | `REDIS_SCANNER` | 1 | 0.0 MB |
-| `2.58.56.61` | FR | Mifsud Florian | `EXPLOIT_SCANNER` | 1 | 0.0 MB |
 | `185.242.226.92` | NL | AI Spera | `REDIS_SCANNER` | 1 | 0.0 MB |
-| `170.64.234.149` | AU | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 1 | 0.0 MB |
 | `170.106.72.178` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.197.109` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.180.153` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.165.76` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.140.110` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `164.92.91.136` | US | DigitalOcean, LLC | `EXPLOIT_SCANNER` | 1 | 0.0 MB |
 | `150.109.10.41` | SG |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `139.99.237.180` | AU | OVH Australia PTY LTD | `SPOOFED_BOT` | 1 | 0.39 MB |
 | `136.66.29.81` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 14.0 MB |

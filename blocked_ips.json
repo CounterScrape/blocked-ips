@@ -20,16 +20,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-28T08:48:37.601Z",
+    "last_seen": "2026-06-28T08:50:44.112Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 265,
-    "total_bytes_sent": 10962944,
-    "estimated_cost_usd": 0.025599999999999956,
+    "connection_count": 267,
+    "total_bytes_sent": 11134976,
+    "estimated_cost_usd": 0.025999999999999954,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -387,6 +387,27 @@
     "org": ""
   },
   {
+    "ip": "203.159.90.218",
+    "first_seen": "2026-06-27T18:21:02.015Z",
+    "last_seen": "2026-06-28T08:57:03.843Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "auth-service.dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
+      "staging-db.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 11,
+    "total_bytes_sent": 1182720,
+    "estimated_cost_usd": 0.0033,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "NL",
+    "org": "1337 Services GmbH"
+  },
+  {
     "ip": "::ffff:216.126.225.168",
     "first_seen": "2026-06-28T05:17:27.899Z",
     "last_seen": "2026-06-28T05:18:21.917Z",
@@ -742,26 +763,6 @@
     "hostname": "unknown",
     "country": "??",
     "org": "unknown"
-  },
-  {
-    "ip": "203.159.90.218",
-    "first_seen": "2026-06-27T18:21:02.015Z",
-    "last_seen": "2026-06-28T08:03:45.273Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "auth-service.dev-node-sync-99.xyz",
-      "staging-db.dev-node-sync-99.xyz",
-      "telemetry.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 7,
-    "total_bytes_sent": 1182720,
-    "estimated_cost_usd": 0.0033,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "unknown",
-    "country": "NL",
-    "org": "1337 Services GmbH"
   },
   {
     "ip": "16.58.56.214",
@@ -1229,6 +1230,42 @@
     "hostname": "unknown",
     "country": "GB",
     "org": "Zentyx Limited"
+  },
+  {
+    "ip": "2.58.56.61",
+    "first_seen": "2026-06-28T04:01:40.027Z",
+    "last_seen": "2026-06-28T08:55:44.682Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "mail.swioper.com",
+    "country": "FR",
+    "org": "Mifsud Florian"
+  },
+  {
+    "ip": "164.92.91.136",
+    "first_seen": "2026-06-27T20:52:57.227Z",
+    "last_seen": "2026-06-28T08:55:44.642Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "api-dev.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "DigitalOcean, LLC"
   },
   {
     "ip": "::ffff:65.49.1.72",
@@ -2665,6 +2702,24 @@
     ],
     "connection_count": 2,
     "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "AU",
+    "org": "DigitalOcean, LLC"
+  },
+  {
+    "ip": "170.64.234.149",
+    "first_seen": "2026-06-28T05:51:34.168Z",
+    "last_seen": "2026-06-28T08:55:45.900Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "config-vault.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
@@ -4124,24 +4179,6 @@
     "org": "Microsoft Azure Cloud (centralus)"
   },
   {
-    "ip": "2.58.56.61",
-    "first_seen": "2026-06-28T04:01:40.027Z",
-    "last_seen": "2026-06-28T04:01:40.027Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "mail.swioper.com",
-    "country": "FR",
-    "org": "Mifsud Florian"
-  },
-  {
     "ip": "185.242.226.92",
     "first_seen": "2026-06-27T23:36:35.438Z",
     "last_seen": "2026-06-27T23:36:35.438Z",
@@ -4158,24 +4195,6 @@
     "hostname": "unknown",
     "country": "NL",
     "org": "AI Spera"
-  },
-  {
-    "ip": "170.64.234.149",
-    "first_seen": "2026-06-28T05:51:34.168Z",
-    "last_seen": "2026-06-28T05:51:34.168Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0 Safari/537.36"
-    ],
-    "target_hosts": [
-      "config-vault.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "unknown",
-    "country": "AU",
-    "org": "DigitalOcean, LLC"
   },
   {
     "ip": "170.106.72.178",
@@ -4266,24 +4285,6 @@
     "hostname": "spider-trap-active-containment",
     "country": "US",
     "org": ""
-  },
-  {
-    "ip": "164.92.91.136",
-    "first_seen": "2026-06-27T20:52:57.227Z",
-    "last_seen": "2026-06-27T20:52:57.227Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0 Safari/537.36"
-    ],
-    "target_hosts": [
-      "api-dev.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "DigitalOcean, LLC"
   },
   {
     "ip": "150.109.10.41",
