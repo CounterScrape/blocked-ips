@@ -1,21 +1,82 @@
 [
   {
+    "ip": "213.209.159.115",
+    "first_seen": "2026-06-27T23:34:12.944Z",
+    "last_seen": "2026-06-27T23:35:12.829Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 213,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
+  },
+  {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-27T22:52:23.533Z",
+    "last_seen": "2026-06-27T23:55:43.330Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 103,
-    "total_bytes_sent": 4081664,
-    "estimated_cost_usd": 0.0096,
+    "connection_count": 121,
+    "total_bytes_sent": 4855808,
+    "estimated_cost_usd": 0.011400000000000004,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
     "org": "Cloudflare, Inc."
+  },
+  {
+    "ip": "45.45.237.214",
+    "first_seen": "2026-06-26T18:51:13.689Z",
+    "last_seen": "2026-06-27T23:25:00.794Z",
+    "user_agents": [
+      "CCBot/2.0 (https://commoncrawl.org/faq/)",
+      "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
+      "Mozilla/5.0 (compatible; ClaudeBot/1.0; +claudebot@anthropic.com)",
+      "Mozilla/5.0 (compatible; DeepSeekBot/1.0; +https://www.deepseek.com/bot)",
+      "Mozilla/5.0 (compatible; Google-CloudVertexBot; +https://cloud.google.com/vertex-ai-bot)",
+      "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+      "Mozilla/5.0 (compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot)",
+      "Mozilla/5.0 (compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+      "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)",
+      "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+      "Mozilla/5.0 (compatible; xAI-SearchBot/1.0; +https://x.ai)",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.3; +https://openai.com/gptbot)"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz",
+      "auth-service.dev-node-sync-99.xyz",
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "db-backup.dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
+      "internal-sync.dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz",
+      "portainer.dev-node-sync-99.xyz",
+      "prod-api.dev-node-sync-99.xyz",
+      "staging-db.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz",
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 114,
+    "total_bytes_sent": 40894464,
+    "estimated_cost_usd": 0.1143,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "US",
+    "org": "Infraly, LLC"
   },
   {
     "ip": "84.147.62.67",
@@ -91,6 +152,28 @@
     "org": "Upcloud NL Ams1"
   },
   {
+    "ip": "62.60.130.227",
+    "first_seen": "2026-06-27T17:38:18.604Z",
+    "last_seen": "2026-06-27T23:05:13.496Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz",
+      "api-dev.dev-node-sync-99.xyz",
+      "auth-service.dev-node-sync-99.xyz",
+      "aws-api.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 14,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "IR",
+    "org": "UAB Host Baltic"
+  },
+  {
     "ip": "45.148.10.200",
     "first_seen": "2026-06-27T20:01:05.712Z",
     "last_seen": "2026-06-27T20:01:07.547Z",
@@ -146,28 +229,6 @@
     "hostname": "unknown",
     "country": "FR",
     "org": "OVH SAS"
-  },
-  {
-    "ip": "62.60.130.227",
-    "first_seen": "2026-06-27T17:38:18.604Z",
-    "last_seen": "2026-06-27T21:39:09.118Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    ],
-    "target_hosts": [
-      "admin.dev-node-sync-99.xyz",
-      "api-dev.dev-node-sync-99.xyz",
-      "auth-service.dev-node-sync-99.xyz",
-      "aws-api.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 10,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "IR",
-    "org": "UAB Host Baltic"
   },
   {
     "ip": "144.172.116.30",
@@ -310,6 +371,44 @@
     "org": "HostRoyale Technologies"
   },
   {
+    "ip": "45.130.203.179",
+    "first_seen": "2026-06-27T22:18:04.243Z",
+    "last_seen": "2026-06-27T23:47:53.077Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 2048,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
+  },
+  {
+    "ip": "45.130.203.163",
+    "first_seen": "2026-06-27T23:47:51.467Z",
+    "last_seen": "2026-06-27T23:47:53.070Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "git.dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 2048,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Algiers"
+  },
+  {
     "ip": "216.73.216.64",
     "first_seen": "2026-06-27T18:16:12.090Z",
     "last_seen": "2026-06-27T19:10:47.328Z",
@@ -416,8 +515,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "DE",
-    "org": "DigitalOcean, LLC"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "62.141.63.15",
@@ -506,8 +605,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.87.165",
@@ -686,8 +785,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "spoofed-browser-header-mismatch"
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
   },
   {
     "ip": "45.92.84.87",
@@ -830,8 +929,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
+    "country": "??",
+    "org": "spoofed-browser-header-mismatch"
   },
   {
     "ip": "45.92.84.216",
@@ -888,31 +987,14 @@
     "org": "HostRoyale Technologies"
   },
   {
-    "ip": "45.45.237.214",
-    "first_seen": "2026-06-26T18:51:13.689Z",
-    "last_seen": "2026-06-26T18:51:33.589Z",
-    "user_agents": [
-      "CCBot/2.0 (https://commoncrawl.org/faq/)",
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)"
-    ],
-    "target_hosts": [],
-    "connection_count": 2,
-    "total_bytes_sent": 40894464,
-    "estimated_cost_usd": 0.1143,
-    "client_type": "unknown",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "Infraly, LLC"
-  },
-  {
-    "ip": "45.130.203.179",
-    "first_seen": "2026-06-27T22:18:04.243Z",
-    "last_seen": "2026-06-27T22:18:05.844Z",
+    "ip": "45.130.203.177",
+    "first_seen": "2026-06-27T23:47:51.684Z",
+    "last_seen": "2026-06-27T23:47:53.285Z",
     "user_agents": [
       "Python-urllib/3.10"
     ],
     "target_hosts": [
-      "admin.dev-node-sync-99.xyz"
+      "vpn.dev-node-sync-99.xyz"
     ],
     "connection_count": 2,
     "total_bytes_sent": 1024,
@@ -941,6 +1023,60 @@
     "org": "Algiers"
   },
   {
+    "ip": "45.130.203.158",
+    "first_seen": "2026-06-27T23:47:51.528Z",
+    "last_seen": "2026-06-27T23:47:53.131Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "telemetry.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
+  },
+  {
+    "ip": "45.130.203.157",
+    "first_seen": "2026-06-27T23:47:51.569Z",
+    "last_seen": "2026-06-27T23:47:53.171Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "staging-db.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Algiers"
+  },
+  {
+    "ip": "45.130.203.155",
+    "first_seen": "2026-06-27T23:47:51.403Z",
+    "last_seen": "2026-06-27T23:47:53.008Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "internal-sync.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Algiers"
+  },
+  {
     "ip": "45.130.203.149",
     "first_seen": "2026-06-27T22:18:04.354Z",
     "last_seen": "2026-06-27T22:18:05.956Z",
@@ -957,6 +1093,78 @@
     "hostname": "unknown",
     "country": "??",
     "org": "unknown"
+  },
+  {
+    "ip": "45.130.203.145",
+    "first_seen": "2026-06-27T23:47:51.391Z",
+    "last_seen": "2026-06-27T23:47:52.993Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "portainer.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Algiers"
+  },
+  {
+    "ip": "45.130.203.139",
+    "first_seen": "2026-06-27T23:47:51.365Z",
+    "last_seen": "2026-06-27T23:47:52.967Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "config-vault.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Algiers"
+  },
+  {
+    "ip": "45.130.203.138",
+    "first_seen": "2026-06-27T23:47:51.474Z",
+    "last_seen": "2026-06-27T23:47:53.076Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "auth-service.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Algiers"
+  },
+  {
+    "ip": "45.130.203.131",
+    "first_seen": "2026-06-27T23:47:51.398Z",
+    "last_seen": "2026-06-27T23:47:52.998Z",
+    "user_agents": [
+      "Python-urllib/3.10"
+    ],
+    "target_hosts": [
+      "db-backup.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Algiers"
   },
   {
     "ip": "43.166.226.186",
@@ -1121,6 +1329,24 @@
     "org": "Ankit Jain"
   },
   {
+    "ip": "173.239.254.94",
+    "first_seen": "2026-06-27T23:13:30.296Z",
+    "last_seen": "2026-06-27T23:13:31.058Z",
+    "user_agents": [
+      "Mozilla/5.0"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "US",
+    "org": ""
+  },
+  {
     "ip": "155.94.203.12",
     "first_seen": "2026-06-27T20:39:24.292Z",
     "last_seen": "2026-06-27T20:39:26.229Z",
@@ -1191,6 +1417,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "JP",
     "org": "Akamai Technologies, Inc."
+  },
+  {
+    "ip": "unknown",
+    "first_seen": "2026-06-27T23:34:12.851Z",
+    "last_seen": "2026-06-27T23:34:12.851Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "98.91.77.46",
@@ -2049,6 +2293,24 @@
     "hostname": "unknown",
     "country": "GB",
     "org": "Infraly, LLC"
+  },
+  {
+    "ip": "185.242.226.92",
+    "first_seen": "2026-06-27T23:36:35.438Z",
+    "last_seen": "2026-06-27T23:36:35.438Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "170.106.72.178",
