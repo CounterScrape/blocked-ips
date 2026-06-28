@@ -3,7 +3,7 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `173`
+* **Total Unique IPs Blocked:** `176`
 * **Total Bandwidth Consumed:** `9195 MB` (~8.98 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
@@ -29,54 +29,57 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | ?? | Pending Lookup | `DATABASE_SCANNER` | 640 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 853 | 0.0 MB |
 | `155.2.228.196` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 221 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 171 | 6.68 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 181 | 7.09 MB |
 | `45.45.237.214` | US | Infraly, LLC | `HONEYTOKEN_HIT` | 114 | 39.0 MB |
 | `84.147.62.67` | DE | Deutsche Telekom AG | `SPIDER_TRAP_HIT` | 80 | 0.53 MB |
 | `45.156.87.177` | NL | VMHeaven.io | `HONEYTOKEN_HIT` | 72 | 0.0 MB |
-| `45.148.10.62` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 40 | 0.0 MB |
+| `45.148.10.62` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 46 | 0.0 MB |
 | `62.60.130.227` | IR | UAB Host Baltic | `HONEYTOKEN_HIT` | 26 | 0.0 MB |
-| `136.66.130.204` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 24 | 0.01 MB |
+| `136.66.130.204` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 24 | 0.01 MB |
 | `94.237.108.164` | NL | Upcloud NL Ams1 | `EXPLOIT_SCANNER` | 20 | 0.02 MB |
 | `45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 12 | 0.0 MB |
+| `45.148.10.120` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 12 | 0.01 MB |
 | `41.143.185.23` | MA |  | `HONEYTOKEN_HIT` | 12 | 0.0 MB |
 | `92.222.9.185` | FR | OVH SAS | `DATACENTER` | 10 | 8018.0 MB |
 | `144.172.116.30` | US | FranTech Solutions | `EXPLOIT_SCANNER` | 10 | 0.02 MB |
 | `::ffff:216.180.246.121` | FR |  | `HONEYTOKEN_HIT` | 8 | 0.67 MB |
-| `8.229.97.48` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 8 | 0.0 MB |
-| `34.182.65.212` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 8 | 0.0 MB |
+| `8.229.97.48` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 8 | 0.0 MB |
+| `34.182.65.212` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 8 | 0.0 MB |
 | `148.113.205.188` | CA | OVH Hosting, Inc | `DATACENTER` | 8 | 176.0 MB |
-| `54.70.53.60` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
-| `34.169.104.30` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
+| `54.70.53.60` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
+| `34.169.104.30` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
 | `203.159.90.218` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 6 | 1.13 MB |
+| `18.116.101.220` | ?? | Pending Lookup | `DATABASE_SCANNER` | 6 | 0.0 MB |
 | `65.21.124.77` | FI | Hetzner | `DATACENTER` | 5 | 110.0 MB |
-| `8.235.16.218` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
-| `8.231.60.162` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
-| `8.229.100.41` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `8.235.16.218` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `8.231.60.162` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `8.229.100.41` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `78.153.140.43` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
 | `45.92.85.110` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
-| `45.130.203.179` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
-| `45.130.203.163` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `45.130.203.179` | DZ | Algiers | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `45.130.203.163` | DZ | Algiers | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `216.73.216.64` | US | Anthropic, PBC | `HONEYTOKEN_HIT` | 4 | 0.04 MB |
 | `203.159.90.217` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 4 | 1.61 MB |
 | `193.32.162.60` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
-| `147.185.226.21` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `147.185.226.21` | JP |  | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 3 | 0.0 MB |
 | `62.141.63.15` | GB | Zentyx Limited | `REDIS_SCANNER` | 3 | 0.0 MB |
-| `unknown` | ?? | Pending Lookup | `DATABASE_SCANNER` | 2 | 0.0 MB |
+| `::ffff:65.49.1.72` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `80.94.95.211` | HU | Unmanaged LTD | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `8.229.201.210` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.62 MB |
 | `78.153.140.250` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `72.153.230.168` | US | Microsoft Azure Cloud (westus) | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
-| `64.23.188.143` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `64.226.71.148` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `57.129.137.189` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `64.23.188.143` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `64.226.71.148` | DE | DigitalOcean, LLC | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `57.129.137.189` | GB | OVH Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `49.51.183.75` | US | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `45.92.87.89` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.87.195` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.87.175` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.87.165` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.92.87.159` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.92.87.159` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.87.132` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.86.6` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.86.172` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -84,7 +87,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `45.92.86.162` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.85.244` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.85.185` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.92.85.143` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.92.85.143` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.84.87` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.84.76` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.84.58` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -96,47 +99,47 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `45.92.84.216` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.84.167` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.92.84.0` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.177` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.160` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.158` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.157` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.155` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.149` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.145` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.139` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.138` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `45.130.203.131` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.177` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.160` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.158` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.157` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.155` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.149` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.145` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.139` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.138` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `45.130.203.131` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `43.166.226.186` | US |  | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.166.224.244` | US |  | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.159.34.167` | SG | Aceville Pte.ltd | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `43.130.154.56` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
 | `216.26.227.100` | US | 3xK Tech GmbH | `SPIDER_TRAP_HIT` | 2 | 25.0 MB |
-| `203.109.52.201` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.02 MB |
+| `203.109.52.201` | US | truview LLC | `HONEYTOKEN_HIT` | 2 | 0.02 MB |
 | `198.51.100.92` | RO | TEST-NET-2 RFC5737 | `BRUTE_FORCE_BOT` | 2 | 0.0 MB |
 | `198.51.100.91` | RO | TEST-NET-2 RFC5737 | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `198.51.100.90` | RO | TEST-NET-2 RFC5737 | `BRUTE_FORCE_BOT` | 2 | 0.0 MB |
 | `198.46.129.85` | US | Ankit Jain | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `185.152.39.74` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `185.152.39.71` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `185.152.39.42` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `173.239.254.94` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `172.252.31.96` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `166.88.121.28` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `185.152.39.74` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `185.152.39.71` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `185.152.39.42` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `173.239.254.94` | US |  | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `172.252.31.96` | US | EGIHosting | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `166.88.121.28` | US | OpenVPN | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `155.94.203.12` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `155.94.203.116` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `147.185.226.17` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `147.185.226.17` | JP |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `138.197.175.41` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `137.184.79.242` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `134.209.178.19` | GB | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `104.64.152.213` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `104.64.149.106` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `103.216.1.8` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `103.216.1.8` | US | US NY internet dollar | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `98.91.77.46` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
 | `91.230.168.90` | ?? | Pending Lookup | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `91.230.168.89` | ?? | Pending Lookup | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `91.230.168.88` | ?? | Pending Lookup | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `91.230.168.208` | ?? | Pending Lookup | `DATABASE_SCANNER` | 1 | 0.0 MB |
-| `87.236.176.146` | ?? | Pending Lookup | `DATABASE_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.146` | GB | Constantine Cybersecurity LTD | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `8.231.138.73` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
 | `54.37.10.247` | GB | OVH | `DATACENTER` | 1 | 17.0 MB |
 | `49.51.33.159` | US | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
@@ -179,12 +182,12 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `43.130.26.3` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.130.150.80` | US | Tencent Cloud Computing | `DATACENTER` | 1 | 12.0 MB |
 | `43.130.102.7` | US | Tencent Cloud Computing | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
-| `39.96.206.93` | ?? | Pending Lookup | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `39.96.206.93` | CN | Aliyun Computing Co., LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `34.127.118.148` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
 | `3.224.234.70` | US | AWS EC2 (us-east-1) | `DATACENTER` | 1 | 4.0 MB |
 | `23.23.253.54` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
 | `23.161.169.113` | GB | Infraly, LLC | `unknown` | 1 | 19.0 MB |
-| `185.242.226.92` | ?? | Pending Lookup | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `185.242.226.92` | NL | AI Spera | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `170.106.72.178` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.197.109` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.180.153` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
@@ -195,7 +198,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `139.99.237.180` | AU | OVH Australia PTY LTD | `SPOOFED_BOT` | 1 | 0.39 MB |
 | `136.66.29.81` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 14.0 MB |
 | `136.117.197.130` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 21.0 MB |
-| `128.85.97.37` | ?? | Pending Lookup | `RESIDENTIAL_PROXY` | 1 | 36.0 MB |
+| `128.85.97.37` | US | Microsoft Azure Cloud (westus2) | `RESIDENTIAL_PROXY` | 1 | 36.0 MB |
 | `124.156.206.145` | SG |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `124.156.157.91` | HK |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `119.28.89.249` | HK | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
