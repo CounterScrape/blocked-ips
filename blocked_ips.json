@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-28T08:20:30.839Z",
+    "last_seen": "2026-06-28T09:35:39.485Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 1706,
+    "connection_count": 1919,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -20,16 +20,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-28T08:50:44.112Z",
+    "last_seen": "2026-06-28T09:57:34.636Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 267,
-    "total_bytes_sent": 11134976,
-    "estimated_cost_usd": 0.025999999999999954,
+    "connection_count": 291,
+    "total_bytes_sent": 12167168,
+    "estimated_cost_usd": 0.02839999999999994,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -259,6 +259,24 @@
     "org": ""
   },
   {
+    "ip": "64.89.163.143",
+    "first_seen": "2026-06-28T09:53:12.313Z",
+    "last_seen": "2026-06-28T09:53:20.138Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 29,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "DE",
+    "org": "Meowcore Softworks LLC"
+  },
+  {
     "ip": "62.60.130.227",
     "first_seen": "2026-06-27T17:38:18.604Z",
     "last_seen": "2026-06-28T02:31:29.312Z",
@@ -346,6 +364,28 @@
     "org": "Techoff SRV Limited"
   },
   {
+    "ip": "203.159.90.218",
+    "first_seen": "2026-06-27T18:21:02.015Z",
+    "last_seen": "2026-06-28T09:26:54.842Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "auth-service.dev-node-sync-99.xyz",
+      "dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
+      "staging-db.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 16,
+    "total_bytes_sent": 5943296,
+    "estimated_cost_usd": 0.0167,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "NL",
+    "org": "1337 Services GmbH"
+  },
+  {
     "ip": "45.148.10.200",
     "first_seen": "2026-06-27T20:01:05.712Z",
     "last_seen": "2026-06-27T20:01:07.547Z",
@@ -385,27 +425,6 @@
     "hostname": "unknown",
     "country": "MA",
     "org": ""
-  },
-  {
-    "ip": "203.159.90.218",
-    "first_seen": "2026-06-27T18:21:02.015Z",
-    "last_seen": "2026-06-28T08:57:03.843Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "auth-service.dev-node-sync-99.xyz",
-      "git.dev-node-sync-99.xyz",
-      "staging-db.dev-node-sync-99.xyz",
-      "telemetry.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 11,
-    "total_bytes_sent": 1182720,
-    "estimated_cost_usd": 0.0033,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "unknown",
-    "country": "NL",
-    "org": "1337 Services GmbH"
   },
   {
     "ip": "::ffff:216.126.225.168",
@@ -543,6 +562,24 @@
     "hostname": "30.116.172.144.static.cloudzy.com",
     "country": "US",
     "org": "FranTech Solutions"
+  },
+  {
+    "ip": "unknown",
+    "first_seen": "2026-06-27T23:34:12.851Z",
+    "last_seen": "2026-06-28T09:34:39.528Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 8,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "::ffff:216.180.246.121",
@@ -747,24 +784,6 @@
     "org": "OVH Hosting, Inc"
   },
   {
-    "ip": "unknown",
-    "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-28T08:19:30.791Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306"
-    ],
-    "target_hosts": [
-      "port-3306"
-    ],
-    "connection_count": 7,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "DATABASE_SCANNER",
-    "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
-  },
-  {
     "ip": "16.58.56.214",
     "first_seen": "2026-06-28T05:13:20.444Z",
     "last_seen": "2026-06-28T07:23:09.128Z",
@@ -783,6 +802,24 @@
     "hostname": "unknown",
     "country": "US",
     "org": "AWS EC2 (us-east-2)"
+  },
+  {
+    "ip": "78.153.140.250",
+    "first_seen": "2026-06-28T01:48:26.507Z",
+    "last_seen": "2026-06-28T09:26:00.228Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 6,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "HOSTGLOBAL.PLUS LTD"
   },
   {
     "ip": "54.70.53.60",
@@ -1010,24 +1047,6 @@
     "org": "HOSTGLOBAL.PLUS LTD"
   },
   {
-    "ip": "78.153.140.250",
-    "first_seen": "2026-06-28T01:48:26.507Z",
-    "last_seen": "2026-06-28T07:05:23.754Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
-    ],
-    "target_hosts": [
-      "135.148.40.198"
-    ],
-    "connection_count": 4,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "GB",
-    "org": "HOSTGLOBAL.PLUS LTD"
-  },
-  {
     "ip": "77.83.39.94",
     "first_seen": "2026-06-28T07:53:27.963Z",
     "last_seen": "2026-06-28T07:53:33.060Z",
@@ -1177,6 +1196,24 @@
     "org": "1337 Services GmbH"
   },
   {
+    "ip": "2.58.56.61",
+    "first_seen": "2026-06-28T04:01:40.027Z",
+    "last_seen": "2026-06-28T09:26:34.542Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 1261568,
+    "estimated_cost_usd": 0.0035,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "mail.swioper.com",
+    "country": "FR",
+    "org": "Mifsud Florian"
+  },
+  {
     "ip": "193.32.162.60",
     "first_seen": "2026-06-27T17:30:33.051Z",
     "last_seen": "2026-06-27T17:30:40.015Z",
@@ -1214,6 +1251,24 @@
     "org": "HostRoyale Technologies Pvt Ltd"
   },
   {
+    "ip": "65.49.20.66",
+    "first_seen": "2026-06-28T09:47:17.065Z",
+    "last_seen": "2026-06-28T09:48:08.270Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "The Shadow Server Foundation"
+  },
+  {
     "ip": "62.141.63.15",
     "first_seen": "2026-06-27T19:29:07.079Z",
     "last_seen": "2026-06-28T01:58:21.028Z",
@@ -1230,24 +1285,6 @@
     "hostname": "unknown",
     "country": "GB",
     "org": "Zentyx Limited"
-  },
-  {
-    "ip": "2.58.56.61",
-    "first_seen": "2026-06-28T04:01:40.027Z",
-    "last_seen": "2026-06-28T08:55:44.682Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 3,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "mail.swioper.com",
-    "country": "FR",
-    "org": "Mifsud Florian"
   },
   {
     "ip": "164.92.91.136",
@@ -2583,6 +2620,24 @@
     "org": "Ankit Jain"
   },
   {
+    "ip": "185.247.137.22",
+    "first_seen": "2026-06-28T09:21:02.843Z",
+    "last_seen": "2026-06-28T09:21:02.930Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "portainer.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "185.152.39.9",
     "first_seen": "2026-06-28T08:04:18.524Z",
     "last_seen": "2026-06-28T08:04:18.821Z",
@@ -3427,6 +3482,24 @@
     "hostname": "unknown",
     "country": "NL",
     "org": "AI Spera"
+  },
+  {
+    "ip": "44.220.185.109",
+    "first_seen": "2026-06-28T09:26:07.738Z",
+    "last_seen": "2026-06-28T09:26:07.738Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "AWS EC2 (us-east-1)"
   },
   {
     "ip": "43.167.241.46",
