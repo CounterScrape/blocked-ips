@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-29T15:52:32.873Z",
+    "last_seen": "2026-06-29T17:08:41.974Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 7030,
+    "connection_count": 7242,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T16:57:45.427Z",
+    "last_seen": "2026-06-29T17:59:01.624Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 865,
-    "total_bytes_sent": 36836352,
-    "estimated_cost_usd": 0.0858000000000004,
+    "connection_count": 890,
+    "total_bytes_sent": 37868544,
+    "estimated_cost_usd": 0.08820000000000047,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -764,27 +764,9 @@
     "org": "OVH Hosting, Inc"
   },
   {
-    "ip": "unknown",
-    "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-29T16:37:15.032Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306"
-    ],
-    "target_hosts": [
-      "port-3306"
-    ],
-    "connection_count": 41,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "DATABASE_SCANNER",
-    "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
-  },
-  {
     "ip": "203.159.90.218",
     "first_seen": "2026-06-27T18:21:02.015Z",
-    "last_seen": "2026-06-29T12:26:33.445Z",
+    "last_seen": "2026-06-29T17:34:58.710Z",
     "user_agents": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
     ],
@@ -795,13 +777,31 @@
       "staging-db.dev-node-sync-99.xyz",
       "telemetry.dev-node-sync-99.xyz"
     ],
-    "connection_count": 35,
-    "total_bytes_sent": 80645120,
-    "estimated_cost_usd": 0.2254,
+    "connection_count": 44,
+    "total_bytes_sent": 190115840,
+    "estimated_cost_usd": 0.5311,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
     "country": "NL",
     "org": "1337 Services GmbH"
+  },
+  {
+    "ip": "unknown",
+    "first_seen": "2026-06-27T23:34:12.851Z",
+    "last_seen": "2026-06-29T17:07:42.081Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 42,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
   },
   {
     "ip": "147.182.162.9",
@@ -2611,6 +2611,24 @@
     "org": "Google Cloud (us-east4)"
   },
   {
+    "ip": "35.195.170.155",
+    "first_seen": "2026-06-29T17:19:06.686Z",
+    "last_seen": "2026-06-29T17:19:16.489Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "BE",
+    "org": "Google Cloud (europe-west1)"
+  },
+  {
     "ip": "34.46.134.65",
     "first_seen": "2026-06-28T11:11:33.204Z",
     "last_seen": "2026-06-28T11:27:45.572Z",
@@ -3363,6 +3381,42 @@
     ],
     "target_hosts": [
       "aws-api.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "::ffff:185.247.137.196",
+    "first_seen": "2026-06-29T17:11:30.473Z",
+    "last_seen": "2026-06-29T17:11:30.559Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "jenkins.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "::ffff:185.247.137.172",
+    "first_seen": "2026-06-29T17:36:20.118Z",
+    "last_seen": "2026-06-29T17:36:20.203Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "staging-db.dev-node-sync-99.xyz:8080"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -5922,6 +5976,24 @@
     ],
     "target_hosts": [
       "nexus-dev.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "EGN Dedicated Servers - Asia Optimized"
+  },
+  {
+    "ip": "23.27.145.121",
+    "first_seen": "2026-06-29T17:06:45.143Z",
+    "last_seen": "2026-06-29T17:06:45.284Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/120.0"
+    ],
+    "target_hosts": [
+      "vps-892150a1.vps.ovh.us"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -9956,6 +10028,24 @@
     "hostname": "unknown",
     "country": "CN",
     "org": "China Mobile"
+  },
+  {
+    "ip": "104.155.80.184",
+    "first_seen": "2026-06-29T17:18:27.420Z",
+    "last_seen": "2026-06-29T17:18:27.420Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "BE",
+    "org": "Google Cloud (europe-west1)"
   },
   {
     "ip": "101.36.127.85",
