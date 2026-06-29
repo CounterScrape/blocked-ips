@@ -236,16 +236,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T00:50:33.191Z",
+    "last_seen": "2026-06-29T01:48:40.927Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 577,
-    "total_bytes_sent": 24467456,
-    "estimated_cost_usd": 0.056999999999999766,
+    "connection_count": 587,
+    "total_bytes_sent": 24882176,
+    "estimated_cost_usd": 0.05799999999999976,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -286,6 +286,37 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "GB",
     "org": "AWS EC2 (eu-west-2)"
+  },
+  {
+    "ip": "155.2.228.196",
+    "first_seen": "2026-06-28T01:53:01.298Z",
+    "last_seen": "2026-06-29T01:57:37.381Z",
+    "user_agents": [
+      "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz",
+      "auth-service.dev-node-sync-99.xyz",
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "db-backup.dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
+      "internal-sync.dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz",
+      "portainer.dev-node-sync-99.xyz",
+      "prod-api.dev-node-sync-99.xyz",
+      "staging-db.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz",
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 441,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "CH",
+    "org": "iway AG"
   },
   {
     "ip": "45.148.10.120",
@@ -376,35 +407,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "NL",
     "org": "Techoff SRV Limited"
-  },
-  {
-    "ip": "155.2.228.196",
-    "first_seen": "2026-06-28T01:53:01.298Z",
-    "last_seen": "2026-06-28T02:10:11.169Z",
-    "user_agents": [
-      "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36"
-    ],
-    "target_hosts": [
-      "admin.dev-node-sync-99.xyz",
-      "auth-service.dev-node-sync-99.xyz",
-      "aws-api.dev-node-sync-99.xyz",
-      "db-backup.dev-node-sync-99.xyz",
-      "git.dev-node-sync-99.xyz",
-      "internal-sync.dev-node-sync-99.xyz",
-      "jenkins.dev-node-sync-99.xyz",
-      "nexus-dev.dev-node-sync-99.xyz",
-      "prod-api.dev-node-sync-99.xyz",
-      "staging-db.dev-node-sync-99.xyz",
-      "telemetry.dev-node-sync-99.xyz",
-      "vpn.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 221,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "unknown",
-    "country": "CH",
-    "org": "iway AG"
   },
   {
     "ip": "45.45.237.214",
@@ -965,6 +967,30 @@
     "org": "Sichuan Chengdu interesting network technology Co Ltd"
   },
   {
+    "ip": "157.15.40.60",
+    "first_seen": "2026-06-28T16:47:19.552Z",
+    "last_seen": "2026-06-29T01:19:43.396Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz",
+      "auth-service.dev-node-sync-99.xyz",
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "db-backup.dev-node-sync-99.xyz",
+      "staging-db.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 14,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "ID",
+    "org": "PT Trisari Data Indonesia"
+  },
+  {
     "ip": "77.83.39.94",
     "first_seen": "2026-06-28T07:53:27.963Z",
     "last_seen": "2026-06-28T21:01:46.275Z",
@@ -1064,29 +1090,6 @@
     "hostname": "unknown",
     "country": "MA",
     "org": ""
-  },
-  {
-    "ip": "157.15.40.60",
-    "first_seen": "2026-06-28T16:47:19.552Z",
-    "last_seen": "2026-06-29T00:46:57.013Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    ],
-    "target_hosts": [
-      "admin.dev-node-sync-99.xyz",
-      "auth-service.dev-node-sync-99.xyz",
-      "aws-api.dev-node-sync-99.xyz",
-      "config-vault.dev-node-sync-99.xyz",
-      "staging-db.dev-node-sync-99.xyz",
-      "telemetry.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 12,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "ID",
-    "org": "PT Trisari Data Indonesia"
   },
   {
     "ip": "152.32.192.241",
@@ -2887,6 +2890,24 @@
     "org": "Constantine Cybersecurity LTD"
   },
   {
+    "ip": "::ffff:195.96.139.129",
+    "first_seen": "2026-06-29T01:10:09.337Z",
+    "last_seen": "2026-06-29T01:10:09.428Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "db-backup.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "::ffff:185.247.137.53",
     "first_seen": "2026-06-28T19:49:29.177Z",
     "last_seen": "2026-06-28T19:49:29.272Z",
@@ -3029,6 +3050,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "US",
     "org": "Google Cloud (us-west1)"
+  },
+  {
+    "ip": "79.127.129.214",
+    "first_seen": "2026-06-29T01:43:04.143Z",
+    "last_seen": "2026-06-29T01:47:34.507Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 184320,
+    "estimated_cost_usd": 0.0005,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "unn-79-127-129-214.datapacket.com",
+    "country": "JP",
+    "org": "Cdnext TYO"
   },
   {
     "ip": "72.153.230.168",
@@ -5084,6 +5123,24 @@
     "org": "3xK Tech GmbH"
   },
   {
+    "ip": "216.218.206.68",
+    "first_seen": "2026-06-28T10:29:26.117Z",
+    "last_seen": "2026-06-29T01:06:53.960Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "The Shadow Server Foundation"
+  },
+  {
     "ip": "216.126.225.168",
     "first_seen": "2026-06-28T05:17:28.648Z",
     "last_seen": "2026-06-28T05:18:20.363Z",
@@ -5534,6 +5591,24 @@
     "org": "Constantine Cybersecurity LTD"
   },
   {
+    "ip": "185.247.137.240",
+    "first_seen": "2026-06-29T01:23:51.472Z",
+    "last_seen": "2026-06-29T01:23:51.830Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "prod-api.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "185.247.137.233",
     "first_seen": "2026-06-28T18:08:26.322Z",
     "last_seen": "2026-06-28T18:08:26.413Z",
@@ -5948,6 +6023,24 @@
     "hostname": "unknown",
     "country": "US",
     "org": "AWS EC2 (us-east-2)"
+  },
+  {
+    "ip": "18.181.225.141",
+    "first_seen": "2026-06-29T00:39:39.036Z",
+    "last_seen": "2026-06-29T01:46:56.146Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 2752512,
+    "estimated_cost_usd": 0.0077,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "ec2-18-181-225-141.ap-northeast-1.compute.amazonaws.com",
+    "country": "JP",
+    "org": "AWS EC2 (ap-northeast-1)"
   },
   {
     "ip": "178.62.62.246",
@@ -6380,6 +6473,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "KZ",
     "org": "HostRoyale Technologies"
+  },
+  {
+    "ip": "15.235.149.236",
+    "first_seen": "2026-06-29T01:43:28.245Z",
+    "last_seen": "2026-06-29T01:44:16.012Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 31744,
+    "estimated_cost_usd": 0.0001,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "ip236.ip-15-235-149.net",
+    "country": "SG",
+    "org": "OVH Singapore PTE. LTD"
   },
   {
     "ip": "149.57.180.125",
@@ -8014,24 +8125,6 @@
     "org": "Infraly, LLC"
   },
   {
-    "ip": "216.218.206.68",
-    "first_seen": "2026-06-28T10:29:26.117Z",
-    "last_seen": "2026-06-28T10:29:26.117Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306"
-    ],
-    "target_hosts": [
-      "port-3306"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "DATABASE_SCANNER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "The Shadow Server Foundation"
-  },
-  {
     "ip": "20.168.120.251",
     "first_seen": "2026-06-28T22:10:41.332Z",
     "last_seen": "2026-06-28T22:10:41.332Z",
@@ -8120,24 +8213,6 @@
     "hostname": "unknown",
     "country": "NL",
     "org": "AI Spera"
-  },
-  {
-    "ip": "18.181.225.141",
-    "first_seen": "2026-06-29T00:39:39.036Z",
-    "last_seen": "2026-06-29T00:39:39.036Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "ec2-18-181-225-141.ap-northeast-1.compute.amazonaws.com",
-    "country": "JP",
-    "org": "AWS EC2 (ap-northeast-1)"
   },
   {
     "ip": "176.32.193.16",

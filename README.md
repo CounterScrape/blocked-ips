@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `459`
-* **Total Bandwidth Consumed:** `9305 MB` (~9.09 GB)
+* **Total Unique IPs Blocked:** `463`
+* **Total Bandwidth Consumed:** `9308 MB` (~9.09 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -42,11 +42,11 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `13.53.95.176` | SE | AWS EC2 (eu-north-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `13.250.101.53` | SG | AWS EC2 (ap-southeast-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `13.213.63.194` | SG | AWS EC2 (ap-southeast-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 577 | 23.33 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 587 | 23.73 MB |
 | `3.107.238.227` | AU | AWS EC2 (ap-southeast-2) | `EXPLOIT_SCANNER` | 498 | 0.0 MB |
 | `13.42.62.176` | GB | AWS EC2 (eu-west-2) | `EXPLOIT_SCANNER` | 498 | 0.0 MB |
+| `155.2.228.196` | CH | iway AG | `HONEYTOKEN_HIT` | 441 | 0.0 MB |
 | `45.148.10.120` | NL | Techoff SRV Limited | `HONEYTOKEN_HIT` | 232 | 0.32 MB |
-| `155.2.228.196` | CH | iway AG | `HONEYTOKEN_HIT` | 221 | 0.0 MB |
 | `45.45.237.214` | US | Infraly, LLC | `HONEYTOKEN_HIT` | 114 | 39.0 MB |
 | `193.36.145.238` | ES |  | `DATABASE_SCANNER` | 101 | 0.0 MB |
 | `129.204.45.46` | CN | Tencent Cloud Computing (Beijing) Co., Ltd | `DATABASE_SCANNER` | 101 | 0.0 MB |
@@ -71,12 +71,12 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `78.153.140.250` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 16 | 0.0 MB |
 | `152.32.131.118` | HK | Ucloud Information Technology (hk) Limited | `HONEYTOKEN_HIT` | 16 | 0.06 MB |
 | `185.147.157.141` | US | Sichuan Chengdu interesting network technology Co Ltd | `EXPLOIT_SCANNER` | 15 | 0.0 MB |
+| `157.15.40.60` | ID | PT Trisari Data Indonesia | `HONEYTOKEN_HIT` | 14 | 0.0 MB |
 | `77.83.39.94` | NL | Lanedonet Datacenter | `EXPLOIT_SCANNER` | 12 | 0.02 MB |
 | `45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 12 | 0.0 MB |
 | `45.142.154.62` | HK | Allcloud US | `HONEYTOKEN_HIT` | 12 | 0.04 MB |
 | `45.142.154.60` | HK | Allcloud US | `HONEYTOKEN_HIT` | 12 | 0.02 MB |
 | `41.143.185.23` | MA |  | `HONEYTOKEN_HIT` | 12 | 0.0 MB |
-| `157.15.40.60` | ID | PT Trisari Data Indonesia | `HONEYTOKEN_HIT` | 12 | 0.0 MB |
 | `152.32.192.241` | HK | Ucloud Information Technology (hk) Limited | `HONEYTOKEN_HIT` | 12 | 0.05 MB |
 | `::ffff:216.180.246.88` | FR |  | `HONEYTOKEN_HIT` | 10 | 0.69 MB |
 | `::ffff:216.126.225.168` | US | anyNode | `EXPLOIT_SCANNER` | 10 | 0.17 MB |
@@ -172,6 +172,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `::ffff:43.98.185.189` | SG | Alibaba.com LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `::ffff:195.96.139.138` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `::ffff:195.96.139.135` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `::ffff:195.96.139.129` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `::ffff:185.247.137.53` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `::ffff:185.247.137.169` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `::ffff:185.247.137.126` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -180,6 +181,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `93.174.93.34` | NL | IP Volume inc | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `8.229.201.210` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 2 | 0.62 MB |
 | `8.229.152.246` | US | Google Cloud (us-west1) | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `79.127.129.214` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 2 | 0.18 MB |
 | `72.153.230.168` | US | Microsoft Azure Cloud (westus) | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
 | `67.219.201.132` | US | Cts Communications - Plant | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `67.207.88.82` | US | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -294,6 +296,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `23.27.145.191` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.185` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `216.26.227.100` | US | 3xK Tech GmbH | `SPIDER_TRAP_HIT` | 2 | 25.0 MB |
+| `216.218.206.68` | US | The Shadow Server Foundation | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `216.126.225.168` | US | anyNode | `EXPLOIT_SCANNER` | 2 | 0.03 MB |
 | `209.97.129.230` | GB | DigitalOcean, LLC | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `209.58.160.54` | SG |  | `DATABASE_SCANNER` | 2 | 0.0 MB |
@@ -319,6 +322,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `192.42.116.108` | NL | TOR Exit and More | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `188.68.52.231` | DE | NETCUP-GMBH | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.247.137.243` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `185.247.137.240` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.247.137.233` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.247.137.22` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.247.137.205` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -342,6 +346,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `185.152.39.74` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.152.39.71` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `18.219.157.186` | US | AWS EC2 (us-east-2) | `REDIS_SCANNER` | 2 | 0.0 MB |
+| `18.181.225.141` | JP | AWS EC2 (ap-northeast-1) | `EXPLOIT_SCANNER` | 2 | 2.62 MB |
 | `178.62.62.246` | GB | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `173.239.254.94` | US |  | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `172.252.31.96` | US | EGIHosting | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -366,6 +371,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `155.94.203.181` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `155.94.203.12` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `155.94.203.116` | KZ | HostRoyale Technologies | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `15.235.149.236` | SG | OVH Singapore PTE. LTD | `EXPLOIT_SCANNER` | 2 | 0.03 MB |
 | `149.57.180.125` | US | LogicWeb Inc | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `147.185.226.29` | JP |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `147.185.226.17` | JP |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -457,13 +463,11 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `3.224.234.70` | US | AWS EC2 (us-east-1) | `DATACENTER` | 1 | 4.0 MB |
 | `23.23.253.54` | US | AWS EC2 (us-east-1) | `SPOOFED_BOT` | 1 | 0.0 MB |
 | `23.161.169.113` | GB | Infraly, LLC | `unknown` | 1 | 19.0 MB |
-| `216.218.206.68` | US | The Shadow Server Foundation | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `20.168.120.251` | US | Microsoft Azure Cloud (westus3) | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `20.118.217.162` | US | Microsoft Azure Cloud (centralus) | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `2.58.202.98` | US | Kuroit Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `198.235.24.72` | US | Palo Alto Networks, Inc | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `185.242.226.92` | NL | AI Spera | `REDIS_SCANNER` | 1 | 0.0 MB |
-| `18.181.225.141` | JP | AWS EC2 (ap-northeast-1) | `EXPLOIT_SCANNER` | 1 | 0.0 MB |
 | `176.32.193.16` | AM | Interactive TV LLC | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `170.106.72.178` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `170.106.197.109` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
