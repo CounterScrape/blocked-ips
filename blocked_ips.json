@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-29T18:22:42.838Z",
+    "last_seen": "2026-06-29T19:37:49.602Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 7454,
+    "connection_count": 7666,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T18:57:35.848Z",
+    "last_seen": "2026-06-29T19:59:36.150Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 907,
-    "total_bytes_sent": 38642688,
-    "estimated_cost_usd": 0.09000000000000052,
+    "connection_count": 935,
+    "total_bytes_sent": 39760896,
+    "estimated_cost_usd": 0.0926000000000006,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -769,6 +769,24 @@
     "org": "1337 Services GmbH"
   },
   {
+    "ip": "unknown",
+    "first_seen": "2026-06-27T23:34:12.851Z",
+    "last_seen": "2026-06-29T19:36:49.676Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 44,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
+  },
+  {
     "ip": "::ffff:148.113.200.133",
     "first_seen": "2026-06-29T15:52:46.068Z",
     "last_seen": "2026-06-29T15:55:23.022Z",
@@ -785,24 +803,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "CA",
     "org": "OVH Hosting, Inc"
-  },
-  {
-    "ip": "unknown",
-    "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-29T18:21:42.955Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306"
-    ],
-    "target_hosts": [
-      "port-3306"
-    ],
-    "connection_count": 43,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "DATABASE_SCANNER",
-    "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
   },
   {
     "ip": "64.89.163.148",
@@ -2034,6 +2034,24 @@
     "org": "Unmanaged LTD"
   },
   {
+    "ip": "62.141.63.15",
+    "first_seen": "2026-06-27T19:29:07.079Z",
+    "last_seen": "2026-06-29T19:36:50.437Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 6,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Zentyx Limited"
+  },
+  {
     "ip": "54.70.53.60",
     "first_seen": "2026-06-28T00:00:29.376Z",
     "last_seen": "2026-06-28T01:00:05.917Z",
@@ -2188,24 +2206,6 @@
     "hostname": "unknown",
     "country": "FI",
     "org": "Hetzner"
-  },
-  {
-    "ip": "62.141.63.15",
-    "first_seen": "2026-06-27T19:29:07.079Z",
-    "last_seen": "2026-06-28T23:39:28.957Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 6379"
-    ],
-    "target_hosts": [
-      "port-6379"
-    ],
-    "connection_count": 5,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "REDIS_SCANNER",
-    "hostname": "unknown",
-    "country": "GB",
-    "org": "Zentyx Limited"
   },
   {
     "ip": "3.129.187.38",
@@ -3266,6 +3266,24 @@
     "org": "Alibaba.com LLC"
   },
   {
+    "ip": "::ffff:198.235.24.106",
+    "first_seen": "2026-06-29T19:32:25.408Z",
+    "last_seen": "2026-06-29T19:32:55.372Z",
+    "user_agents": [
+      "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity"
+    ],
+    "target_hosts": [
+      "unknown"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 19456,
+    "estimated_cost_usd": 0.0001,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Palo Alto Networks, Inc"
+  },
+  {
     "ip": "::ffff:195.96.139.73",
     "first_seen": "2026-06-29T04:54:34.582Z",
     "last_seen": "2026-06-29T04:54:34.668Z",
@@ -3818,6 +3836,24 @@
     ],
     "connection_count": 2,
     "total_bytes_sent": 6144,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Digital Ocean"
+  },
+  {
+    "ip": "67.207.83.111",
+    "first_seen": "2026-06-29T19:06:48.002Z",
+    "last_seen": "2026-06-29T19:06:53.452Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 3072,
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
