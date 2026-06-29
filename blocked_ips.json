@@ -20,14 +20,14 @@
   {
     "ip": "213.209.159.154",
     "first_seen": "2026-06-28T17:21:15.472Z",
-    "last_seen": "2026-06-28T20:09:30.156Z",
+    "last_seen": "2026-06-29T16:38:14.902Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 1688,
+    "connection_count": 1901,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T15:54:51.465Z",
+    "last_seen": "2026-06-29T16:57:45.427Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 841,
-    "total_bytes_sent": 35804160,
-    "estimated_cost_usd": 0.08340000000000033,
+    "connection_count": 865,
+    "total_bytes_sent": 36836352,
+    "estimated_cost_usd": 0.0858000000000004,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -720,7 +720,7 @@
   {
     "ip": "62.60.130.227",
     "first_seen": "2026-06-27T17:38:18.604Z",
-    "last_seen": "2026-06-29T15:29:57.067Z",
+    "last_seen": "2026-06-29T16:22:03.942Z",
     "user_agents": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -734,9 +734,10 @@
       "db-backup.dev-node-sync-99.xyz",
       "git.dev-node-sync-99.xyz",
       "internal-sync.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz",
       "portainer.dev-node-sync-99.xyz"
     ],
-    "connection_count": 46,
+    "connection_count": 50,
     "total_bytes_sent": 2048,
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
@@ -765,14 +766,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-29T15:51:32.986Z",
+    "last_seen": "2026-06-29T16:37:15.032Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 40,
+    "connection_count": 41,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -3048,6 +3049,24 @@
     "org": "Alibaba.com Singapore E-Commerce Private Limited"
   },
   {
+    "ip": "::ffff:68.183.209.26",
+    "first_seen": "2026-06-29T16:49:45.997Z",
+    "last_seen": "2026-06-29T16:49:46.095Z",
+    "user_agents": [
+      "unknown"
+    ],
+    "target_hosts": [
+      "unknown"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DE",
+    "org": "DigitalOcean, LLC"
+  },
+  {
     "ip": "::ffff:65.49.1.72",
     "first_seen": "2026-06-28T03:48:37.040Z",
     "last_seen": "2026-06-28T03:48:38.888Z",
@@ -4939,6 +4958,24 @@
     "org": "Sabotage LLC"
   },
   {
+    "ip": "45.43.166.123",
+    "first_seen": "2026-06-29T16:17:39.835Z",
+    "last_seen": "2026-06-29T16:17:39.948Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Lumadock LTD"
+  },
+  {
     "ip": "45.40.61.194",
     "first_seen": "2026-06-28T13:38:06.832Z",
     "last_seen": "2026-06-28T13:38:07.728Z",
@@ -5261,6 +5298,24 @@
     "hostname": "spider-trap-active-containment",
     "country": "US",
     "org": "Tencent Cloud Computing"
+  },
+  {
+    "ip": "41.216.188.177",
+    "first_seen": "2026-06-29T16:27:15.452Z",
+    "last_seen": "2026-06-29T16:27:15.560Z",
+    "user_agents": [
+      "Mozilla/5.0"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "DE",
+    "org": ""
   },
   {
     "ip": "38.200.6.230",
