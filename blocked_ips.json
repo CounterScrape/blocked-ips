@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-29T10:52:05.314Z",
+    "last_seen": "2026-06-29T12:08:11.297Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 6181,
+    "connection_count": 6393,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T11:44:11.592Z",
+    "last_seen": "2026-06-29T12:49:00.594Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 747,
-    "total_bytes_sent": 31761408,
-    "estimated_cost_usd": 0.07400000000000007,
+    "connection_count": 777,
+    "total_bytes_sent": 33051648,
+    "estimated_cost_usd": 0.07700000000000015,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -746,14 +746,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-29T10:51:05.360Z",
+    "last_seen": "2026-06-29T12:07:11.299Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 36,
+    "connection_count": 37,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -764,7 +764,7 @@
   {
     "ip": "203.159.90.218",
     "first_seen": "2026-06-27T18:21:02.015Z",
-    "last_seen": "2026-06-29T11:54:32.547Z",
+    "last_seen": "2026-06-29T12:26:33.445Z",
     "user_agents": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
     ],
@@ -775,7 +775,7 @@
       "staging-db.dev-node-sync-99.xyz",
       "telemetry.dev-node-sync-99.xyz"
     ],
-    "connection_count": 34,
+    "connection_count": 35,
     "total_bytes_sent": 80645120,
     "estimated_cost_usd": 0.2254,
     "client_type": "HONEYTOKEN_HIT",
@@ -959,6 +959,32 @@
     "org": "Upcloud NL Ams1"
   },
   {
+    "ip": "157.15.40.60",
+    "first_seen": "2026-06-28T16:47:19.552Z",
+    "last_seen": "2026-06-29T12:18:11.293Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz",
+      "auth-service.dev-node-sync-99.xyz",
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "db-backup.dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
+      "internal-sync.dev-node-sync-99.xyz",
+      "staging-db.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 18,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "ID",
+    "org": "PT Trisari Data Indonesia"
+  },
+  {
     "ip": "78.153.140.250",
     "first_seen": "2026-06-28T01:48:26.507Z",
     "last_seen": "2026-06-28T22:53:47.974Z",
@@ -975,31 +1001,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "GB",
     "org": "HOSTGLOBAL.PLUS LTD"
-  },
-  {
-    "ip": "157.15.40.60",
-    "first_seen": "2026-06-28T16:47:19.552Z",
-    "last_seen": "2026-06-29T03:09:38.378Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    ],
-    "target_hosts": [
-      "admin.dev-node-sync-99.xyz",
-      "auth-service.dev-node-sync-99.xyz",
-      "aws-api.dev-node-sync-99.xyz",
-      "config-vault.dev-node-sync-99.xyz",
-      "db-backup.dev-node-sync-99.xyz",
-      "git.dev-node-sync-99.xyz",
-      "staging-db.dev-node-sync-99.xyz",
-      "telemetry.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 16,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "ID",
-    "org": "PT Trisari Data Indonesia"
   },
   {
     "ip": "152.32.131.118",
@@ -5909,6 +5910,24 @@
     "org": "Secure Internet LLC"
   },
   {
+    "ip": "203.132.68.28",
+    "first_seen": "2026-06-29T12:56:23.790Z",
+    "last_seen": "2026-06-29T12:56:26.003Z",
+    "user_agents": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15"
+    ],
+    "target_hosts": [
+      "config-vault.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "203-132-68-28.ip4.superloop.au",
+    "country": "AU",
+    "org": ""
+  },
+  {
     "ip": "203.109.52.201",
     "first_seen": "2026-06-28T00:00:25.842Z",
     "last_seen": "2026-06-28T00:00:53.452Z",
@@ -6331,6 +6350,24 @@
     ],
     "target_hosts": [
       "admin.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.42",
+    "first_seen": "2026-06-29T12:09:39.035Z",
+    "last_seen": "2026-06-29T12:09:39.123Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "portainer.dev-node-sync-99.xyz"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -7534,6 +7571,24 @@
     "ip": "128.203.204.25",
     "first_seen": "2026-06-28T05:58:57.452Z",
     "last_seen": "2026-06-28T05:58:57.520Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Microsoft Azure Cloud (centralus)"
+  },
+  {
+    "ip": "128.203.200.175",
+    "first_seen": "2026-06-29T12:38:05.794Z",
+    "last_seen": "2026-06-29T12:38:05.861Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
@@ -9179,6 +9234,24 @@
     "hostname": "unknown",
     "country": "US",
     "org": "Palo Alto Networks, Inc"
+  },
+  {
+    "ip": "192.253.248.180",
+    "first_seen": "2026-06-29T12:26:42.643Z",
+    "last_seen": "2026-06-29T12:26:42.643Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Secure Internet LLC"
   },
   {
     "ip": "185.242.226.92",
