@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-29T14:37:21.905Z",
+    "last_seen": "2026-06-29T15:52:32.873Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 6818,
+    "connection_count": 7030,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T14:49:40.710Z",
+    "last_seen": "2026-06-29T15:54:51.465Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 817,
-    "total_bytes_sent": 34771968,
-    "estimated_cost_usd": 0.08100000000000027,
+    "connection_count": 841,
+    "total_bytes_sent": 35804160,
+    "estimated_cost_usd": 0.08340000000000033,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -720,7 +720,7 @@
   {
     "ip": "62.60.130.227",
     "first_seen": "2026-06-27T17:38:18.604Z",
-    "last_seen": "2026-06-28T19:51:12.699Z",
+    "last_seen": "2026-06-29T15:29:57.067Z",
     "user_agents": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -733,9 +733,10 @@
       "config-vault.dev-node-sync-99.xyz",
       "db-backup.dev-node-sync-99.xyz",
       "git.dev-node-sync-99.xyz",
-      "internal-sync.dev-node-sync-99.xyz"
+      "internal-sync.dev-node-sync-99.xyz",
+      "portainer.dev-node-sync-99.xyz"
     ],
-    "connection_count": 42,
+    "connection_count": 46,
     "total_bytes_sent": 2048,
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
@@ -744,16 +745,34 @@
     "org": "UAB Host Baltic"
   },
   {
+    "ip": "::ffff:148.113.200.133",
+    "first_seen": "2026-06-29T15:52:46.068Z",
+    "last_seen": "2026-06-29T15:55:23.022Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible)"
+    ],
+    "target_hosts": [
+      "135.148.40.198:8080"
+    ],
+    "connection_count": 44,
+    "total_bytes_sent": 2048,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "CA",
+    "org": "OVH Hosting, Inc"
+  },
+  {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-29T14:36:21.963Z",
+    "last_seen": "2026-06-29T15:51:32.986Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 39,
+    "connection_count": 40,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -2387,6 +2406,24 @@
     "org": "HostRoyale Technologies"
   },
   {
+    "ip": "45.198.224.96",
+    "first_seen": "2026-06-29T08:54:42.683Z",
+    "last_seen": "2026-06-29T15:36:29.186Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "SE",
+    "org": "Vpsvault.host LTD"
+  },
+  {
     "ip": "45.148.10.204",
     "first_seen": "2026-06-28T15:10:32.615Z",
     "last_seen": "2026-06-28T15:10:42.722Z",
@@ -3253,6 +3290,24 @@
     ],
     "target_hosts": [
       "db-backup.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "::ffff:185.247.137.65",
+    "first_seen": "2026-06-29T15:50:35.666Z",
+    "last_seen": "2026-06-29T15:50:35.751Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "auth-service.dev-node-sync-99.xyz:8080"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -4900,24 +4955,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "JP",
     "org": "SPEEDYCLOUD"
-  },
-  {
-    "ip": "45.198.224.96",
-    "first_seen": "2026-06-29T08:54:42.683Z",
-    "last_seen": "2026-06-29T08:54:42.774Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    ],
-    "target_hosts": [
-      "dev-node-sync-99.xyz"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "SE",
-    "org": "Vpsvault.host LTD"
   },
   {
     "ip": "45.141.215.52",
@@ -9382,6 +9419,24 @@
     "org": "Palo Alto Networks, Inc"
   },
   {
+    "ip": "198.235.24.144",
+    "first_seen": "2026-06-29T15:24:16.517Z",
+    "last_seen": "2026-06-29T15:24:16.517Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Palo Alto Networks, Inc"
+  },
+  {
     "ip": "185.242.226.92",
     "first_seen": "2026-06-27T23:36:35.438Z",
     "last_seen": "2026-06-27T23:36:35.438Z",
@@ -9773,6 +9828,24 @@
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
     "country": "HK",
+    "org": ""
+  },
+  {
+    "ip": "123.234.6.197",
+    "first_seen": "2026-06-29T15:39:21.130Z",
+    "last_seen": "2026-06-29T15:39:21.130Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "CN",
     "org": ""
   },
   {
