@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `490`
-* **Total Bandwidth Consumed:** `9428 MB` (~9.21 GB)
+* **Total Unique IPs Blocked:** `492`
+* **Total Bandwidth Consumed:** `9429 MB` (~9.21 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -29,7 +29,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 5117 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 5330 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 1688 | 0.0 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
@@ -42,7 +42,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `13.53.95.176` | SE | AWS EC2 (eu-north-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `13.250.101.53` | SG | AWS EC2 (ap-southeast-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `13.213.63.194` | SG | AWS EC2 (ap-southeast-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 609 | 24.63 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 633 | 25.61 MB |
 | `3.107.238.227` | AU | AWS EC2 (ap-southeast-2) | `EXPLOIT_SCANNER` | 498 | 0.0 MB |
 | `13.42.62.176` | GB | AWS EC2 (eu-west-2) | `EXPLOIT_SCANNER` | 498 | 0.0 MB |
 | `155.2.228.196` | CH | iway AG | `HONEYTOKEN_HIT` | 463 | 0.0 MB |
@@ -61,8 +61,8 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `64.89.163.143` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 58 | 0.0 MB |
 | `87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 56 | 0.04 MB |
 | `62.60.130.227` | IR | UAB Host Baltic | `HONEYTOKEN_HIT` | 42 | 0.0 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 32 | 0.0 MB |
 | `147.182.162.9` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 32 | 0.0 MB |
-| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 31 | 0.0 MB |
 | `203.159.90.218` | NL | 1337 Services GmbH | `EXPLOIT_SCANNER` | 31 | 76.91 MB |
 | `64.89.163.144` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 29 | 0.0 MB |
 | `103.218.242.167` | HK | UCloud (HK) Holdings Group Limited | `HONEYTOKEN_HIT` | 28 | 0.11 MB |
@@ -190,6 +190,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `98.88.137.2` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `95.209.202.165` | SE | Hi3gaccess | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `93.174.93.34` | NL | IP Volume inc | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `87.236.176.206` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `8.229.201.210` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 2 | 0.62 MB |
 | `8.229.152.246` | US | Google Cloud (us-west1) | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `79.127.129.214` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 2 | 0.18 MB |
@@ -312,6 +313,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `23.27.145.191` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.185` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.179` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `23.27.145.164` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.156` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.15` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.10` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
