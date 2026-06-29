@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T21:01:08.705Z",
+    "last_seen": "2026-06-29T21:41:27.353Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 957,
-    "total_bytes_sent": 40793088,
-    "estimated_cost_usd": 0.09500000000000067,
+    "connection_count": 969,
+    "total_bytes_sent": 41309184,
+    "estimated_cost_usd": 0.0962000000000007,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -700,6 +700,36 @@
     "org": "Meowcore Softworks LLC"
   },
   {
+    "ip": "62.60.130.227",
+    "first_seen": "2026-06-27T17:38:18.604Z",
+    "last_seen": "2026-06-29T21:53:34.505Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz",
+      "api-dev.dev-node-sync-99.xyz",
+      "auth-service.dev-node-sync-99.xyz",
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "db-backup.dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
+      "internal-sync.dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz",
+      "portainer.dev-node-sync-99.xyz",
+      "prod-api.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 58,
+    "total_bytes_sent": 2048,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "IR",
+    "org": "UAB Host Baltic"
+  },
+  {
     "ip": "87.106.163.38",
     "first_seen": "2026-06-28T20:52:02.411Z",
     "last_seen": "2026-06-28T20:54:03.219Z",
@@ -716,35 +746,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "DE",
     "org": ""
-  },
-  {
-    "ip": "62.60.130.227",
-    "first_seen": "2026-06-27T17:38:18.604Z",
-    "last_seen": "2026-06-29T20:46:45.892Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    ],
-    "target_hosts": [
-      "admin.dev-node-sync-99.xyz",
-      "api-dev.dev-node-sync-99.xyz",
-      "auth-service.dev-node-sync-99.xyz",
-      "aws-api.dev-node-sync-99.xyz",
-      "config-vault.dev-node-sync-99.xyz",
-      "db-backup.dev-node-sync-99.xyz",
-      "git.dev-node-sync-99.xyz",
-      "internal-sync.dev-node-sync-99.xyz",
-      "jenkins.dev-node-sync-99.xyz",
-      "nexus-dev.dev-node-sync-99.xyz",
-      "portainer.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 54,
-    "total_bytes_sent": 2048,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "IR",
-    "org": "UAB Host Baltic"
   },
   {
     "ip": "203.159.90.218",
@@ -1088,6 +1089,25 @@
     "org": "Sichuan Chengdu interesting network technology Co Ltd"
   },
   {
+    "ip": "203.159.90.217",
+    "first_seen": "2026-06-27T18:30:58.025Z",
+    "last_seen": "2026-06-29T21:38:37.388Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "aws-api.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 13,
+    "total_bytes_sent": 39617536,
+    "estimated_cost_usd": 0.1107,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "dns.google",
+    "country": "NL",
+    "org": "1337 Services GmbH"
+  },
+  {
     "ip": "77.83.39.94",
     "first_seen": "2026-06-28T07:53:27.963Z",
     "last_seen": "2026-06-28T21:01:46.275Z",
@@ -1169,25 +1189,6 @@
     "hostname": "unknown",
     "country": "MA",
     "org": ""
-  },
-  {
-    "ip": "203.159.90.217",
-    "first_seen": "2026-06-27T18:30:58.025Z",
-    "last_seen": "2026-06-29T04:58:31.478Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "aws-api.dev-node-sync-99.xyz",
-      "nexus-dev.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 12,
-    "total_bytes_sent": 39617536,
-    "estimated_cost_usd": 0.1107,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "dns.google",
-    "country": "NL",
-    "org": "1337 Services GmbH"
   },
   {
     "ip": "152.32.192.241",
@@ -2451,6 +2452,25 @@
     "org": "HostRoyale Technologies"
   },
   {
+    "ip": "45.92.85.30",
+    "first_seen": "2026-06-29T20:51:34.248Z",
+    "last_seen": "2026-06-29T21:11:58.753Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+    ],
+    "target_hosts": [
+      "nexus-dev.dev-node-sync-99.xyz",
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 2048,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
+  },
+  {
     "ip": "45.92.85.225",
     "first_seen": "2026-06-28T20:52:03.554Z",
     "last_seen": "2026-06-29T20:39:33.874Z",
@@ -3405,6 +3425,24 @@
     "hostname": "unknown",
     "country": "SG",
     "org": "Alibaba.com LLC"
+  },
+  {
+    "ip": "::ffff:45.194.92.58",
+    "first_seen": "2026-06-29T21:42:09.926Z",
+    "last_seen": "2026-06-29T21:42:09.941Z",
+    "user_agents": [
+      "zmap-proxy-probe/1.0"
+    ],
+    "target_hosts": [
+      "azenv.net"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "CA",
+    "org": "Vpsvault.host LTD"
   },
   {
     "ip": "::ffff:43.98.199.156",
@@ -4488,6 +4526,24 @@
     "org": "HostRoyale Technologies"
   },
   {
+    "ip": "45.92.87.224",
+    "first_seen": "2026-06-29T21:11:57.783Z",
+    "last_seen": "2026-06-29T21:11:59.478Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+    ],
+    "target_hosts": [
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
+  },
+  {
     "ip": "45.92.87.195",
     "first_seen": "2026-06-27T20:43:30.458Z",
     "last_seen": "2026-06-27T20:43:32.136Z",
@@ -4902,24 +4958,6 @@
     "org": "HostRoyale Technologies"
   },
   {
-    "ip": "45.92.85.30",
-    "first_seen": "2026-06-29T20:51:34.248Z",
-    "last_seen": "2026-06-29T20:51:35.948Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
-    ],
-    "target_hosts": [
-      "nexus-dev.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 1024,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "KZ",
-    "org": "HostRoyale Technologies"
-  },
-  {
     "ip": "45.92.85.247",
     "first_seen": "2026-06-29T20:24:33.932Z",
     "last_seen": "2026-06-29T20:24:35.649Z",
@@ -5064,6 +5102,24 @@
     "org": "HostRoyale Technologies"
   },
   {
+    "ip": "45.92.85.146",
+    "first_seen": "2026-06-29T21:06:26.230Z",
+    "last_seen": "2026-06-29T21:06:27.940Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+    ],
+    "target_hosts": [
+      "telemetry.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
+  },
+  {
     "ip": "45.92.85.143",
     "first_seen": "2026-06-27T21:11:13.408Z",
     "last_seen": "2026-06-27T21:11:15.092Z",
@@ -5072,6 +5128,24 @@
     ],
     "target_hosts": [
       "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
+  },
+  {
+    "ip": "45.92.85.121",
+    "first_seen": "2026-06-29T21:05:03.922Z",
+    "last_seen": "2026-06-29T21:05:05.624Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+    ],
+    "target_hosts": [
+      "staging-db.dev-node-sync-99.xyz"
     ],
     "connection_count": 2,
     "total_bytes_sent": 1024,
@@ -5360,6 +5434,24 @@
     ],
     "target_hosts": [
       "portainer.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
+  },
+  {
+    "ip": "45.92.84.193",
+    "first_seen": "2026-06-29T21:06:25.441Z",
+    "last_seen": "2026-06-29T21:06:27.147Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+    ],
+    "target_hosts": [
+      "telemetry.dev-node-sync-99.xyz"
     ],
     "connection_count": 2,
     "total_bytes_sent": 1024,
@@ -8110,6 +8202,24 @@
     "org": "HostRoyale Technologies"
   },
   {
+    "ip": "155.94.203.44",
+    "first_seen": "2026-06-29T21:05:03.051Z",
+    "last_seen": "2026-06-29T21:05:05.012Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+    ],
+    "target_hosts": [
+      "staging-db.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "KZ",
+    "org": "HostRoyale Technologies"
+  },
+  {
     "ip": "155.94.203.249",
     "first_seen": "2026-06-28T20:43:02.734Z",
     "last_seen": "2026-06-28T20:43:04.697Z",
@@ -8897,6 +9007,24 @@
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Censys Inc"
+  },
+  {
+    "ip": "66.132.172.106",
+    "first_seen": "2026-06-29T21:33:34.816Z",
+    "last_seen": "2026-06-29T21:33:34.816Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
     "hostname": "unknown",
     "country": "US",
     "org": "Censys Inc"
