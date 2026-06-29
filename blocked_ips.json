@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-29T09:37:04.341Z",
+    "last_seen": "2026-06-29T10:52:05.314Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 5969,
+    "connection_count": 6181,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-29T09:43:08.217Z",
+    "last_seen": "2026-06-29T10:56:49.162Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 705,
-    "total_bytes_sent": 29955072,
-    "estimated_cost_usd": 0.06979999999999995,
+    "connection_count": 735,
+    "total_bytes_sent": 31245312,
+    "estimated_cost_usd": 0.07280000000000003,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -746,14 +746,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-29T09:36:04.423Z",
+    "last_seen": "2026-06-29T10:51:05.360Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 35,
+    "connection_count": 36,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -893,6 +893,24 @@
     "hostname": "0x57346b87.static.cust.fastspeed.dk",
     "country": "DK",
     "org": "Fastspeed Aps"
+  },
+  {
+    "ip": "45.148.10.200",
+    "first_seen": "2026-06-27T20:01:05.712Z",
+    "last_seen": "2026-06-29T10:57:08.428Z",
+    "user_agents": [
+      "l9explore/1.2.2"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 24,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "unknown",
+    "country": "NL",
+    "org": "Techoff SRV Limited"
   },
   {
     "ip": "136.66.130.204",
@@ -1046,24 +1064,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "NL",
     "org": "Lanedonet Datacenter"
-  },
-  {
-    "ip": "45.148.10.200",
-    "first_seen": "2026-06-27T20:01:05.712Z",
-    "last_seen": "2026-06-27T20:01:07.547Z",
-    "user_agents": [
-      "l9explore/1.2.2"
-    ],
-    "target_hosts": [
-      "135.148.40.198"
-    ],
-    "connection_count": 12,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "unknown",
-    "country": "NL",
-    "org": "Techoff SRV Limited"
   },
   {
     "ip": "45.142.154.62",
@@ -7981,6 +7981,24 @@
     "org": "Meowcore Softworks LLC"
   },
   {
+    "ip": "64.89.163.145",
+    "first_seen": "2026-06-29T10:11:15.574Z",
+    "last_seen": "2026-06-29T10:11:15.574Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "DE",
+    "org": "Meowcore Softworks LLC"
+  },
+  {
     "ip": "64.89.163.140",
     "first_seen": "2026-06-28T13:16:25.263Z",
     "last_seen": "2026-06-28T13:16:25.263Z",
@@ -8174,6 +8192,24 @@
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "NL",
+    "org": "AI Spera"
+  },
+  {
+    "ip": "45.140.222.164",
+    "first_seen": "2026-06-29T10:17:19.614Z",
+    "last_seen": "2026-06-29T10:17:19.614Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
     "hostname": "unknown",
     "country": "NL",
     "org": "AI Spera"

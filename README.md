@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `517`
-* **Total Bandwidth Consumed:** `9432 MB` (~9.21 GB)
+* **Total Unique IPs Blocked:** `519`
+* **Total Bandwidth Consumed:** `9433 MB` (~9.21 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -29,9 +29,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 5969 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 6181 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 1688 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 705 | 28.57 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 735 | 29.8 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `44.249.125.180` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
@@ -62,12 +62,13 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `64.89.163.143` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 58 | 0.0 MB |
 | `87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 56 | 0.04 MB |
 | `62.60.130.227` | IR | UAB Host Baltic | `HONEYTOKEN_HIT` | 42 | 0.0 MB |
-| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 35 | 0.0 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 36 | 0.0 MB |
 | `203.159.90.218` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 33 | 76.91 MB |
 | `147.182.162.9` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 32 | 0.0 MB |
 | `64.89.163.144` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 29 | 0.0 MB |
 | `103.218.242.167` | HK | UCloud (HK) Holdings Group Limited | `HONEYTOKEN_HIT` | 28 | 0.11 MB |
 | `87.52.107.135` | DK | Fastspeed Aps | `HONEYTOKEN_HIT` | 26 | 0.0 MB |
+| `45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 24 | 0.0 MB |
 | `136.66.130.204` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 24 | 0.01 MB |
 | `94.237.108.164` | NL | Upcloud NL Ams1 | `EXPLOIT_SCANNER` | 20 | 0.02 MB |
 | `78.153.140.250` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 16 | 0.0 MB |
@@ -75,7 +76,6 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `152.32.131.118` | HK | Ucloud Information Technology (hk) Limited | `HONEYTOKEN_HIT` | 16 | 0.06 MB |
 | `185.147.157.141` | US | Sichuan Chengdu interesting network technology Co Ltd | `EXPLOIT_SCANNER` | 15 | 0.0 MB |
 | `77.83.39.94` | NL | Lanedonet Datacenter | `EXPLOIT_SCANNER` | 12 | 0.02 MB |
-| `45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 12 | 0.0 MB |
 | `45.142.154.62` | HK | Allcloud US | `HONEYTOKEN_HIT` | 12 | 0.04 MB |
 | `45.142.154.60` | HK | Allcloud US | `HONEYTOKEN_HIT` | 12 | 0.02 MB |
 | `41.143.185.23` | MA |  | `HONEYTOKEN_HIT` | 12 | 0.0 MB |
@@ -454,6 +454,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `64.89.163.166` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `64.89.163.165` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `64.89.163.153` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 1 | 0.0 MB |
+| `64.89.163.145` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `64.89.163.140` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `54.37.10.247` | GB | OVH | `DATACENTER` | 1 | 17.0 MB |
 | `5.226.140.9` | GB | Infrawatch Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
@@ -465,6 +466,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `49.51.132.100` | DE | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `47.84.228.159` | SG | Delta Centric LLC, Zenlayer Inc | `EXPLOIT_SCANNER` | 1 | 0.0 MB |
 | `45.140.222.166` | NL | AI Spera | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `45.140.222.164` | NL | AI Spera | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `45.140.222.147` | NL | AI Spera | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `44.220.185.109` | US | AWS EC2 (us-east-1) | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `43.167.241.46` | JP | Tencent Cloud Computing (Beijing) Co., Ltd | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
