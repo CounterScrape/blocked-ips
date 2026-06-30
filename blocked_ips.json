@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-30T00:38:15.085Z",
+    "last_seen": "2026-06-30T01:53:14.788Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 8513,
+    "connection_count": 8725,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-30T01:00:21.331Z",
+    "last_seen": "2026-06-30T01:57:29.892Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1018,
-    "total_bytes_sent": 43287552,
-    "estimated_cost_usd": 0.10080000000000083,
+    "connection_count": 1033,
+    "total_bytes_sent": 43975680,
+    "estimated_cost_usd": 0.10240000000000088,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -470,6 +470,25 @@
     "org": "Infraly, LLC"
   },
   {
+    "ip": "::ffff:45.148.10.200",
+    "first_seen": "2026-06-28T05:08:28.680Z",
+    "last_seen": "2026-06-30T01:29:56.389Z",
+    "user_agents": [
+      "l9explore/1.2.2",
+      "unknown"
+    ],
+    "target_hosts": [
+      "135.148.40.198:8080"
+    ],
+    "connection_count": 108,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "unknown",
+    "country": "NL",
+    "org": "Techoff SRV Limited"
+  },
+  {
     "ip": "193.36.145.238",
     "first_seen": "2026-06-28T12:59:22.396Z",
     "last_seen": "2026-06-28T12:59:53.798Z",
@@ -550,25 +569,6 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "NL",
-    "org": "Techoff SRV Limited"
-  },
-  {
-    "ip": "::ffff:45.148.10.200",
-    "first_seen": "2026-06-28T05:08:28.680Z",
-    "last_seen": "2026-06-28T20:19:32.199Z",
-    "user_agents": [
-      "l9explore/1.2.2",
-      "unknown"
-    ],
-    "target_hosts": [
-      "135.148.40.198:8080"
-    ],
-    "connection_count": 91,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "unknown",
     "country": "NL",
     "org": "Techoff SRV Limited"
   },
@@ -837,14 +837,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-30T00:37:15.219Z",
+    "last_seen": "2026-06-30T01:52:14.719Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 48,
+    "connection_count": 49,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -2989,6 +2989,24 @@
     "org": "Constantine Cybersecurity LTD"
   },
   {
+    "ip": "195.178.110.241",
+    "first_seen": "2026-06-30T01:39:51.586Z",
+    "last_seen": "2026-06-30T01:40:01.801Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "staging-db.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 12288,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "AD",
+    "org": "Techoff SRV Limited"
+  },
+  {
     "ip": "193.32.162.60",
     "first_seen": "2026-06-27T17:30:33.051Z",
     "last_seen": "2026-06-27T17:30:40.015Z",
@@ -3005,6 +3023,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "NL",
     "org": "Techoff SRV Limited"
+  },
+  {
+    "ip": "185.242.3.110",
+    "first_seen": "2026-06-30T01:48:57.326Z",
+    "last_seen": "2026-06-30T01:49:02.496Z",
+    "user_agents": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 4096,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "DE",
+    "org": "Felcloud"
   },
   {
     "ip": "185.152.39.42",
@@ -3263,6 +3299,24 @@
     "hostname": "unknown",
     "country": "NL",
     "org": "DigitalOcean, LLC"
+  },
+  {
+    "ip": "152.32.204.21",
+    "first_seen": "2026-06-30T01:54:55.232Z",
+    "last_seen": "2026-06-30T01:55:16.163Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "JP",
+    "org": "Ucloud Information Technology (hk) Limited"
   },
   {
     "ip": "::ffff:90.151.171.108",
@@ -3751,6 +3805,24 @@
     "org": "Constantine Cybersecurity LTD"
   },
   {
+    "ip": "::ffff:185.247.137.81",
+    "first_seen": "2026-06-30T01:41:41.902Z",
+    "last_seen": "2026-06-30T01:41:41.988Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "config-vault.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "::ffff:185.247.137.65",
     "first_seen": "2026-06-29T15:50:35.666Z",
     "last_seen": "2026-06-29T15:50:35.751Z",
@@ -3777,6 +3849,24 @@
     ],
     "target_hosts": [
       "staging-db.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "::ffff:185.247.137.241",
+    "first_seen": "2026-06-30T01:25:43.555Z",
+    "last_seen": "2026-06-30T01:25:43.643Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "git.dev-node-sync-99.xyz:8080"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -7050,6 +7140,24 @@
     "org": "Ankit Jain"
   },
   {
+    "ip": "195.96.139.79",
+    "first_seen": "2026-06-30T01:05:27.807Z",
+    "last_seen": "2026-06-30T01:05:27.893Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "prod-api.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "195.96.139.58",
     "first_seen": "2026-06-29T18:29:34.409Z",
     "last_seen": "2026-06-29T18:29:34.793Z",
@@ -8377,6 +8485,24 @@
     ],
     "connection_count": 2,
     "total_bytes_sent": 2048,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Digital Ocean"
+  },
+  {
+    "ip": "159.203.179.233",
+    "first_seen": "2026-06-30T01:00:49.993Z",
+    "last_seen": "2026-06-30T01:00:55.064Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "jenkins.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 3072,
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
@@ -10914,6 +11040,24 @@
     "hostname": "spider-trap-active-containment",
     "country": "SG",
     "org": ""
+  },
+  {
+    "ip": "147.185.132.75",
+    "first_seen": "2026-06-30T01:04:36.106Z",
+    "last_seen": "2026-06-30T01:04:36.106Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Palo Alto Networks, Inc"
   },
   {
     "ip": "147.185.132.54",
