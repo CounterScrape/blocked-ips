@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `872`
-* **Total Bandwidth Consumed:** `15033 MB` (~14.68 GB)
+* **Total Unique IPs Blocked:** `874`
+* **Total Bandwidth Consumed:** `15034 MB` (~14.68 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -29,9 +29,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 11484 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 11697 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 2115 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1387 | 56.46 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1405 | 57.2 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `44.249.125.180` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
@@ -60,7 +60,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `140.245.103.140` | SG | Oracle Corporation | `HONEYTOKEN_HIT` | 74 | 0.0 MB |
 | `::ffff:87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 72 | 0.0 MB |
 | `45.156.87.177` | NL | VMHeaven.io | `HONEYTOKEN_HIT` | 72 | 0.0 MB |
-| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 63 | 0.0 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 64 | 0.0 MB |
 | `185.213.175.168` | NL |  | `SPIDER_TRAP_HIT` | 61 | 0.09 MB |
 | `64.89.163.143` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 58 | 0.0 MB |
 | `62.60.130.227` | IR | UAB Host Baltic | `HONEYTOKEN_HIT` | 58 | 0.0 MB |
@@ -107,6 +107,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `178.171.112.57` | NL | E-Light-Telecom Ltd | `HONEYTOKEN_HIT` | 10 | 0.09 MB |
 | `176.65.139.231` | NL | Storm Industries | `HONEYTOKEN_HIT` | 10 | 0.03 MB |
 | `162.141.167.48` | US | Interserver, Inc | `EXPLOIT_SCANNER` | 10 | 0.01 MB |
+| `152.32.200.22` | ?? | Pending Lookup | `REDIS_SCANNER` | 10 | 0.0 MB |
 | `144.172.116.30` | US | FranTech Solutions | `EXPLOIT_SCANNER` | 10 | 0.02 MB |
 | `116.198.220.179` | CN | Beijing Jingdong 360 Degree E-commerce Co., Ltd. | `DATABASE_SCANNER` | 10 | 0.0 MB |
 | `::ffff:216.180.246.121` | FR |  | `HONEYTOKEN_HIT` | 8 | 0.67 MB |
@@ -289,16 +290,16 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `60.16.219.43` | CN | Unicom LN | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `60.16.199.146` | CN | Unicom LN | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `60.13.7.96` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `60.13.7.89` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `59.55.114.148` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `60.13.7.89` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `59.55.114.148` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `59.52.37.133` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `59.52.102.254` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `58.212.237.86` | CN | Chinanet JS | `HONEYTOKEN_HIT` | 2 | 0.16 MB |
-| `58.212.237.73` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `58.212.237.73` | CN | Chinanet JS | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `58.212.237.24` | CN | Chinanet JS | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `58.212.237.221` | CN | Chinanet JS | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `58.19.79.142` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `58.19.78.120` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `58.19.78.120` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `57.129.137.189` | GB | OVH Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `52.72.230.232` | US | AWS EC2 (us-east-1) | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `52.38.245.183` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 2 | 0.05 MB |
@@ -437,7 +438,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `3.131.220.121` | US | AWS EC2 (us-east-2) | `REDIS_SCANNER` | 2 | 0.0 MB |
 | `27.18.85.165` | CN | Chinanet HB | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `27.18.58.202` | CN | Chinanet HB | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `27.17.182.95` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `27.17.182.95` | CN | Chinanet HB | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `24.199.109.74` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.89` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.53` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -452,24 +453,24 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `23.27.145.121` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `23.27.145.10` | US | EGN Dedicated Servers - Asia Optimized | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `223.199.180.152` | CN | Hainan TELECOM | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `223.199.176.213` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `223.199.176.213` | CN | Hainan TELECOM | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `223.199.160.246` | CN | Hainan TELECOM | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `222.90.212.247` | CN | Chinanet SN | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `222.176.200.91` | CN | Chinanet CQ | `HONEYTOKEN_HIT` | 2 | 0.16 MB |
 | `222.176.200.201` | CN | Chinanet CQ | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `221.0.13.186` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `221.0.13.186` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `220.202.112.36` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `220.202.112.16` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `220.202.112.113` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `220.202.112.113` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.197.85.59` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `220.197.85.46` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `220.197.85.46` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.197.85.219` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `220.197.85.20` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.177.9.156` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.177.9.15` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.167.233.232` | CN | Chinanet QH | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `220.167.232.221` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `218.64.60.97` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `220.167.232.221` | CN | Chinanet QH | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `218.64.60.97` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `218.203.113.130` | CN | China Mobile Communications Corporation | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `216.26.227.100` | US | 3xK Tech GmbH | `SPIDER_TRAP_HIT` | 2 | 25.0 MB |
 | `216.218.206.68` | US | The Shadow Server Foundation | `DATABASE_SCANNER` | 2 | 0.0 MB |
@@ -550,27 +551,27 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `182.54.23.177` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.54.23.162` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.54.23.125` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `182.242.169.64` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `182.242.169.64` | CN | Chinanet YN | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.242.169.52` | CN | Chinanet YN | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `182.242.169.115` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `182.242.169.115` | CN | Chinanet YN | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `182.242.168.252` | CN | Chinanet YN | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `182.242.168.160` | CN | Chinanet YN | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.242.168.146` | CN | Chinanet YN | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `182.138.158.89` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `182.138.158.39` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `182.138.158.89` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `182.138.158.39` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `182.138.158.230` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `182.138.158.220` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `182.138.158.214` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `182.138.158.220` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `182.138.158.214` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.138.158.2` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.138.158.172` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `182.138.158.164` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `182.138.158.164` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.138.158.157` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.138.158.110` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `182.119.229.197` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `182.119.229.197` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.119.227.66` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.95.238.9` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.95.238.146` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `180.95.238.127` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `180.95.238.127` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.95.231.80` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.95.231.6` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.93.249.92` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
@@ -584,7 +585,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `175.30.48.52` | CN | Chinanet JL | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `175.30.48.222` | CN | Chinanet JL | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `175.19.75.93` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `175.19.75.170` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `175.19.75.170` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `173.239.254.94` | US |  | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `172.252.31.96` | US | EGIHosting | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `172.235.196.22` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 10.53 MB |
@@ -642,7 +643,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `143.244.178.3` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `143.198.146.93` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `142.93.147.102` | CA | DigitalOcean, LLC | `DATABASE_SCANNER` | 2 | 0.0 MB |
-| `140.206.194.34` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `140.206.194.34` | CN | Unicom SH | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `139.212.70.125` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.16 MB |
 | `139.170.73.207` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `139.170.73.153` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -658,57 +659,57 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `130.211.74.36` | BE | Google Cloud (europe-west1) | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `128.203.204.25` | US | Microsoft Azure Cloud (centralus) | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `128.203.200.175` | US | Microsoft Azure Cloud (centralus) | `DATABASE_SCANNER` | 2 | 0.0 MB |
-| `124.88.113.144` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `124.88.113.132` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `124.88.113.144` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `124.88.113.132` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `124.66.74.96` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `124.31.107.7` | CN | Chinanet XZ | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `124.31.106.229` | CN | Chinanet XZ | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `124.31.106.118` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `124.31.106.118` | CN | Chinanet XZ | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `124.31.106.111` | CN | Chinanet XZ | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `124.31.104.255` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `124.31.104.255` | CN | Chinanet XZ | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `124.117.195.136` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `124.117.194.233` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `124.117.194.117` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `123.245.85.91` | CN | JunQu2 | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `123.245.85.186` | CN | JunQu2 | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `123.245.85.13` | CN | JunQu2 | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `123.245.84.253` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `123.245.84.253` | CN | JunQu2 | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `123.245.84.192` | CN | JunQu2 | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `123.245.84.170` | CN | JunQu2 | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `123.232.128.99` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.16 MB |
-| `123.191.147.48` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `123.232.128.99` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.16 MB |
+| `123.191.147.48` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `123.178.210.91` | CN | Chinanet NM | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `123.178.210.31` | CN | Chinanet NM | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `123.160.175.155` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `123.160.175.155` | CN | Chinanet HA | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `123.158.61.28` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `123.158.36.141` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `123.158.36.141` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `123.144.24.38` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `122.96.28.97` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `122.96.28.7` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `122.96.28.7` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `122.96.28.19` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `122.96.28.174` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `122.96.28.112` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `122.96.28.112` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `121.29.84.70` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `121.29.84.25` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `121.29.149.23` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `121.29.149.157` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `121.29.149.157` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `121.29.149.139` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `119.48.135.33` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `119.48.135.213` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `118.81.207.252` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `118.81.207.252` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `118.212.123.94` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `118.212.123.53` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `118.212.122.168` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `118.212.123.53` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `118.212.122.168` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `118.212.122.12` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `118.212.121.88` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `118.212.121.21` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `117.15.92.39` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `116.172.251.199` | CN | China United Network Communications Corporation Limited | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `116.172.249.150` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `116.172.249.150` | CN | China United Network Communications Corporation Limited | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `113.57.186.141` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `112.94.253.129` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `112.94.252.197` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `111.21.35.227` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `111.21.35.227` | CN | China Mobile | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `111.113.89.213` | CN | Chinanet NX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `111.113.88.199` | CN | Chinanet NX | `HONEYTOKEN_HIT` | 2 | 0.16 MB |
 | `110.188.66.227` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -718,10 +719,11 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `106.117.115.116` | CN | Chinanet HE | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `106.117.114.209` | CN | Chinanet HE | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `106.117.111.189` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `106.117.107.233` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `106.117.107.233` | CN | Chinanet HE | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `104.64.152.213` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `104.64.149.106` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `104.43.131.157` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.01 MB |
+| `104.28.163.18` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `104.251.181.72` | CH | SKN & Telecom Ltd | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `103.4.249.4` | US | UAB code200 | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `103.216.1.8` | US | US NY internet dollar | `HONEYTOKEN_HIT` | 2 | 0.0 MB |

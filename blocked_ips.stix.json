@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--a7ee7fa8-23f5-4888-b2df-ba292d320222",
+  "id": "bundle--394dd387-c047-414e-ab41-f739d615f48a",
   "objects": [
     {
       "type": "identity",
@@ -16,9 +16,9 @@
       "spec_version": "2.1",
       "id": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-06-30T18:10:24.940Z",
+      "modified": "2026-06-30T19:24:30.509Z",
       "name": "Attacker Node - 213.209.159.115",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 11484.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 11697.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -31,7 +31,7 @@
       "spec_version": "2.1",
       "id": "relationship--0ce8e683-2629-5455-b6c6-0fc5d4a178aa",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-06-30T18:10:24.940Z",
+      "modified": "2026-06-30T19:24:30.509Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -66,9 +66,9 @@
       "spec_version": "2.1",
       "id": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-06-30T18:59:25.241Z",
+      "modified": "2026-06-30T19:44:52.949Z",
       "name": "Attacker Node - 2a06:98c0:3600::103",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 1387.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 1405.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -81,7 +81,7 @@
       "spec_version": "2.1",
       "id": "relationship--4133dc6f-476f-5058-b885-a23fb6b37133",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-06-30T18:59:25.241Z",
+      "modified": "2026-06-30T19:44:52.949Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -791,9 +791,9 @@
       "spec_version": "2.1",
       "id": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
       "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-06-30T18:09:24.896Z",
+      "modified": "2026-06-30T19:23:30.608Z",
       "name": "Attacker Node - unknown",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 63.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 64.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -806,7 +806,7 @@
       "spec_version": "2.1",
       "id": "relationship--8af25f98-27dd-55b4-888c-5016110fcea8",
       "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-06-30T18:09:24.896Z",
+      "modified": "2026-06-30T19:23:30.608Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -1959,6 +1959,31 @@
       "modified": "2026-06-28T16:23:15.167Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--1eafa1b7-2d6f-53c3-acd4-f6171d7aae36",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b1ca4aa4-6e35-5206-945a-4130c65f3c68",
+      "created": "2026-06-30T19:24:30.263Z",
+      "modified": "2026-06-30T19:26:48.982Z",
+      "name": "Attacker Node - 152.32.200.22",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Pending Lookup. Trapped connection hits: 10.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '152.32.200.22']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T19:24:30.263Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--76a7593b-2367-5ba7-9681-5cbb5bbace1c",
+      "created": "2026-06-30T19:24:30.263Z",
+      "modified": "2026-06-30T19:26:48.982Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b1ca4aa4-6e35-5206-945a-4130c65f3c68",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -6518,7 +6543,7 @@
       "created": "2026-06-30T16:13:48.544Z",
       "modified": "2026-06-30T16:13:54.354Z",
       "name": "Attacker Node - 60.13.7.89",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -6543,7 +6568,7 @@
       "created": "2026-06-30T16:13:57.265Z",
       "modified": "2026-06-30T16:14:08.829Z",
       "name": "Attacker Node - 59.55.114.148",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet JX. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -6643,7 +6668,7 @@
       "created": "2026-06-30T16:14:45.915Z",
       "modified": "2026-06-30T16:14:59.296Z",
       "name": "Attacker Node - 58.212.237.73",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet JS. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -6743,7 +6768,7 @@
       "created": "2026-06-30T16:14:58.834Z",
       "modified": "2026-06-30T16:15:14.123Z",
       "name": "Attacker Node - 58.19.78.120",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -10218,7 +10243,7 @@
       "created": "2026-06-30T16:14:25.191Z",
       "modified": "2026-06-30T16:14:39.202Z",
       "name": "Attacker Node - 27.17.182.95",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet HB. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -10593,7 +10618,7 @@
       "created": "2026-06-30T16:13:31.300Z",
       "modified": "2026-06-30T16:13:45.482Z",
       "name": "Attacker Node - 223.199.176.213",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Hainan TELECOM. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -10718,7 +10743,7 @@
       "created": "2026-06-30T16:15:20.801Z",
       "modified": "2026-06-30T16:15:29.303Z",
       "name": "Attacker Node - 221.0.13.186",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -10793,7 +10818,7 @@
       "created": "2026-06-30T16:14:01.265Z",
       "modified": "2026-06-30T16:14:13.467Z",
       "name": "Attacker Node - 220.202.112.113",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -10843,7 +10868,7 @@
       "created": "2026-06-30T16:13:40.485Z",
       "modified": "2026-06-30T16:13:54.046Z",
       "name": "Attacker Node - 220.197.85.46",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -10993,7 +11018,7 @@
       "created": "2026-06-30T16:15:15.535Z",
       "modified": "2026-06-30T16:15:27.671Z",
       "name": "Attacker Node - 220.167.232.221",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet QH. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -11018,7 +11043,7 @@
       "created": "2026-06-30T16:13:27.717Z",
       "modified": "2026-06-30T16:13:41.891Z",
       "name": "Attacker Node - 218.64.60.97",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet JX. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13043,7 +13068,7 @@
       "created": "2026-06-30T16:15:15.708Z",
       "modified": "2026-06-30T16:15:29.337Z",
       "name": "Attacker Node - 182.242.169.64",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet YN. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13093,7 +13118,7 @@
       "created": "2026-06-30T16:14:34.016Z",
       "modified": "2026-06-30T16:14:38.846Z",
       "name": "Attacker Node - 182.242.169.115",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet YN. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13193,7 +13218,7 @@
       "created": "2026-06-30T16:13:40.173Z",
       "modified": "2026-06-30T16:13:54.238Z",
       "name": "Attacker Node - 182.138.158.89",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet SC. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13218,7 +13243,7 @@
       "created": "2026-06-30T16:14:14.112Z",
       "modified": "2026-06-30T16:14:19.245Z",
       "name": "Attacker Node - 182.138.158.39",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet SC. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13268,7 +13293,7 @@
       "created": "2026-06-30T16:15:21.522Z",
       "modified": "2026-06-30T16:15:29.853Z",
       "name": "Attacker Node - 182.138.158.220",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet SC. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13293,7 +13318,7 @@
       "created": "2026-06-30T16:15:00.433Z",
       "modified": "2026-06-30T16:15:14.342Z",
       "name": "Attacker Node - 182.138.158.214",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet SC. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13368,7 +13393,7 @@
       "created": "2026-06-30T16:14:43.738Z",
       "modified": "2026-06-30T16:14:57.717Z",
       "name": "Attacker Node - 182.138.158.164",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet SC. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13443,7 +13468,7 @@
       "created": "2026-06-30T16:13:54.853Z",
       "modified": "2026-06-30T16:14:08.971Z",
       "name": "Attacker Node - 182.119.229.197",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13543,7 +13568,7 @@
       "created": "2026-06-30T16:15:16.254Z",
       "modified": "2026-06-30T16:15:32.780Z",
       "name": "Attacker Node - 180.95.238.127",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -13893,7 +13918,7 @@
       "created": "2026-06-30T16:14:29.396Z",
       "modified": "2026-06-30T16:14:42.712Z",
       "name": "Attacker Node - 175.19.75.170",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -15343,7 +15368,7 @@
       "created": "2026-06-30T16:13:32.624Z",
       "modified": "2026-06-30T16:13:45.572Z",
       "name": "Attacker Node - 140.206.194.34",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Unicom SH. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -15743,7 +15768,7 @@
       "created": "2026-06-30T16:14:33.943Z",
       "modified": "2026-06-30T16:14:39.063Z",
       "name": "Attacker Node - 124.88.113.144",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -15768,7 +15793,7 @@
       "created": "2026-06-30T16:13:28.787Z",
       "modified": "2026-06-30T16:13:42.979Z",
       "name": "Attacker Node - 124.88.113.132",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -15868,7 +15893,7 @@
       "created": "2026-06-30T16:13:37.289Z",
       "modified": "2026-06-30T16:13:51.155Z",
       "name": "Attacker Node - 124.31.106.118",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet XZ. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -15918,7 +15943,7 @@
       "created": "2026-06-30T16:13:26.008Z",
       "modified": "2026-06-30T16:13:31.999Z",
       "name": "Attacker Node - 124.31.104.255",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet XZ. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16093,7 +16118,7 @@
       "created": "2026-06-30T16:13:50.534Z",
       "modified": "2026-06-30T16:14:04.189Z",
       "name": "Attacker Node - 123.245.84.253",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: JunQu2. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16168,7 +16193,7 @@
       "created": "2026-06-30T16:13:55.025Z",
       "modified": "2026-06-30T16:17:58.277Z",
       "name": "Attacker Node - 123.232.128.99",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16193,7 +16218,7 @@
       "created": "2026-06-30T16:15:14.204Z",
       "modified": "2026-06-30T16:15:28.365Z",
       "name": "Attacker Node - 123.191.147.48",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16268,7 +16293,7 @@
       "created": "2026-06-30T16:13:59.882Z",
       "modified": "2026-06-30T16:14:12.975Z",
       "name": "Attacker Node - 123.160.175.155",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet HA. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16318,7 +16343,7 @@
       "created": "2026-06-30T16:15:14.094Z",
       "modified": "2026-06-30T16:15:14.817Z",
       "name": "Attacker Node - 123.158.36.141",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16393,7 +16418,7 @@
       "created": "2026-06-30T16:15:31.321Z",
       "modified": "2026-06-30T16:15:46.649Z",
       "name": "Attacker Node - 122.96.28.7",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16468,7 +16493,7 @@
       "created": "2026-06-30T16:15:29.352Z",
       "modified": "2026-06-30T16:15:43.383Z",
       "name": "Attacker Node - 122.96.28.112",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16568,7 +16593,7 @@
       "created": "2026-06-30T16:14:19.064Z",
       "modified": "2026-06-30T16:14:23.790Z",
       "name": "Attacker Node - 121.29.149.157",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16668,7 +16693,7 @@
       "created": "2026-06-30T16:14:19.607Z",
       "modified": "2026-06-30T16:14:23.954Z",
       "name": "Attacker Node - 118.81.207.252",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16718,7 +16743,7 @@
       "created": "2026-06-30T16:13:52.557Z",
       "modified": "2026-06-30T16:14:05.196Z",
       "name": "Attacker Node - 118.212.123.53",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16743,7 +16768,7 @@
       "created": "2026-06-30T16:13:44.257Z",
       "modified": "2026-06-30T16:13:57.959Z",
       "name": "Attacker Node - 118.212.122.168",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: . Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16893,7 +16918,7 @@
       "created": "2026-06-30T16:15:20.836Z",
       "modified": "2026-06-30T16:15:34.150Z",
       "name": "Attacker Node - 116.172.249.150",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: China United Network Communications Corporation Limited. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -16993,7 +17018,7 @@
       "created": "2026-06-30T16:14:10.783Z",
       "modified": "2026-06-30T16:14:24.223Z",
       "name": "Attacker Node - 111.21.35.227",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: China Mobile. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -17243,7 +17268,7 @@
       "created": "2026-06-30T16:15:12.820Z",
       "modified": "2026-06-30T16:15:26.417Z",
       "name": "Attacker Node - 106.117.107.233",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Chinanet HE. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -17334,6 +17359,31 @@
       "modified": "2026-06-30T18:08:46.708Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--0c24f9d9-0e21-538f-95d6-642f982627ba",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--465d3bee-4d6e-52d6-9510-acfd1f9d449a",
+      "created": "2026-06-30T19:58:04.111Z",
+      "modified": "2026-06-30T19:58:04.909Z",
+      "name": "Attacker Node - 104.28.163.18",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Pending Lookup. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '104.28.163.18']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T19:58:04.111Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--98f0483c-517b-5388-ab41-ba73d006464e",
+      "created": "2026-06-30T19:58:04.111Z",
+      "modified": "2026-06-30T19:58:04.909Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--465d3bee-4d6e-52d6-9510-acfd1f9d449a",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {

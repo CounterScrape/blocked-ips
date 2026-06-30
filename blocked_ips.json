@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-30T18:10:24.940Z",
+    "last_seen": "2026-06-30T19:24:30.509Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 11484,
+    "connection_count": 11697,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-30T18:59:25.241Z",
+    "last_seen": "2026-06-30T19:44:52.949Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1387,
-    "total_bytes_sent": 59200512,
-    "estimated_cost_usd": 0.1378000000000019,
+    "connection_count": 1405,
+    "total_bytes_sent": 59974656,
+    "estimated_cost_usd": 0.13960000000000194,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -725,14 +725,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-30T18:09:24.896Z",
+    "last_seen": "2026-06-30T19:23:30.608Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 63,
+    "connection_count": 64,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -1753,6 +1753,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "US",
     "org": "Interserver, Inc"
+  },
+  {
+    "ip": "152.32.200.22",
+    "first_seen": "2026-06-30T19:24:30.263Z",
+    "last_seen": "2026-06-30T19:26:48.982Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 10,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "Pending Lookup"
   },
   {
     "ip": "144.172.116.30",
@@ -5148,8 +5166,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "59.55.114.148",
@@ -5166,8 +5184,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet JX"
   },
   {
     "ip": "59.52.37.133",
@@ -5238,8 +5256,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet JS"
   },
   {
     "ip": "58.212.237.24",
@@ -5310,8 +5328,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "57.129.137.189",
@@ -7814,8 +7832,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet HB"
   },
   {
     "ip": "24.199.109.74",
@@ -8084,8 +8102,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Hainan TELECOM"
   },
   {
     "ip": "223.199.160.246",
@@ -8174,8 +8192,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "220.202.112.36",
@@ -8228,8 +8246,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "220.197.85.59",
@@ -8264,8 +8282,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "220.197.85.219",
@@ -8372,8 +8390,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet QH"
   },
   {
     "ip": "218.64.60.97",
@@ -8390,8 +8408,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet JX"
   },
   {
     "ip": "218.203.113.130",
@@ -9848,8 +9866,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet YN"
   },
   {
     "ip": "182.242.169.52",
@@ -9884,8 +9902,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet YN"
   },
   {
     "ip": "182.242.168.252",
@@ -9956,8 +9974,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet SC"
   },
   {
     "ip": "182.138.158.39",
@@ -9974,8 +9992,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet SC"
   },
   {
     "ip": "182.138.158.230",
@@ -10010,8 +10028,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet SC"
   },
   {
     "ip": "182.138.158.214",
@@ -10028,8 +10046,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet SC"
   },
   {
     "ip": "182.138.158.2",
@@ -10082,8 +10100,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet SC"
   },
   {
     "ip": "182.138.158.157",
@@ -10136,8 +10154,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "182.119.227.66",
@@ -10208,8 +10226,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "180.95.231.80",
@@ -10462,8 +10480,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "173.239.254.94",
@@ -11506,8 +11524,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Unicom SH"
   },
   {
     "ip": "139.212.70.125",
@@ -11794,8 +11812,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "124.88.113.132",
@@ -11812,8 +11830,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "124.66.74.96",
@@ -11884,8 +11902,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet XZ"
   },
   {
     "ip": "124.31.106.111",
@@ -11920,8 +11938,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet XZ"
   },
   {
     "ip": "124.117.195.136",
@@ -12046,8 +12064,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "JunQu2"
   },
   {
     "ip": "123.245.84.192",
@@ -12100,8 +12118,8 @@
     "estimated_cost_usd": 0.0005,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "123.191.147.48",
@@ -12118,8 +12136,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "123.178.210.91",
@@ -12172,8 +12190,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet HA"
   },
   {
     "ip": "123.158.61.28",
@@ -12208,8 +12226,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "123.144.24.38",
@@ -12262,8 +12280,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "122.96.28.19",
@@ -12316,8 +12334,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "121.29.84.70",
@@ -12388,8 +12406,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "121.29.149.139",
@@ -12460,8 +12478,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "118.212.123.94",
@@ -12496,8 +12514,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "118.212.122.168",
@@ -12514,8 +12532,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "118.212.122.12",
@@ -12622,8 +12640,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "China United Network Communications Corporation Limited"
   },
   {
     "ip": "113.57.186.141",
@@ -12694,8 +12712,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "China Mobile"
   },
   {
     "ip": "111.113.89.213",
@@ -12874,8 +12892,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet HE"
   },
   {
     "ip": "104.64.152.213",
@@ -12928,6 +12946,24 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
+    "country": "??",
+    "org": "Pending Lookup"
+  },
+  {
+    "ip": "104.28.163.18",
+    "first_seen": "2026-06-30T19:58:04.111Z",
+    "last_seen": "2026-06-30T19:58:04.909Z",
+    "user_agents": [
+      "Mozilla/5.0"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
     "country": "??",
     "org": "Pending Lookup"
   },
