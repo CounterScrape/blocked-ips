@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--864c66f4-5eb5-4176-a7a4-d7ee8adbf3dd",
+  "id": "bundle--2027e4dc-a662-4619-bbce-2338bac14eb1",
   "objects": [
     {
       "type": "identity",
@@ -16,9 +16,9 @@
       "spec_version": "2.1",
       "id": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-06-30T09:23:48.670Z",
+      "modified": "2026-06-30T10:38:53.106Z",
       "name": "Attacker Node - 213.209.159.115",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 9995.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 10208.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -31,7 +31,7 @@
       "spec_version": "2.1",
       "id": "relationship--0ce8e683-2629-5455-b6c6-0fc5d4a178aa",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-06-30T09:23:48.670Z",
+      "modified": "2026-06-30T10:38:53.106Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -66,9 +66,9 @@
       "spec_version": "2.1",
       "id": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-06-30T09:58:47.219Z",
+      "modified": "2026-06-30T10:52:46.280Z",
       "name": "Attacker Node - 2a06:98c0:3600::103",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 1183.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 1211.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -81,7 +81,7 @@
       "spec_version": "2.1",
       "id": "relationship--4133dc6f-476f-5058-b885-a23fb6b37133",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-06-30T09:58:47.219Z",
+      "modified": "2026-06-30T10:52:46.280Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -489,6 +489,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--4a1736d1-a368-5ef7-9c8d-d1264fa360ff",
+      "created": "2026-06-28T05:08:28.680Z",
+      "modified": "2026-06-30T10:10:57.253Z",
+      "name": "Attacker Node - ::ffff:45.148.10.200",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Techoff SRV Limited. Trapped connection hits: 146.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv6-addr:value = '::ffff:45.148.10.200']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-28T05:08:28.680Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--421d6263-d1e7-5bd9-afcb-7cf7542689e1",
+      "created": "2026-06-28T05:08:28.680Z",
+      "modified": "2026-06-30T10:10:57.253Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4a1736d1-a368-5ef7-9c8d-d1264fa360ff",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--956c3118-d746-5b17-9374-eb9151299596",
       "created": "2026-06-30T05:30:48.047Z",
       "modified": "2026-06-30T05:32:39.973Z",
@@ -509,31 +534,6 @@
       "modified": "2026-06-30T05:32:39.973Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--956c3118-d746-5b17-9374-eb9151299596",
-      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--4a1736d1-a368-5ef7-9c8d-d1264fa360ff",
-      "created": "2026-06-28T05:08:28.680Z",
-      "modified": "2026-06-30T07:53:30.945Z",
-      "name": "Attacker Node - ::ffff:45.148.10.200",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Techoff SRV Limited. Trapped connection hits: 127.",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[ipv6-addr:value = '::ffff:45.148.10.200']",
-      "pattern_type": "stix",
-      "valid_from": "2026-06-28T05:08:28.680Z"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--421d6263-d1e7-5bd9-afcb-7cf7542689e1",
-      "created": "2026-06-28T05:08:28.680Z",
-      "modified": "2026-06-30T07:53:30.945Z",
-      "relationship_type": "indicates",
-      "source_ref": "indicator--4a1736d1-a368-5ef7-9c8d-d1264fa360ff",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -889,6 +889,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
+      "created": "2026-06-27T23:34:12.851Z",
+      "modified": "2026-06-30T10:37:53.100Z",
+      "name": "Attacker Node - unknown",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 56.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = 'unknown']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-27T23:34:12.851Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--8af25f98-27dd-55b4-888c-5016110fcea8",
+      "created": "2026-06-27T23:34:12.851Z",
+      "modified": "2026-06-30T10:37:53.100Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--b7dea5f8-19a0-5b77-9f4a-6dc84e4e11ec",
       "created": "2026-06-28T20:52:02.411Z",
       "modified": "2026-06-28T20:54:03.219Z",
@@ -934,31 +959,6 @@
       "modified": "2026-06-30T08:22:54.108Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f62074e3-2800-5459-ba6f-919376b19f4b",
-      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
-      "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-06-30T09:22:48.853Z",
-      "name": "Attacker Node - unknown",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 55.",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[ipv4-addr:value = 'unknown']",
-      "pattern_type": "stix",
-      "valid_from": "2026-06-27T23:34:12.851Z"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--8af25f98-27dd-55b4-888c-5016110fcea8",
-      "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-06-30T09:22:48.853Z",
-      "relationship_type": "indicates",
-      "source_ref": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -4264,6 +4264,81 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--9fdf6967-68ce-582b-bcc7-f4109f9a328e",
+      "created": "2026-06-28T19:59:56.391Z",
+      "modified": "2026-06-30T10:53:42.379Z",
+      "name": "Attacker Node - 195.96.139.122",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 3.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.122']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-28T19:59:56.391Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4b48657b-4279-578b-8c23-631639e4004b",
+      "created": "2026-06-28T19:59:56.391Z",
+      "modified": "2026-06-30T10:53:42.379Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9fdf6967-68ce-582b-bcc7-f4109f9a328e",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6bc22b4a-3a9c-5e18-906c-0510ebe603ee",
+      "created": "2026-06-30T10:48:39.756Z",
+      "modified": "2026-06-30T10:55:15.894Z",
+      "name": "Attacker Node - 185.247.137.140",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 3.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.140']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:48:39.756Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d76ee4e9-a354-520c-843e-9c453b04fb14",
+      "created": "2026-06-30T10:48:39.756Z",
+      "modified": "2026-06-30T10:55:15.894Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--6bc22b4a-3a9c-5e18-906c-0510ebe603ee",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--32abfc10-d914-5bdc-80af-4f8eab4c26d1",
+      "created": "2026-06-29T23:46:20.337Z",
+      "modified": "2026-06-30T10:49:14.930Z",
+      "name": "Attacker Node - 185.247.137.121",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 3.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.121']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-29T23:46:20.337Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--705ef8a6-5a69-570a-96b9-e0ed33b74af5",
+      "created": "2026-06-29T23:46:20.337Z",
+      "modified": "2026-06-30T10:49:14.930Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--32abfc10-d914-5bdc-80af-4f8eab4c26d1",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--ee022c58-e82e-5444-a237-8ec7d8865d11",
       "created": "2026-06-28T05:51:34.168Z",
       "modified": "2026-06-29T02:23:31.436Z",
@@ -4884,6 +4959,31 @@
       "modified": "2026-06-28T23:36:13.435Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--6df8b984-409c-5224-b097-58a11c1e09cd",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ac7ecf95-0c3d-5688-bfe9-325d424068c9",
+      "created": "2026-06-30T10:08:20.541Z",
+      "modified": "2026-06-30T10:08:23.452Z",
+      "name": "Attacker Node - ::ffff:34.34.103.195",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Google Cloud (europe-west4). Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv6-addr:value = '::ffff:34.34.103.195']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:08:20.541Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--521d831a-7f8a-56df-bbdb-5d68ddbadedf",
+      "created": "2026-06-30T10:08:20.541Z",
+      "modified": "2026-06-30T10:08:23.452Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--ac7ecf95-0c3d-5688-bfe9-325d424068c9",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -8839,6 +8939,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--e1751c4b-6520-53d4-82b9-397bf0079d31",
+      "created": "2026-06-30T10:08:22.654Z",
+      "modified": "2026-06-30T10:08:25.469Z",
+      "name": "Attacker Node - 34.34.103.195",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Google Cloud (europe-west4). Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '34.34.103.195']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:08:22.654Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d05925f8-076c-5c90-9c08-db7e7b308b3f",
+      "created": "2026-06-30T10:08:22.654Z",
+      "modified": "2026-06-30T10:08:25.469Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e1751c4b-6520-53d4-82b9-397bf0079d31",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--67847612-423c-5823-863b-20c2302edffc",
       "created": "2026-06-28T12:32:27.506Z",
       "modified": "2026-06-28T12:32:27.524Z",
@@ -10014,6 +10139,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--b5c0e292-16a6-52ae-87cc-a58e943ec5e4",
+      "created": "2026-06-30T10:52:16.901Z",
+      "modified": "2026-06-30T10:53:59.464Z",
+      "name": "Attacker Node - 195.96.139.144",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.144']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:52:16.901Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0e18f770-aa0f-5380-b569-9ebd2c46aae2",
+      "created": "2026-06-30T10:52:16.901Z",
+      "modified": "2026-06-30T10:53:59.464Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b5c0e292-16a6-52ae-87cc-a58e943ec5e4",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--56c17e5c-8acb-53ae-87f5-57827ba14d99",
       "created": "2026-06-29T07:27:09.125Z",
       "modified": "2026-06-29T07:27:09.211Z",
@@ -10034,31 +10184,6 @@
       "modified": "2026-06-29T07:27:09.211Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--56c17e5c-8acb-53ae-87f5-57827ba14d99",
-      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--9fdf6967-68ce-582b-bcc7-f4109f9a328e",
-      "created": "2026-06-28T19:59:56.391Z",
-      "modified": "2026-06-28T19:59:56.480Z",
-      "name": "Attacker Node - 195.96.139.122",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 2.",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[ipv4-addr:value = '195.96.139.122']",
-      "pattern_type": "stix",
-      "valid_from": "2026-06-28T19:59:56.391Z"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--4b48657b-4279-578b-8c23-631639e4004b",
-      "created": "2026-06-28T19:59:56.391Z",
-      "modified": "2026-06-28T19:59:56.480Z",
-      "relationship_type": "indicates",
-      "source_ref": "indicator--9fdf6967-68ce-582b-bcc7-f4109f9a328e",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -10739,26 +10864,26 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--32abfc10-d914-5bdc-80af-4f8eab4c26d1",
-      "created": "2026-06-29T23:46:20.337Z",
-      "modified": "2026-06-29T23:46:20.423Z",
-      "name": "Attacker Node - 185.247.137.121",
-      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 2.",
+      "id": "indicator--db2b9c90-4ac3-5961-b3fc-edef4e59eb6c",
+      "created": "2026-06-30T10:47:08.248Z",
+      "modified": "2026-06-30T10:47:13.331Z",
+      "name": "Attacker Node - 185.247.137.134",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 2.",
       "indicator_types": [
         "malicious-activity"
       ],
-      "pattern": "[ipv4-addr:value = '185.247.137.121']",
+      "pattern": "[ipv4-addr:value = '185.247.137.134']",
       "pattern_type": "stix",
-      "valid_from": "2026-06-29T23:46:20.337Z"
+      "valid_from": "2026-06-30T10:47:08.248Z"
     },
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--705ef8a6-5a69-570a-96b9-e0ed33b74af5",
-      "created": "2026-06-29T23:46:20.337Z",
-      "modified": "2026-06-29T23:46:20.423Z",
+      "id": "relationship--c3bf631c-c23e-5f14-b737-a726e6a81432",
+      "created": "2026-06-30T10:47:08.248Z",
+      "modified": "2026-06-30T10:47:13.331Z",
       "relationship_type": "indicates",
-      "source_ref": "indicator--32abfc10-d914-5bdc-80af-4f8eab4c26d1",
+      "source_ref": "indicator--db2b9c90-4ac3-5961-b3fc-edef4e59eb6c",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -10784,6 +10909,56 @@
       "modified": "2026-06-28T19:16:29.154Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--1b1f41f3-3e9e-57e6-9f64-4a3b3ed12e50",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b7a21509-0fed-5092-bf46-c764946a4ff4",
+      "created": "2026-06-30T10:47:27.415Z",
+      "modified": "2026-06-30T10:52:51.073Z",
+      "name": "Attacker Node - 185.247.137.117",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.117']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:47:27.415Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9625e962-676e-59c9-acd1-182c83f9fd42",
+      "created": "2026-06-30T10:47:27.415Z",
+      "modified": "2026-06-30T10:52:51.073Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b7a21509-0fed-5092-bf46-c764946a4ff4",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--36d7cdc0-0849-5d62-ad7a-64aa28333d41",
+      "created": "2026-06-30T10:49:32.020Z",
+      "modified": "2026-06-30T10:49:37.104Z",
+      "name": "Attacker Node - 185.247.137.115",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.115']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:49:32.020Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--fa0184fb-c702-54e3-887c-4156108892fb",
+      "created": "2026-06-30T10:49:32.020Z",
+      "modified": "2026-06-30T10:49:37.104Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--36d7cdc0-0849-5d62-ad7a-64aa28333d41",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -13089,6 +13264,281 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--049339f3-1ddf-58da-a9e8-0cef5016098b",
+      "created": "2026-06-30T10:48:57.843Z",
+      "modified": "2026-06-30T10:48:57.843Z",
+      "name": "Attacker Node - 87.236.176.143",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.143']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:48:57.843Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--16d03c49-cc28-5627-9d7c-f19e329fc36e",
+      "created": "2026-06-30T10:48:57.843Z",
+      "modified": "2026-06-30T10:48:57.843Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--049339f3-1ddf-58da-a9e8-0cef5016098b",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f1571bc7-6a63-5a0a-9abe-ba69f0d89aec",
+      "created": "2026-06-30T10:46:18.885Z",
+      "modified": "2026-06-30T10:46:18.885Z",
+      "name": "Attacker Node - 87.236.176.141",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.141']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:46:18.885Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--495d1559-fee2-5f98-a5dd-96ffb7b4b2ce",
+      "created": "2026-06-30T10:46:18.885Z",
+      "modified": "2026-06-30T10:46:18.885Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f1571bc7-6a63-5a0a-9abe-ba69f0d89aec",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--eba26e14-81c1-566c-b492-86d51651ef39",
+      "created": "2026-06-30T10:50:25.365Z",
+      "modified": "2026-06-30T10:50:25.365Z",
+      "name": "Attacker Node - 87.236.176.139",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.139']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:50:25.365Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--696c06a9-3646-5537-a9a4-677caf5a46a2",
+      "created": "2026-06-30T10:50:25.365Z",
+      "modified": "2026-06-30T10:50:25.365Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--eba26e14-81c1-566c-b492-86d51651ef39",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--07f3dd19-485c-5c5e-9dfe-307272502466",
+      "created": "2026-06-30T10:47:44.498Z",
+      "modified": "2026-06-30T10:47:44.498Z",
+      "name": "Attacker Node - 87.236.176.137",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.137']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:47:44.498Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--8c7162b3-71b1-5515-aa67-c78438b58137",
+      "created": "2026-06-30T10:47:44.498Z",
+      "modified": "2026-06-30T10:47:44.498Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--07f3dd19-485c-5c5e-9dfe-307272502466",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9ade81aa-9157-5e67-98ee-e443fc01bea0",
+      "created": "2026-06-30T10:56:04.152Z",
+      "modified": "2026-06-30T10:56:04.152Z",
+      "name": "Attacker Node - 87.236.176.136",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.136']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:56:04.152Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--012fc007-89fe-5efc-a5d0-626b9376a797",
+      "created": "2026-06-30T10:56:04.152Z",
+      "modified": "2026-06-30T10:56:04.152Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9ade81aa-9157-5e67-98ee-e443fc01bea0",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5dbe49b3-8b23-524d-b979-353aa7900649",
+      "created": "2026-06-30T10:54:16.550Z",
+      "modified": "2026-06-30T10:54:16.550Z",
+      "name": "Attacker Node - 87.236.176.131",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.131']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:54:16.550Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0f31982e-f083-56c1-afaa-3591c185b5a7",
+      "created": "2026-06-30T10:54:16.550Z",
+      "modified": "2026-06-30T10:54:16.550Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--5dbe49b3-8b23-524d-b979-353aa7900649",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8adf324f-0209-5c44-b4c1-08d58a15f63e",
+      "created": "2026-06-30T10:53:25.292Z",
+      "modified": "2026-06-30T10:53:25.292Z",
+      "name": "Attacker Node - 87.236.176.121",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.121']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:53:25.292Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6c3ea0ea-b3fe-523e-950f-38425a132cf2",
+      "created": "2026-06-30T10:53:25.292Z",
+      "modified": "2026-06-30T10:53:25.292Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8adf324f-0209-5c44-b4c1-08d58a15f63e",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e3a8a356-af66-5f8b-9451-7084ff9725be",
+      "created": "2026-06-30T10:55:29.979Z",
+      "modified": "2026-06-30T10:55:29.979Z",
+      "name": "Attacker Node - 87.236.176.118",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.118']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:55:29.979Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4965d2f4-e138-5635-b7da-e1bd827c33b3",
+      "created": "2026-06-30T10:55:29.979Z",
+      "modified": "2026-06-30T10:55:29.979Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e3a8a356-af66-5f8b-9451-7084ff9725be",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f48e64f3-1fb5-594e-9516-f89152ed4b4a",
+      "created": "2026-06-30T10:48:01.596Z",
+      "modified": "2026-06-30T10:48:01.596Z",
+      "name": "Attacker Node - 87.236.176.117",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.117']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:48:01.596Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d5581066-4b96-5fdb-bfd3-e2516d543f8a",
+      "created": "2026-06-30T10:48:01.596Z",
+      "modified": "2026-06-30T10:48:01.596Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f48e64f3-1fb5-594e-9516-f89152ed4b4a",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fee22b1c-2f11-599b-9c9b-defce69adc15",
+      "created": "2026-06-30T10:46:35.992Z",
+      "modified": "2026-06-30T10:46:35.992Z",
+      "name": "Attacker Node - 87.236.176.114",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.114']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:46:35.992Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--369ec410-a9b6-5253-baa4-1062e9edef03",
+      "created": "2026-06-30T10:46:35.992Z",
+      "modified": "2026-06-30T10:46:35.992Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--fee22b1c-2f11-599b-9c9b-defce69adc15",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--85885a69-c3e5-5b01-a686-a8557d70a094",
+      "created": "2026-06-30T10:50:08.281Z",
+      "modified": "2026-06-30T10:50:08.281Z",
+      "name": "Attacker Node - 87.236.176.113",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '87.236.176.113']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:50:08.281Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--274a7f5e-03d7-577d-85c8-680e8d2d0e76",
+      "created": "2026-06-30T10:50:08.281Z",
+      "modified": "2026-06-30T10:50:08.281Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--85885a69-c3e5-5b01-a686-a8557d70a094",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--cea31130-0952-50e2-b434-9c4e3cd1b26e",
       "created": "2026-06-27T01:35:02.111Z",
       "modified": "2026-06-27T01:35:02.111Z",
@@ -15234,6 +15684,356 @@
       "modified": "2026-06-29T15:24:16.517Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--2eebdef3-7b37-5a70-8bdd-782b74540e28",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9008bbf7-8254-52f2-9c48-0423b18121a9",
+      "created": "2026-06-30T10:54:33.635Z",
+      "modified": "2026-06-30T10:54:33.635Z",
+      "name": "Attacker Node - 195.96.139.143",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.143']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:54:33.635Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1d646a91-5708-5003-92e2-919e74887a67",
+      "created": "2026-06-30T10:54:33.635Z",
+      "modified": "2026-06-30T10:54:33.635Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9008bbf7-8254-52f2-9c48-0423b18121a9",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--22b7410d-2bea-52a8-bbd0-7253d886ec56",
+      "created": "2026-06-30T10:54:50.720Z",
+      "modified": "2026-06-30T10:54:50.720Z",
+      "name": "Attacker Node - 195.96.139.142",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.142']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:54:50.720Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1475f00c-ef38-5698-b8cd-d9288b084d1c",
+      "created": "2026-06-30T10:54:50.720Z",
+      "modified": "2026-06-30T10:54:50.720Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--22b7410d-2bea-52a8-bbd0-7253d886ec56",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d9bb2b46-0313-52c5-bcdc-aab58d8d4cb6",
+      "created": "2026-06-30T10:52:33.988Z",
+      "modified": "2026-06-30T10:52:33.988Z",
+      "name": "Attacker Node - 195.96.139.140",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.140']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:52:33.988Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--271e5c39-7824-5115-98df-cb941f387cd9",
+      "created": "2026-06-30T10:52:33.988Z",
+      "modified": "2026-06-30T10:52:33.988Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--d9bb2b46-0313-52c5-bcdc-aab58d8d4cb6",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--14f17ba3-11c9-5988-820c-d9ccdb41df4b",
+      "created": "2026-06-30T10:51:57.814Z",
+      "modified": "2026-06-30T10:51:57.814Z",
+      "name": "Attacker Node - 195.96.139.133",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.133']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:51:57.814Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c1f41534-be3c-500a-aa9e-ebd9a83f2e22",
+      "created": "2026-06-30T10:51:57.814Z",
+      "modified": "2026-06-30T10:51:57.814Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--14f17ba3-11c9-5988-820c-d9ccdb41df4b",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--795bdf67-f43f-52ca-b196-4b773b1b1ca2",
+      "created": "2026-06-30T10:48:18.676Z",
+      "modified": "2026-06-30T10:48:18.676Z",
+      "name": "Attacker Node - 195.96.139.125",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.125']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:48:18.676Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--778ac9c7-8269-5797-9de9-f64df59bf915",
+      "created": "2026-06-30T10:48:18.676Z",
+      "modified": "2026-06-30T10:48:18.676Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--795bdf67-f43f-52ca-b196-4b773b1b1ca2",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--046fb079-35ee-559f-a1f1-f2eb8d163dae",
+      "created": "2026-06-30T10:55:47.073Z",
+      "modified": "2026-06-30T10:55:47.073Z",
+      "name": "Attacker Node - 195.96.139.124",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.124']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:55:47.073Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--36898b28-5846-528e-9607-97f8b13a93d7",
+      "created": "2026-06-30T10:55:47.073Z",
+      "modified": "2026-06-30T10:55:47.073Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--046fb079-35ee-559f-a1f1-f2eb8d163dae",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a6f59c16-882f-5c0c-b8be-27ffc3d4cd9c",
+      "created": "2026-06-30T10:53:08.196Z",
+      "modified": "2026-06-30T10:53:08.196Z",
+      "name": "Attacker Node - 195.96.139.119",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.119']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:53:08.196Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--cb350efd-714d-53c9-89c3-a60ca409a037",
+      "created": "2026-06-30T10:53:08.196Z",
+      "modified": "2026-06-30T10:53:08.196Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a6f59c16-882f-5c0c-b8be-27ffc3d4cd9c",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8ead05c3-90b1-5373-8ca5-e3f20f0bb636",
+      "created": "2026-06-30T10:51:16.633Z",
+      "modified": "2026-06-30T10:51:16.633Z",
+      "name": "Attacker Node - 195.96.139.113",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.113']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:51:16.633Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0eba399a-d1f4-5cb7-b399-ee0650277d1b",
+      "created": "2026-06-30T10:51:16.633Z",
+      "modified": "2026-06-30T10:51:16.633Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8ead05c3-90b1-5373-8ca5-e3f20f0bb636",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00d6826e-3dd0-59df-a09b-833980a31ac6",
+      "created": "2026-06-30T10:50:42.462Z",
+      "modified": "2026-06-30T10:50:42.462Z",
+      "name": "Attacker Node - 195.96.139.111",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '195.96.139.111']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:50:42.462Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--da082978-0f38-5d84-844c-9726535f7bf9",
+      "created": "2026-06-30T10:50:42.462Z",
+      "modified": "2026-06-30T10:50:42.462Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--00d6826e-3dd0-59df-a09b-833980a31ac6",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--398689aa-7207-51ee-bcbb-d6a4f4bf5313",
+      "created": "2026-06-30T10:49:51.191Z",
+      "modified": "2026-06-30T10:49:51.191Z",
+      "name": "Attacker Node - 185.247.137.119",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.119']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:49:51.191Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d74dc8d8-cfd9-5905-a222-9a758210f91a",
+      "created": "2026-06-30T10:49:51.191Z",
+      "modified": "2026-06-30T10:49:51.191Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--398689aa-7207-51ee-bcbb-d6a4f4bf5313",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e647a1f7-a728-55b9-a517-c466609fa6b4",
+      "created": "2026-06-30T10:50:59.543Z",
+      "modified": "2026-06-30T10:50:59.543Z",
+      "name": "Attacker Node - 185.247.137.118",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.118']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:50:59.543Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6ebb3062-42d0-5e2d-ba52-0b27f18849a5",
+      "created": "2026-06-30T10:50:59.543Z",
+      "modified": "2026-06-30T10:50:59.543Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e647a1f7-a728-55b9-a517-c466609fa6b4",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--19fa3e62-43e0-5936-afaa-e62fe4c0656b",
+      "created": "2026-06-30T10:46:51.162Z",
+      "modified": "2026-06-30T10:46:51.162Z",
+      "name": "Attacker Node - 185.247.137.116",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.116']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:46:51.162Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--64f775de-df87-5bc3-a315-d149205a7546",
+      "created": "2026-06-30T10:46:51.162Z",
+      "modified": "2026-06-30T10:46:51.162Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--19fa3e62-43e0-5936-afaa-e62fe4c0656b",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--aa968d98-4301-54d3-9575-745a820849a3",
+      "created": "2026-06-30T10:51:35.731Z",
+      "modified": "2026-06-30T10:51:35.731Z",
+      "name": "Attacker Node - 185.247.137.112",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.112']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:51:35.731Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4dedb1f1-b543-5e20-a885-10bb177824e5",
+      "created": "2026-06-30T10:51:35.731Z",
+      "modified": "2026-06-30T10:51:35.731Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--aa968d98-4301-54d3-9575-745a820849a3",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f32c3676-1493-5d0d-a48c-38b72d7603e0",
+      "created": "2026-06-30T10:56:21.238Z",
+      "modified": "2026-06-30T10:56:21.238Z",
+      "name": "Attacker Node - 185.247.137.111",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.111']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-30T10:56:21.238Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--818685f7-93a2-56d5-974d-4c75452a0156",
+      "created": "2026-06-30T10:56:21.238Z",
+      "modified": "2026-06-30T10:56:21.238Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f32c3676-1493-5d0d-a48c-38b72d7603e0",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {

@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-30T09:23:48.670Z",
+    "last_seen": "2026-06-30T10:38:53.106Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 9995,
+    "connection_count": 10208,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-30T09:58:47.219Z",
+    "last_seen": "2026-06-30T10:52:46.280Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1183,
-    "total_bytes_sent": 50426880,
-    "estimated_cost_usd": 0.11740000000000131,
+    "connection_count": 1211,
+    "total_bytes_sent": 51631104,
+    "estimated_cost_usd": 0.12020000000000139,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -427,6 +427,25 @@
     "org": "Vultr Holdings LLC Frankfurt"
   },
   {
+    "ip": "::ffff:45.148.10.200",
+    "first_seen": "2026-06-28T05:08:28.680Z",
+    "last_seen": "2026-06-30T10:10:57.253Z",
+    "user_agents": [
+      "l9explore/1.2.2",
+      "unknown"
+    ],
+    "target_hosts": [
+      "135.148.40.198:8080"
+    ],
+    "connection_count": 146,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "unknown",
+    "country": "NL",
+    "org": "Techoff SRV Limited"
+  },
+  {
     "ip": "163.7.11.69",
     "first_seen": "2026-06-30T05:30:48.047Z",
     "last_seen": "2026-06-30T05:32:39.973Z",
@@ -443,25 +462,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "ID",
     "org": "Byteplus Pte. Ltd"
-  },
-  {
-    "ip": "::ffff:45.148.10.200",
-    "first_seen": "2026-06-28T05:08:28.680Z",
-    "last_seen": "2026-06-30T07:53:30.945Z",
-    "user_agents": [
-      "l9explore/1.2.2",
-      "unknown"
-    ],
-    "target_hosts": [
-      "135.148.40.198:8080"
-    ],
-    "connection_count": 127,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "unknown",
-    "country": "NL",
-    "org": "Techoff SRV Limited"
   },
   {
     "ip": "45.45.237.214",
@@ -812,6 +812,24 @@
     "org": "OVH Hosting, Inc"
   },
   {
+    "ip": "unknown",
+    "first_seen": "2026-06-27T23:34:12.851Z",
+    "last_seen": "2026-06-30T10:37:53.100Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 56,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "??",
+    "org": "unknown"
+  },
+  {
     "ip": "87.106.163.38",
     "first_seen": "2026-06-28T20:52:02.411Z",
     "last_seen": "2026-06-28T20:54:03.219Z",
@@ -872,24 +890,6 @@
     "hostname": "86-38-238-102.nodes.verda.host",
     "country": "FI",
     "org": "SC \"Lithuanian Radio and TV Center\""
-  },
-  {
-    "ip": "unknown",
-    "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-30T09:22:48.853Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306"
-    ],
-    "target_hosts": [
-      "port-3306"
-    ],
-    "connection_count": 55,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "DATABASE_SCANNER",
-    "hostname": "unknown",
-    "country": "??",
-    "org": "unknown"
   },
   {
     "ip": "203.159.90.218",
@@ -3478,6 +3478,64 @@
     "org": "Google Cloud (europe-west1)"
   },
   {
+    "ip": "195.96.139.122",
+    "first_seen": "2026-06-28T19:59:56.391Z",
+    "last_seen": "2026-06-30T10:53:42.379Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)",
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379",
+      "staging-db.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.140",
+    "first_seen": "2026-06-30T10:48:39.756Z",
+    "last_seen": "2026-06-30T10:55:15.894Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.121",
+    "first_seen": "2026-06-29T23:46:20.337Z",
+    "last_seen": "2026-06-30T10:49:14.930Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)",
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "db-backup.dev-node-sync-99.xyz",
+      "port-6379"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "170.64.234.149",
     "first_seen": "2026-06-28T05:51:34.168Z",
     "last_seen": "2026-06-29T02:23:31.436Z",
@@ -3926,6 +3984,24 @@
     "hostname": "unknown",
     "country": "SG",
     "org": "Alibaba.com LLC"
+  },
+  {
+    "ip": "::ffff:34.34.103.195",
+    "first_seen": "2026-06-30T10:08:20.541Z",
+    "last_seen": "2026-06-30T10:08:23.452Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0"
+    ],
+    "target_hosts": [
+      "135.148.40.198:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "NL",
+    "org": "Google Cloud (europe-west4)"
   },
   {
     "ip": "::ffff:198.235.24.106",
@@ -6773,6 +6849,24 @@
     "org": "Google Cloud (us-central1)"
   },
   {
+    "ip": "34.34.103.195",
+    "first_seen": "2026-06-30T10:08:22.654Z",
+    "last_seen": "2026-06-30T10:08:25.469Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 1024,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "NL",
+    "org": "Google Cloud (europe-west4)"
+  },
+  {
     "ip": "34.26.204.134",
     "first_seen": "2026-06-28T12:32:27.506Z",
     "last_seen": "2026-06-28T12:32:27.524Z",
@@ -7621,6 +7715,24 @@
     "org": ""
   },
   {
+    "ip": "195.96.139.144",
+    "first_seen": "2026-06-30T10:52:16.901Z",
+    "last_seen": "2026-06-30T10:53:59.464Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "195.96.139.136",
     "first_seen": "2026-06-29T07:27:09.125Z",
     "last_seen": "2026-06-29T07:27:09.211Z",
@@ -7629,24 +7741,6 @@
     ],
     "target_hosts": [
       "config-vault.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "GB",
-    "org": "Constantine Cybersecurity LTD"
-  },
-  {
-    "ip": "195.96.139.122",
-    "first_seen": "2026-06-28T19:59:56.391Z",
-    "last_seen": "2026-06-28T19:59:56.480Z",
-    "user_agents": [
-      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
-    ],
-    "target_hosts": [
-      "staging-db.dev-node-sync-99.xyz"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -8143,20 +8237,20 @@
     "org": "Constantine Cybersecurity LTD"
   },
   {
-    "ip": "185.247.137.121",
-    "first_seen": "2026-06-29T23:46:20.337Z",
-    "last_seen": "2026-06-29T23:46:20.423Z",
+    "ip": "185.247.137.134",
+    "first_seen": "2026-06-30T10:47:08.248Z",
+    "last_seen": "2026-06-30T10:47:13.331Z",
     "user_agents": [
-      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+      "TCP Raw Probe on Port 6379"
     ],
     "target_hosts": [
-      "db-backup.dev-node-sync-99.xyz"
+      "port-6379"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
     "country": "GB",
     "org": "Constantine Cybersecurity LTD"
   },
@@ -8175,6 +8269,42 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.117",
+    "first_seen": "2026-06-30T10:47:27.415Z",
+    "last_seen": "2026-06-30T10:52:51.073Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.115",
+    "first_seen": "2026-06-30T10:49:32.020Z",
+    "last_seen": "2026-06-30T10:49:37.104Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
     "country": "GB",
     "org": "Constantine Cybersecurity LTD"
   },
@@ -9837,6 +9967,204 @@
     "org": "Constantine Cybersecurity LTD"
   },
   {
+    "ip": "87.236.176.143",
+    "first_seen": "2026-06-30T10:48:57.843Z",
+    "last_seen": "2026-06-30T10:48:57.843Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.141",
+    "first_seen": "2026-06-30T10:46:18.885Z",
+    "last_seen": "2026-06-30T10:46:18.885Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.139",
+    "first_seen": "2026-06-30T10:50:25.365Z",
+    "last_seen": "2026-06-30T10:50:25.365Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.137",
+    "first_seen": "2026-06-30T10:47:44.498Z",
+    "last_seen": "2026-06-30T10:47:44.498Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.136",
+    "first_seen": "2026-06-30T10:56:04.152Z",
+    "last_seen": "2026-06-30T10:56:04.152Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.131",
+    "first_seen": "2026-06-30T10:54:16.550Z",
+    "last_seen": "2026-06-30T10:54:16.550Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.121",
+    "first_seen": "2026-06-30T10:53:25.292Z",
+    "last_seen": "2026-06-30T10:53:25.292Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.118",
+    "first_seen": "2026-06-30T10:55:29.979Z",
+    "last_seen": "2026-06-30T10:55:29.979Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.117",
+    "first_seen": "2026-06-30T10:48:01.596Z",
+    "last_seen": "2026-06-30T10:48:01.596Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.114",
+    "first_seen": "2026-06-30T10:46:35.992Z",
+    "last_seen": "2026-06-30T10:46:35.992Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "87.236.176.113",
+    "first_seen": "2026-06-30T10:50:08.281Z",
+    "last_seen": "2026-06-30T10:50:08.281Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "8.231.138.73",
     "first_seen": "2026-06-27T01:35:02.111Z",
     "last_seen": "2026-06-27T01:35:02.111Z",
@@ -11377,6 +11705,258 @@
     "hostname": "unknown",
     "country": "US",
     "org": "Palo Alto Networks, Inc"
+  },
+  {
+    "ip": "195.96.139.143",
+    "first_seen": "2026-06-30T10:54:33.635Z",
+    "last_seen": "2026-06-30T10:54:33.635Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.142",
+    "first_seen": "2026-06-30T10:54:50.720Z",
+    "last_seen": "2026-06-30T10:54:50.720Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.140",
+    "first_seen": "2026-06-30T10:52:33.988Z",
+    "last_seen": "2026-06-30T10:52:33.988Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.133",
+    "first_seen": "2026-06-30T10:51:57.814Z",
+    "last_seen": "2026-06-30T10:51:57.814Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.125",
+    "first_seen": "2026-06-30T10:48:18.676Z",
+    "last_seen": "2026-06-30T10:48:18.676Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.124",
+    "first_seen": "2026-06-30T10:55:47.073Z",
+    "last_seen": "2026-06-30T10:55:47.073Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.119",
+    "first_seen": "2026-06-30T10:53:08.196Z",
+    "last_seen": "2026-06-30T10:53:08.196Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.113",
+    "first_seen": "2026-06-30T10:51:16.633Z",
+    "last_seen": "2026-06-30T10:51:16.633Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.111",
+    "first_seen": "2026-06-30T10:50:42.462Z",
+    "last_seen": "2026-06-30T10:50:42.462Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.119",
+    "first_seen": "2026-06-30T10:49:51.191Z",
+    "last_seen": "2026-06-30T10:49:51.191Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.118",
+    "first_seen": "2026-06-30T10:50:59.543Z",
+    "last_seen": "2026-06-30T10:50:59.543Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.116",
+    "first_seen": "2026-06-30T10:46:51.162Z",
+    "last_seen": "2026-06-30T10:46:51.162Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.112",
+    "first_seen": "2026-06-30T10:51:35.731Z",
+    "last_seen": "2026-06-30T10:51:35.731Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "185.247.137.111",
+    "first_seen": "2026-06-30T10:56:21.238Z",
+    "last_seen": "2026-06-30T10:56:21.238Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
   },
   {
     "ip": "185.242.226.92",

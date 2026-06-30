@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `645`
-* **Total Bandwidth Consumed:** `14970 MB` (~14.62 GB)
+* **Total Unique IPs Blocked:** `677`
+* **Total Bandwidth Consumed:** `14971 MB` (~14.62 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -29,9 +29,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 9995 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 10208 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 1901 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1183 | 48.09 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1211 | 49.24 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `44.249.125.180` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
@@ -48,8 +48,8 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `155.2.228.196` | CH | iway AG | `HONEYTOKEN_HIT` | 463 | 0.0 MB |
 | `45.148.10.120` | NL | Techoff SRV Limited | `HONEYTOKEN_HIT` | 232 | 0.32 MB |
 | `::ffff:95.179.250.105` | DE | Vultr Holdings LLC Frankfurt | `EXPLOIT_SCANNER` | 176 | 0.26 MB |
+| `::ffff:45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 146 | 0.0 MB |
 | `163.7.11.69` | ID | Byteplus Pte. Ltd | `EXPLOIT_SCANNER` | 130 | 0.0 MB |
-| `::ffff:45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 127 | 0.0 MB |
 | `45.45.237.214` | US | Infraly, LLC | `HONEYTOKEN_HIT` | 114 | 39.0 MB |
 | `193.36.145.238` | ES |  | `DATABASE_SCANNER` | 101 | 0.0 MB |
 | `181.198.240.215` | EC | Clientes NETLIFE Guayaquil - gepon | `DATABASE_SCANNER` | 101 | 0.0 MB |
@@ -64,9 +64,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `64.89.163.143` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 58 | 0.0 MB |
 | `62.60.130.227` | IR | UAB Host Baltic | `HONEYTOKEN_HIT` | 58 | 0.0 MB |
 | `148.113.200.133` | CA | OVH Hosting, Inc | `EXPLOIT_SCANNER` | 58 | 0.03 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 56 | 0.0 MB |
 | `87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 56 | 0.04 MB |
 | `86.38.238.102` | FI | SC "Lithuanian Radio and TV Center" | `HONEYTOKEN_HIT` | 56 | 0.07 MB |
-| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 55 | 0.0 MB |
 | `203.159.90.218` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 50 | 193.94 MB |
 | `::ffff:148.113.200.133` | CA | OVH Hosting, Inc | `EXPLOIT_SCANNER` | 44 | 0.0 MB |
 | `64.89.163.148` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 39 | 0.0 MB |
@@ -199,6 +199,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `65.49.1.52` | US | The Shadow Server Foundation | `REDIS_SCANNER` | 3 | 0.0 MB |
 | `45.140.222.147` | NL | AI Spera | `REDIS_SCANNER` | 3 | 0.0 MB |
 | `35.195.95.19` | BE | Google Cloud (europe-west1) | `REDIS_SCANNER` | 3 | 0.0 MB |
+| `195.96.139.122` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 3 | 0.0 MB |
+| `185.247.137.140` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 3 | 0.0 MB |
+| `185.247.137.121` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 3 | 0.0 MB |
 | `170.64.234.149` | AU | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 3 | 40.88 MB |
 | `159.89.236.29` | US | DigitalOcean, LLC | `REDIS_SCANNER` | 3 | 0.0 MB |
 | `157.245.77.56` | NL | DigitalOcean, LLC | `DATABASE_SCANNER` | 3 | 0.0 MB |
@@ -224,6 +227,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `::ffff:45.194.92.58` | CA | Vpsvault.host LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `::ffff:43.98.199.156` | SG | Alibaba.com LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `::ffff:43.98.185.189` | SG | Alibaba.com LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `::ffff:34.34.103.195` | NL | Google Cloud (europe-west4) | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `::ffff:198.235.24.106` | US | Palo Alto Networks, Inc | `HONEYTOKEN_HIT` | 2 | 0.02 MB |
 | `::ffff:195.96.139.73` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `::ffff:195.96.139.240` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -382,6 +386,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `34.75.111.25` | US | Google Cloud (us-east1) | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `34.63.28.83` | US | Google Cloud (us-central1) | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `34.42.173.131` | US | Google Cloud (us-central1) | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `34.34.103.195` | NL | Google Cloud (europe-west4) | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `34.26.204.134` | US | Google Cloud (us-east1) | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `34.228.30.78` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `34.209.68.149` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 2 | 0.05 MB |
@@ -429,8 +434,8 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `195.96.139.203` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `195.96.139.184` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `195.96.139.18` | IR |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `195.96.139.144` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 2 | 0.0 MB |
 | `195.96.139.136` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `195.96.139.122` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `195.96.139.120` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `195.96.139.108` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `195.96.139.107` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -458,8 +463,10 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `185.247.137.147` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.247.137.143` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.247.137.138` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `185.247.137.121` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `185.247.137.134` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 2 | 0.0 MB |
 | `185.247.137.120` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `185.247.137.117` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 2 | 0.0 MB |
+| `185.247.137.115` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 2 | 0.0 MB |
 | `185.247.137.113` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.220.101.57` | DE | ForPrivacyNET | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.220.101.45` | DE | ForPrivacyNET | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -552,6 +559,17 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `88.214.25.124` | HK | ThinkTech Technology Industrial CO. Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `88.214.25.121` | HK | ThinkTech Technology Industrial CO. Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `87.236.176.146` | GB | Constantine Cybersecurity LTD | `DATABASE_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.143` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.141` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.139` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.137` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.136` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.131` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.121` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.118` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.117` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.114` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `87.236.176.113` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `8.231.138.73` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
 | `71.6.232.29` | US | CariNet, Inc. | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `69.5.169.155` | DE | Infrawatch Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
@@ -638,6 +656,20 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `198.235.24.64` | US | Palo Alto Networks, Inc | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `198.235.24.220` | US | Palo Alto Networks, Inc | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `198.235.24.144` | US | Palo Alto Networks, Inc | `DATABASE_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.143` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.142` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.140` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.133` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.125` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.124` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.119` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.113` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `195.96.139.111` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `185.247.137.119` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `185.247.137.118` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `185.247.137.116` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `185.247.137.112` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `185.247.137.111` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `185.242.226.92` | NL | AI Spera | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `185.223.235.9` | NL | Infrawatch Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `176.32.193.16` | AM | Interactive TV LLC | `REDIS_SCANNER` | 1 | 0.0 MB |
