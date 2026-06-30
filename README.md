@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `874`
-* **Total Bandwidth Consumed:** `15034 MB` (~14.68 GB)
+* **Total Unique IPs Blocked:** `877`
+* **Total Bandwidth Consumed:** `15035 MB` (~14.68 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -29,9 +29,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 11697 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 11910 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 2115 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1405 | 57.2 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1435 | 58.43 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `44.249.125.180` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
@@ -60,14 +60,14 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `140.245.103.140` | SG | Oracle Corporation | `HONEYTOKEN_HIT` | 74 | 0.0 MB |
 | `::ffff:87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 72 | 0.0 MB |
 | `45.156.87.177` | NL | VMHeaven.io | `HONEYTOKEN_HIT` | 72 | 0.0 MB |
-| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 64 | 0.0 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 65 | 0.0 MB |
 | `185.213.175.168` | NL |  | `SPIDER_TRAP_HIT` | 61 | 0.09 MB |
 | `64.89.163.143` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 58 | 0.0 MB |
 | `62.60.130.227` | IR | UAB Host Baltic | `HONEYTOKEN_HIT` | 58 | 0.0 MB |
 | `148.113.200.133` | CA | OVH Hosting, Inc | `EXPLOIT_SCANNER` | 58 | 0.03 MB |
 | `87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 56 | 0.04 MB |
 | `86.38.238.102` | FI | SC "Lithuanian Radio and TV Center" | `HONEYTOKEN_HIT` | 56 | 0.07 MB |
-| `121.29.51.109` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 54 | 0.02 MB |
+| `121.29.51.109` | CN |  | `HONEYTOKEN_HIT` | 54 | 0.02 MB |
 | `203.159.90.218` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 50 | 193.94 MB |
 | `::ffff:148.113.200.133` | CA | OVH Hosting, Inc | `EXPLOIT_SCANNER` | 44 | 0.0 MB |
 | `195.178.110.241` | AD | Techoff SRV Limited | `HONEYTOKEN_HIT` | 40 | 0.1 MB |
@@ -81,10 +81,10 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `203.159.90.217` | NL | 1337 Services GmbH | `HONEYTOKEN_HIT` | 23 | 105.32 MB |
 | `157.15.40.60` | ID | PT Trisari Data Indonesia | `HONEYTOKEN_HIT` | 22 | 0.0 MB |
 | `94.237.108.164` | NL | Upcloud NL Ams1 | `EXPLOIT_SCANNER` | 20 | 0.02 MB |
+| `78.153.140.43` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 16 | 0.0 MB |
 | `78.153.140.250` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 16 | 0.0 MB |
 | `152.32.131.118` | HK | Ucloud Information Technology (hk) Limited | `HONEYTOKEN_HIT` | 16 | 0.06 MB |
 | `185.147.157.141` | US | Sichuan Chengdu interesting network technology Co Ltd | `EXPLOIT_SCANNER` | 15 | 0.0 MB |
-| `78.153.140.43` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 14 | 0.0 MB |
 | `77.83.39.94` | NL | Lanedonet Datacenter | `EXPLOIT_SCANNER` | 12 | 0.02 MB |
 | `45.142.154.62` | HK | Allcloud US | `HONEYTOKEN_HIT` | 12 | 0.04 MB |
 | `45.142.154.60` | HK | Allcloud US | `HONEYTOKEN_HIT` | 12 | 0.02 MB |
@@ -107,7 +107,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `178.171.112.57` | NL | E-Light-Telecom Ltd | `HONEYTOKEN_HIT` | 10 | 0.09 MB |
 | `176.65.139.231` | NL | Storm Industries | `HONEYTOKEN_HIT` | 10 | 0.03 MB |
 | `162.141.167.48` | US | Interserver, Inc | `EXPLOIT_SCANNER` | 10 | 0.01 MB |
-| `152.32.200.22` | ?? | Pending Lookup | `REDIS_SCANNER` | 10 | 0.0 MB |
+| `152.32.200.22` | BR | Ucloud Information Technology (hk) Limited | `REDIS_SCANNER` | 10 | 0.0 MB |
 | `144.172.116.30` | US | FranTech Solutions | `EXPLOIT_SCANNER` | 10 | 0.02 MB |
 | `116.198.220.179` | CN | Beijing Jingdong 360 Degree E-commerce Co., Ltd. | `DATABASE_SCANNER` | 10 | 0.0 MB |
 | `::ffff:216.180.246.121` | FR |  | `HONEYTOKEN_HIT` | 8 | 0.67 MB |
@@ -182,7 +182,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `34.46.134.65` | US | Google Cloud (us-central1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `34.225.171.109` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 4 | 0.37 MB |
 | `34.213.250.221` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
-| `3.238.172.251` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `3.238.172.251` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `216.73.216.64` | US | Anthropic, PBC | `HONEYTOKEN_HIT` | 4 | 0.04 MB |
 | `213.209.159.175` | DE | Feo Prest SRL | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
 | `2.58.56.61` | FR | Mifsud Florian | `EXPLOIT_SCANNER` | 4 | 1.2 MB |
@@ -269,7 +269,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `87.236.176.206` | GB | Constantine Cybersecurity LTD | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `8.229.201.210` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 2 | 0.62 MB |
 | `8.229.152.246` | US | Google Cloud (us-west1) | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `8.211.37.222` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `8.211.37.222` | DE | Alibaba.com Singapore E-Commerce Private Limited | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `79.127.129.231` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 2 | 5.24 MB |
 | `79.127.129.214` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 2 | 0.18 MB |
 | `72.153.230.168` | US | Microsoft Azure Cloud (westus) | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
@@ -310,9 +310,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `50.116.26.161` | US | Linode | `REDIS_SCANNER` | 2 | 0.0 MB |
 | `5.45.98.162` | DE | NETCUP-GMBH | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `49.51.183.75` | US | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 2 | 0.0 MB |
-| `47.89.159.48` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `47.89.159.48` | US | ALICLOUD-US | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `47.84.228.159` | SG | Delta Centric LLC, Zenlayer Inc | `EXPLOIT_SCANNER` | 2 | 77.17 MB |
-| `47.252.52.82` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `47.252.52.82` | US | Alibaba Cloud - US | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `47.237.7.129` | SG | Alibaba.com LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `47.236.74.206` | SG | Alibaba.com LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `47.103.157.194` | CN | Aliyun Computing Co., LTD | `DATABASE_SCANNER` | 2 | 0.0 MB |
@@ -386,6 +386,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `45.43.166.123` | GB | Lumadock LTD | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `45.40.61.194` | JP | SPEEDYCLOUD | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `45.141.215.52` | PL | 1337 Services GmbH | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `45.140.222.164` | NL | AI Spera | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `45.130.203.177` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.130.203.160` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `45.130.203.158` | DZ | Algiers | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -464,7 +465,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `220.202.112.113` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.197.85.59` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.197.85.46` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `220.197.85.219` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `220.197.85.219` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `220.197.85.20` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.177.9.156` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `220.177.9.15` | CN | Chinanet JX | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -475,7 +476,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `216.26.227.100` | US | 3xK Tech GmbH | `SPIDER_TRAP_HIT` | 2 | 25.0 MB |
 | `216.218.206.68` | US | The Shadow Server Foundation | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `216.126.225.168` | US | anyNode | `EXPLOIT_SCANNER` | 2 | 0.03 MB |
-| `211.145.71.32` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `211.145.71.32` | CN | Unicom | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `209.97.129.230` | GB | DigitalOcean, LLC | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `209.58.160.54` | SG |  | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `206.123.156.179` | GB | Secure Internet LLC | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
@@ -544,8 +545,8 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `185.152.39.74` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `185.152.39.71` | GB | HostRoyale Technologies Pvt Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `184.105.139.69` | US | The Shadow Server Foundation | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `183.92.113.17` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `183.134.40.85` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.17 MB |
+| `183.92.113.17` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `183.134.40.85` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.17 MB |
 | `182.54.23.57` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.54.23.33` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.54.23.177` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -563,18 +564,18 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `182.138.158.220` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `182.138.158.214` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.138.158.2` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `182.138.158.172` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `182.138.158.172` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `182.138.158.164` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.138.158.157` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.138.158.110` | CN | Chinanet SC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `182.119.229.197` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `182.119.227.66` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.95.238.9` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `180.95.238.146` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `180.95.238.146` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `180.95.238.127` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.95.231.80` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `180.95.231.6` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `180.93.249.92` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `180.93.249.92` | VN | Saigon Postel Corporation | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `18.219.157.186` | US | AWS EC2 (us-east-2) | `REDIS_SCANNER` | 2 | 0.0 MB |
 | `18.181.225.141` | JP | AWS EC2 (ap-northeast-1) | `EXPLOIT_SCANNER` | 2 | 2.62 MB |
 | `178.62.62.246` | GB | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -590,8 +591,8 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `172.252.31.96` | US | EGIHosting | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `172.235.196.22` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 10.53 MB |
 | `172.235.192.240` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `172.233.88.70` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `172.203.224.88` | ?? | Pending Lookup | `DATABASE_SCANNER` | 2 | 0.0 MB |
+| `172.233.88.70` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `172.203.224.88` | US | Microsoft Azure Cloud (eastus) | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `171.37.92.121` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `171.37.191.160` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `171.36.7.37` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -607,13 +608,13 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `168.144.31.91` | IN | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `167.99.151.186` | US | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `166.88.121.28` | US | OpenVPN | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `165.154.252.172` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `165.154.252.172` | GB | Scloud Pte Ltd | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `165.140.238.74` | US | EliteWork LLC | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `164.92.218.246` | NL | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `164.90.231.69` | DE | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `161.35.139.2` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `16.146.95.129` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 2 | 0.05 MB |
-| `159.65.46.245` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `159.65.46.245` | US | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `159.203.37.222` | CA | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `159.203.180.233` | US | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `159.203.179.233` | US | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -686,7 +687,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `123.144.24.38` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `122.96.28.97` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `122.96.28.7` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `122.96.28.19` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `122.96.28.19` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `122.96.28.174` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `122.96.28.112` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `121.29.84.70` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
@@ -718,12 +719,12 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `109.228.157.199` | SE |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `106.117.115.116` | CN | Chinanet HE | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `106.117.114.209` | CN | Chinanet HE | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
-| `106.117.111.189` | ?? | Pending Lookup | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `106.117.111.189` | CN | Chinanet HE | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `106.117.107.233` | CN | Chinanet HE | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `104.64.152.213` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `104.64.149.106` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
-| `104.43.131.157` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.01 MB |
-| `104.28.163.18` | ?? | Pending Lookup | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `104.43.131.157` | US | Microsoft Azure Cloud (centralus) | `EXPLOIT_SCANNER` | 2 | 0.01 MB |
+| `104.28.163.18` | SG | Cloudflare WARP | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `104.251.181.72` | CH | SKN & Telecom Ltd | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `103.4.249.4` | US | UAB code200 | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `103.216.1.8` | US | US NY internet dollar | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -762,6 +763,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `87.236.176.114` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `87.236.176.113` | GB | Constantine Cybersecurity LTD | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `8.231.138.73` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
+| `79.127.129.220` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 1 | 0.0 MB |
 | `71.6.232.29` | US | CariNet, Inc. | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `69.5.169.155` | DE | Infrawatch Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `66.132.195.60` | US | Censys, Inc. | `REDIS_SCANNER` | 1 | 0.0 MB |
@@ -784,7 +786,6 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `49.51.132.100` | DE | Tencent cloud computing (Beijing) Co., Ltd. | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `45.82.78.107` | SG | Detai Prosperous Technologies Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `45.140.222.166` | NL | AI Spera | `REDIS_SCANNER` | 1 | 0.0 MB |
-| `45.140.222.164` | NL | AI Spera | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `44.220.185.109` | US | AWS EC2 (us-east-1) | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `43.167.241.46` | JP | Tencent Cloud Computing (Beijing) Co., Ltd | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `43.163.112.239` | SG | Tencent Cloud Computing (Beijing) Co., Ltd | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
@@ -831,7 +832,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `34.38.119.76` | BE | Google Cloud (europe-west1) | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `34.156.97.85` | BE | Google Cloud (europe-west1) | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `34.156.72.132` | BE | Google Cloud (europe-west1) | `DATABASE_SCANNER` | 1 | 0.0 MB |
-| `34.14.112.72` | ?? | Pending Lookup | `DATABASE_SCANNER` | 1 | 0.0 MB |
+| `34.14.112.72` | BE | Google Cloud (europe-west1) | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `34.127.118.148` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 19.0 MB |
 | `31.14.32.8` | NL | Modat | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `31.14.254.4` | GB | Infrawatch Limited | `DATABASE_SCANNER` | 1 | 0.0 MB |
@@ -842,6 +843,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `23.111.14.183` | SG | Leaseweb Asia Pacific pte. ltd. | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `220.197.85.160` | CN |  | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `218.9.233.231` | CN |  | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `20.221.69.50` | US | Microsoft Azure Cloud (centralus) | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `20.169.104.218` | US | Microsoft Azure Cloud (westus3) | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `20.168.120.251` | US | Microsoft Azure Cloud (westus3) | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `20.168.0.47` | US | Microsoft Azure Cloud (westus3) | `REDIS_SCANNER` | 1 | 0.0 MB |
@@ -882,6 +884,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `150.109.10.41` | SG |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `147.185.132.75` | US | Palo Alto Networks, Inc | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `147.185.132.54` | US | Palo Alto Networks, Inc | `REDIS_SCANNER` | 1 | 0.0 MB |
+| `147.185.132.100` | US | Palo Alto Networks, Inc | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `139.99.237.180` | AU | OVH Australia PTY LTD | `SPOOFED_BOT` | 1 | 0.39 MB |
 | `137.184.31.121` | US | Digital Ocean | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `136.66.29.81` | US | Google Cloud (us-west1) | `DATACENTER` | 1 | 14.0 MB |

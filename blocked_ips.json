@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-30T19:24:30.509Z",
+    "last_seen": "2026-06-30T20:39:31.617Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 11697,
+    "connection_count": 11910,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-30T19:44:52.949Z",
+    "last_seen": "2026-06-30T20:57:59.193Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1405,
-    "total_bytes_sent": 59974656,
-    "estimated_cost_usd": 0.13960000000000194,
+    "connection_count": 1435,
+    "total_bytes_sent": 61264896,
+    "estimated_cost_usd": 0.14260000000000203,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -725,14 +725,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-06-30T19:23:30.608Z",
+    "last_seen": "2026-06-30T20:38:31.646Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 64,
+    "connection_count": 65,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -916,8 +916,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "203.159.90.218",
@@ -1239,6 +1239,24 @@
     "org": "Upcloud NL Ams1"
   },
   {
+    "ip": "78.153.140.43",
+    "first_seen": "2026-06-27T20:01:55.074Z",
+    "last_seen": "2026-06-30T20:28:34.690Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 16,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "HOSTGLOBAL.PLUS LTD"
+  },
+  {
     "ip": "78.153.140.250",
     "first_seen": "2026-06-28T01:48:26.507Z",
     "last_seen": "2026-06-28T22:53:47.974Z",
@@ -1299,24 +1317,6 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "US",
     "org": "Sichuan Chengdu interesting network technology Co Ltd"
-  },
-  {
-    "ip": "78.153.140.43",
-    "first_seen": "2026-06-27T20:01:55.074Z",
-    "last_seen": "2026-06-30T16:33:57.807Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
-    ],
-    "target_hosts": [
-      "135.148.40.198"
-    ],
-    "connection_count": 14,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "GB",
-    "org": "HOSTGLOBAL.PLUS LTD"
   },
   {
     "ip": "77.83.39.94",
@@ -1769,8 +1769,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "REDIS_SCANNER",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "BR",
+    "org": "Ucloud Information Technology (hk) Limited"
   },
   {
     "ip": "144.172.116.30",
@@ -3204,8 +3204,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "ec2-3-238-172-251.compute-1.amazonaws.com",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "US",
+    "org": "AWS EC2 (us-east-1)"
   },
   {
     "ip": "216.73.216.64",
@@ -4787,8 +4787,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "DE",
+    "org": "Alibaba.com Singapore E-Commerce Private Limited"
   },
   {
     "ip": "79.127.129.231",
@@ -5526,8 +5526,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "US",
+    "org": "ALICLOUD-US"
   },
   {
     "ip": "47.84.228.159",
@@ -5562,8 +5562,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "US",
+    "org": "Alibaba Cloud - US"
   },
   {
     "ip": "47.237.7.129",
@@ -6878,6 +6878,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "PL",
     "org": "1337 Services GmbH"
+  },
+  {
+    "ip": "45.140.222.164",
+    "first_seen": "2026-06-29T10:17:19.614Z",
+    "last_seen": "2026-06-30T20:10:30.773Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "NL",
+    "org": "AI Spera"
   },
   {
     "ip": "45.130.203.177",
@@ -8300,8 +8318,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "220.197.85.20",
@@ -8498,8 +8516,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Unicom"
   },
   {
     "ip": "209.97.129.230",
@@ -9740,8 +9758,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "183.134.40.85",
@@ -9758,8 +9776,8 @@
     "estimated_cost_usd": 0.0005,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "182.54.23.57",
@@ -10082,8 +10100,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet SC"
   },
   {
     "ip": "182.138.158.164",
@@ -10208,8 +10226,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "180.95.238.127",
@@ -10280,8 +10298,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "VN",
+    "org": "Saigon Postel Corporation"
   },
   {
     "ip": "18.219.157.186",
@@ -10570,8 +10588,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "JP",
+    "org": "Akamai Technologies, Inc."
   },
   {
     "ip": "172.203.224.88",
@@ -10588,8 +10606,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "US",
+    "org": "Microsoft Azure Cloud (eastus)"
   },
   {
     "ip": "171.37.92.121",
@@ -10876,8 +10894,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "GB",
+    "org": "Scloud Pte Ltd"
   },
   {
     "ip": "165.140.238.74",
@@ -10984,8 +11002,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "US",
+    "org": "Digital Ocean"
   },
   {
     "ip": "159.203.37.222",
@@ -12298,8 +12316,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "122.96.28.174",
@@ -12874,8 +12892,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "CN",
+    "org": "Chinanet HE"
   },
   {
     "ip": "106.117.107.233",
@@ -12946,8 +12964,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "US",
+    "org": "Microsoft Azure Cloud (centralus)"
   },
   {
     "ip": "104.28.163.18",
@@ -12964,8 +12982,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "spoofed-browser-header-mismatch",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "SG",
+    "org": "Cloudflare WARP"
   },
   {
     "ip": "104.251.181.72",
@@ -13652,6 +13670,24 @@
     "org": "Google Cloud (us-west1)"
   },
   {
+    "ip": "79.127.129.220",
+    "first_seen": "2026-06-30T20:32:54.380Z",
+    "last_seen": "2026-06-30T20:32:54.380Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "unn-79-127-129-220.datapacket.com",
+    "country": "JP",
+    "org": "Cdnext TYO"
+  },
+  {
     "ip": "71.6.232.29",
     "first_seen": "2026-06-30T09:27:23.404Z",
     "last_seen": "2026-06-30T09:27:23.404Z",
@@ -14043,24 +14079,6 @@
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "REDIS_SCANNER",
-    "hostname": "unknown",
-    "country": "NL",
-    "org": "AI Spera"
-  },
-  {
-    "ip": "45.140.222.164",
-    "first_seen": "2026-06-29T10:17:19.614Z",
-    "last_seen": "2026-06-29T10:17:19.614Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306"
-    ],
-    "target_hosts": [
-      "port-3306"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "DATABASE_SCANNER",
     "hostname": "unknown",
     "country": "NL",
     "org": "AI Spera"
@@ -14904,8 +14922,8 @@
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
     "hostname": "unknown",
-    "country": "??",
-    "org": "Pending Lookup"
+    "country": "BE",
+    "org": "Google Cloud (europe-west1)"
   },
   {
     "ip": "34.127.118.148",
@@ -15084,6 +15102,24 @@
     "hostname": "unknown",
     "country": "CN",
     "org": ""
+  },
+  {
+    "ip": "20.221.69.50",
+    "first_seen": "2026-06-30T20:49:23.585Z",
+    "last_seen": "2026-06-30T20:49:23.585Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Microsoft Azure Cloud (centralus)"
   },
   {
     "ip": "20.169.104.218",
@@ -15801,6 +15837,24 @@
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Palo Alto Networks, Inc"
+  },
+  {
+    "ip": "147.185.132.100",
+    "first_seen": "2026-06-30T20:30:35.783Z",
+    "last_seen": "2026-06-30T20:30:35.783Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
     "hostname": "unknown",
     "country": "US",
     "org": "Palo Alto Networks, Inc"
