@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `920`
-* **Total Bandwidth Consumed:** `15038 MB` (~14.69 GB)
+* **Total Unique IPs Blocked:** `922`
+* **Total Bandwidth Consumed:** `15057 MB` (~14.7 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -29,9 +29,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 12550 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 12763 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 2115 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1497 | 60.97 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1513 | 61.63 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `44.249.125.180` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
@@ -43,9 +43,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `13.53.95.176` | SE | AWS EC2 (eu-north-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `13.250.101.53` | SG | AWS EC2 (ap-southeast-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `13.213.63.194` | SG | AWS EC2 (ap-southeast-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
+| `155.2.228.196` | CH | iway AG | `HONEYTOKEN_HIT` | 652 | 0.0 MB |
 | `3.107.238.227` | AU | AWS EC2 (ap-southeast-2) | `EXPLOIT_SCANNER` | 498 | 0.0 MB |
 | `13.42.62.176` | GB | AWS EC2 (eu-west-2) | `EXPLOIT_SCANNER` | 498 | 0.0 MB |
-| `155.2.228.196` | CH | iway AG | `HONEYTOKEN_HIT` | 463 | 0.0 MB |
 | `45.148.10.120` | NL | Techoff SRV Limited | `HONEYTOKEN_HIT` | 232 | 0.32 MB |
 | `::ffff:95.179.250.105` | DE | Vultr Holdings LLC Frankfurt | `EXPLOIT_SCANNER` | 176 | 0.26 MB |
 | `::ffff:45.148.10.200` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 163 | 0.0 MB |
@@ -60,7 +60,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `140.245.103.140` | SG | Oracle Corporation | `HONEYTOKEN_HIT` | 74 | 0.0 MB |
 | `::ffff:87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 72 | 0.0 MB |
 | `45.156.87.177` | NL | VMHeaven.io | `HONEYTOKEN_HIT` | 72 | 0.0 MB |
-| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 67 | 0.0 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 68 | 0.0 MB |
 | `185.213.175.168` | NL |  | `SPIDER_TRAP_HIT` | 61 | 0.09 MB |
 | `64.89.163.143` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 58 | 0.0 MB |
 | `62.60.130.227` | IR | UAB Host Baltic | `HONEYTOKEN_HIT` | 58 | 0.0 MB |
@@ -159,6 +159,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `8.235.16.218` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `8.231.60.162` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `8.229.100.41` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
+| `79.127.129.220` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 4 | 18.9 MB |
 | `78.153.140.252` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
 | `65.109.211.195` | FI | Hetzner Online GmbH | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `64.89.163.159` | DE | Meowcore Softworks LLC | `DATABASE_SCANNER` | 4 | 0.0 MB |
@@ -277,7 +278,6 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `8.229.152.246` | US | Google Cloud (us-west1) | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `8.211.37.222` | DE | Alibaba.com Singapore E-Commerce Private Limited | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `79.127.129.231` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 2 | 5.24 MB |
-| `79.127.129.220` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `79.127.129.214` | JP | Cdnext TYO | `EXPLOIT_SCANNER` | 2 | 0.18 MB |
 | `78.153.140.156` | GB | HOSTGLOBAL.PLUS LTD | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `72.153.230.168` | US | Microsoft Azure Cloud (westus) | `RESIDENTIAL_PROXY` | 2 | 641.0 MB |
@@ -637,6 +637,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `165.140.238.74` | US | EliteWork LLC | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `164.92.218.246` | NL | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `164.90.231.69` | DE | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
+| `161.35.168.104` | GB | DigitalOcean, LLC | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `161.35.139.2` | US | DigitalOcean, LLC | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `16.146.95.129` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 2 | 0.05 MB |
 | `159.65.46.245` | US | Digital Ocean | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -662,6 +663,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `150.255.249.192` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.01 MB |
 | `150.107.74.88` | AU | Mammoth Media Pty Ltd | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `149.57.180.125` | US | LogicWeb Inc | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
+| `149.102.234.5` | BR | Datacamp Limited | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `147.45.50.96` | NL | Global Connectivity Solutions LLP | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `147.185.226.29` | JP |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `147.185.226.17` | JP |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
