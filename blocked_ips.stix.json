@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--ea841039-3e2e-408d-b534-7fb9349f3171",
+  "id": "bundle--b990efc3-6395-4da3-8f48-1a6f9145488c",
   "objects": [
     {
       "type": "identity",
@@ -16,9 +16,9 @@
       "spec_version": "2.1",
       "id": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-07-01T12:55:29.453Z",
+      "modified": "2026-07-01T14:11:29.813Z",
       "name": "Attacker Node - 213.209.159.115",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 14686.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 14900.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -31,7 +31,7 @@
       "spec_version": "2.1",
       "id": "relationship--0ce8e683-2629-5455-b6c6-0fc5d4a178aa",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-07-01T12:55:29.453Z",
+      "modified": "2026-07-01T14:11:29.813Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -66,9 +66,9 @@
       "spec_version": "2.1",
       "id": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-07-01T13:59:00.860Z",
+      "modified": "2026-07-01T14:59:35.239Z",
       "name": "Attacker Node - 2a06:98c0:3600::103",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 1761.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 1780.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -81,7 +81,7 @@
       "spec_version": "2.1",
       "id": "relationship--4133dc6f-476f-5058-b885-a23fb6b37133",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-07-01T13:59:00.860Z",
+      "modified": "2026-07-01T14:59:35.239Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -716,9 +716,9 @@
       "spec_version": "2.1",
       "id": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
       "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-07-01T12:54:29.490Z",
+      "modified": "2026-07-01T14:10:29.834Z",
       "name": "Attacker Node - unknown",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 77.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 78.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -731,7 +731,7 @@
       "spec_version": "2.1",
       "id": "relationship--8af25f98-27dd-55b4-888c-5016110fcea8",
       "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-07-01T12:54:29.490Z",
+      "modified": "2026-07-01T14:10:29.834Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -959,6 +959,31 @@
       "modified": "2026-06-30T08:22:54.108Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f62074e3-2800-5459-ba6f-919376b19f4b",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ad56fa1c-fa1a-57b4-a075-dbcac55e435e",
+      "created": "2026-07-01T14:34:34.973Z",
+      "modified": "2026-07-01T14:35:02.920Z",
+      "name": "Attacker Node - 185.242.177.67",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Blue Shield Security GmbH. Trapped connection hits: 56.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.242.177.67']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:34:34.973Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d3408881-d7cc-5754-aed0-7658f10d1679",
+      "created": "2026-07-01T14:34:34.973Z",
+      "modified": "2026-07-01T14:35:02.920Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--ad56fa1c-fa1a-57b4-a075-dbcac55e435e",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -1314,6 +1339,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--f4d961c1-a5b7-588b-adb3-601e90a06682",
+      "created": "2026-06-28T12:31:33.803Z",
+      "modified": "2026-07-01T14:35:43.143Z",
+      "name": "Attacker Node - 77.83.39.197",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Lanedonet Datacenter. Trapped connection hits: 20.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '77.83.39.197']",
+      "pattern_type": "stix",
+      "valid_from": "2026-06-28T12:31:33.803Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7cd002b4-4f65-5f06-9c24-e87a07452ea3",
+      "created": "2026-06-28T12:31:33.803Z",
+      "modified": "2026-07-01T14:35:43.143Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f4d961c1-a5b7-588b-adb3-601e90a06682",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--f445bdd4-9c1e-5b8b-ba8c-b28e5139db68",
       "created": "2026-06-27T20:01:55.074Z",
       "modified": "2026-06-30T23:06:30.647Z",
@@ -1384,31 +1434,6 @@
       "modified": "2026-06-28T22:53:47.974Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--ea906105-46af-5211-8ae2-fe32bebe85de",
-      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--f4d961c1-a5b7-588b-adb3-601e90a06682",
-      "created": "2026-06-28T12:31:33.803Z",
-      "modified": "2026-06-30T21:54:35.769Z",
-      "name": "Attacker Node - 77.83.39.197",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Lanedonet Datacenter. Trapped connection hits: 16.",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[ipv4-addr:value = '77.83.39.197']",
-      "pattern_type": "stix",
-      "valid_from": "2026-06-28T12:31:33.803Z"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--7cd002b4-4f65-5f06-9c24-e87a07452ea3",
-      "created": "2026-06-28T12:31:33.803Z",
-      "modified": "2026-06-30T21:54:35.769Z",
-      "relationship_type": "indicates",
-      "source_ref": "indicator--f4d961c1-a5b7-588b-adb3-601e90a06682",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -3084,6 +3109,31 @@
       "modified": "2026-06-30T23:10:15.888Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--1562cb3c-2ce2-5b69-b120-e7395e993300",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7f0e6bf1-3f9f-57f6-ac5a-31bacdc0933c",
+      "created": "2026-07-01T14:30:11.484Z",
+      "modified": "2026-07-01T14:30:43.383Z",
+      "name": "Attacker Node - 185.148.3.232",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Magnacapax. Trapped connection hits: 6.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.148.3.232']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:30:11.484Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e00e7ec5-2e5c-5af0-b475-969aac0b1dfa",
+      "created": "2026-07-01T14:30:11.484Z",
+      "modified": "2026-07-01T14:30:43.383Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7f0e6bf1-3f9f-57f6-ac5a-31bacdc0933c",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -6959,6 +7009,31 @@
       "modified": "2026-06-30T23:42:15.893Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--16540cff-2b56-5d82-99e4-b95dfe6478f9",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6f39df55-ccdc-5797-b38e-2fd88402ca6b",
+      "created": "2026-07-01T14:18:54.729Z",
+      "modified": "2026-07-01T14:18:54.790Z",
+      "name": "Attacker Node - 66.228.53.162",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Linode. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '66.228.53.162']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:18:54.729Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--5f428968-3da9-5f13-873f-a691a746c0bd",
+      "created": "2026-07-01T14:18:54.729Z",
+      "modified": "2026-07-01T14:18:54.790Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--6f39df55-ccdc-5797-b38e-2fd88402ca6b",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -14009,6 +14084,156 @@
       "modified": "2026-06-29T08:53:15.433Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--9372f3e1-92fd-5c20-b586-e056828bec67",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7db7edbe-b575-545e-8890-e67a42b82445",
+      "created": "2026-07-01T14:34:34.991Z",
+      "modified": "2026-07-01T14:34:35.098Z",
+      "name": "Attacker Node - 185.242.177.69",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Blue Shield Security GmbH. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.242.177.69']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:34:34.991Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--2007a00e-7347-5091-9e04-04cdbd469325",
+      "created": "2026-07-01T14:34:34.991Z",
+      "modified": "2026-07-01T14:34:35.098Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7db7edbe-b575-545e-8890-e67a42b82445",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bfbf738c-acfa-5802-aad0-5ae3155f6f31",
+      "created": "2026-07-01T14:35:02.269Z",
+      "modified": "2026-07-01T14:35:02.376Z",
+      "name": "Attacker Node - 185.242.177.68",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Blue Shield Security GmbH. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.242.177.68']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:35:02.269Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4aafccc0-b675-525f-82ec-2ac87ca241d4",
+      "created": "2026-07-01T14:35:02.269Z",
+      "modified": "2026-07-01T14:35:02.376Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--bfbf738c-acfa-5802-aad0-5ae3155f6f31",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6f8e90b8-4687-5ef2-a4e0-b69ab33c715a",
+      "created": "2026-07-01T14:34:35.913Z",
+      "modified": "2026-07-01T14:34:36.021Z",
+      "name": "Attacker Node - 185.242.177.66",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Blue Shield Security GmbH. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.242.177.66']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:34:35.913Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6fd935a3-2aa6-5ab2-ae2a-e209b9127f65",
+      "created": "2026-07-01T14:34:35.913Z",
+      "modified": "2026-07-01T14:34:36.021Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--6f8e90b8-4687-5ef2-a4e0-b69ab33c715a",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9e9873df-bf01-5964-9341-547edc34fc5d",
+      "created": "2026-07-01T14:34:37.024Z",
+      "modified": "2026-07-01T14:34:37.134Z",
+      "name": "Attacker Node - 185.242.177.64",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Blue Shield Security GmbH. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.242.177.64']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:34:37.024Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--3111fd78-10ca-549d-bf4d-29b303938df9",
+      "created": "2026-07-01T14:34:37.024Z",
+      "modified": "2026-07-01T14:34:37.134Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9e9873df-bf01-5964-9341-547edc34fc5d",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9e7700cd-b46f-5d4e-839f-34f06da22789",
+      "created": "2026-07-01T14:34:35.560Z",
+      "modified": "2026-07-01T14:34:35.667Z",
+      "name": "Attacker Node - 185.242.177.61",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Blue Shield Security GmbH. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.242.177.61']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:34:35.560Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--36925d34-3f1e-5036-bcd2-e09f9da858a0",
+      "created": "2026-07-01T14:34:35.560Z",
+      "modified": "2026-07-01T14:34:35.667Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9e7700cd-b46f-5d4e-839f-34f06da22789",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c1fd3863-7c81-5e17-b39a-e6ba632f442c",
+      "created": "2026-07-01T14:34:35.564Z",
+      "modified": "2026-07-01T14:34:35.672Z",
+      "name": "Attacker Node - 185.242.177.60",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Blue Shield Security GmbH. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.242.177.60']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:34:35.564Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7a070e30-73de-5ac6-a6e2-dba8c57b41e1",
+      "created": "2026-07-01T14:34:35.564Z",
+      "modified": "2026-07-01T14:34:35.672Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c1fd3863-7c81-5e17-b39a-e6ba632f442c",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -24314,6 +24539,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--98356981-3b13-5058-8e95-14248f1593c5",
+      "created": "2026-07-01T14:34:05.770Z",
+      "modified": "2026-07-01T14:34:05.770Z",
+      "name": "Attacker Node - 173.255.221.189",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Linode. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '173.255.221.189']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:34:05.770Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--fe766f42-3ef6-5d58-9e48-931a201291cd",
+      "created": "2026-07-01T14:34:05.770Z",
+      "modified": "2026-07-01T14:34:05.770Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--98356981-3b13-5058-8e95-14248f1593c5",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--95d52f06-0081-5caf-a2ed-d9b601f610d3",
       "created": "2026-06-27T16:58:18.965Z",
       "modified": "2026-06-27T16:58:18.965Z",
@@ -24834,6 +25084,31 @@
       "modified": "2026-06-29T08:28:58.683Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--7a0eaf5b-d842-5a02-aa30-77b08b509a7d",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--164f074a-90cc-5684-b3c6-36a14a416e58",
+      "created": "2026-07-01T14:32:56.335Z",
+      "modified": "2026-07-01T14:32:56.335Z",
+      "name": "Attacker Node - 129.227.238.230",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Zenlayer Inc. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '129.227.238.230']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-01T14:32:56.335Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6065a829-414e-5924-a4b2-4305ce5fa2fa",
+      "created": "2026-07-01T14:32:56.335Z",
+      "modified": "2026-07-01T14:32:56.335Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--164f074a-90cc-5684-b3c6-36a14a416e58",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
