@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-07-01T03:01:51.852Z",
+    "last_seen": "2026-07-01T03:58:14.153Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1527,
-    "total_bytes_sent": 65221632,
-    "estimated_cost_usd": 0.1518000000000023,
+    "connection_count": 1544,
+    "total_bytes_sent": 65909760,
+    "estimated_cost_usd": 0.15340000000000234,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",

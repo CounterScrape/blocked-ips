@@ -4,7 +4,7 @@ Active deception and botnet containment node tracking. This repository hosts a l
 
 ## 📊 Live Metrics
 * **Total Unique IPs Blocked:** `928`
-* **Total Bandwidth Consumed:** `15058 MB` (~14.71 GB)
+* **Total Bandwidth Consumed:** `15059 MB` (~14.71 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -31,7 +31,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | :--- | :---: | :--- | :--- | :---: | :---: |
 | `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 12977 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 2115 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1527 | 62.2 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 1544 | 62.86 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `44.249.125.180` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
