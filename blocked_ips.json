@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-07-01T14:11:29.813Z",
+    "last_seen": "2026-07-01T15:25:38.630Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 14900,
+    "connection_count": 15114,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-07-01T14:59:35.239Z",
+    "last_seen": "2026-07-01T15:58:52.451Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1780,
-    "total_bytes_sent": 75836416,
-    "estimated_cost_usd": 0.176500000000003,
+    "connection_count": 1809,
+    "total_bytes_sent": 77126656,
+    "estimated_cost_usd": 0.17950000000000307,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -630,14 +630,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-07-01T14:10:29.834Z",
+    "last_seen": "2026-07-01T15:24:38.773Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 78,
+    "connection_count": 79,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -2772,6 +2772,26 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "CH",
     "org": "Google Cloud (europe-west6)"
+  },
+  {
+    "ip": "65.49.1.152",
+    "first_seen": "2026-07-01T13:09:15.537Z",
+    "last_seen": "2026-07-01T15:24:46.478Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0",
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "135.148.40.198",
+      "port-6379"
+    ],
+    "connection_count": 5,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "US",
+    "org": "The Shadow Server Foundation"
   },
   {
     "ip": "65.21.124.77",
@@ -5546,24 +5566,6 @@
     "last_seen": "2026-06-29T00:43:20.576Z",
     "user_agents": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41"
-    ],
-    "target_hosts": [
-      "135.148.40.198"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "US",
-    "org": "The Shadow Server Foundation"
-  },
-  {
-    "ip": "65.49.1.152",
-    "first_seen": "2026-07-01T13:09:15.537Z",
-    "last_seen": "2026-07-01T13:09:15.829Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0"
     ],
     "target_hosts": [
       "135.148.40.198"
@@ -10725,6 +10727,24 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
+    "country": "AT",
+    "org": "Blue Shield Security GmbH"
+  },
+  {
+    "ip": "185.242.177.19",
+    "first_seen": "2026-07-01T15:05:56.315Z",
+    "last_seen": "2026-07-01T15:05:56.428Z",
+    "user_agents": [
+      "axios/1.7.2"
+    ],
+    "target_hosts": [
+      "db-backup.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "d1.blueshield.io",
     "country": "AT",
     "org": "Blue Shield Security GmbH"
   },
@@ -18390,6 +18410,24 @@
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Palo Alto Networks, Inc"
+  },
+  {
+    "ip": "147.185.132.103",
+    "first_seen": "2026-07-01T15:19:14.737Z",
+    "last_seen": "2026-07-01T15:19:14.737Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
     "hostname": "unknown",
     "country": "US",
     "org": "Palo Alto Networks, Inc"
