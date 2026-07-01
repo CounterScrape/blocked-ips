@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-07-01T19:12:53.111Z",
+    "last_seen": "2026-07-01T20:26:50.708Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 15764,
+    "connection_count": 15977,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-07-01T19:59:55.300Z",
+    "last_seen": "2026-07-01T20:55:39.558Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1891,
-    "total_bytes_sent": 80567296,
-    "estimated_cost_usd": 0.1875000000000033,
+    "connection_count": 1917,
+    "total_bytes_sent": 81771520,
+    "estimated_cost_usd": 0.19030000000000338,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -630,14 +630,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-07-01T19:11:53.099Z",
+    "last_seen": "2026-07-01T20:25:50.708Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 82,
+    "connection_count": 83,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -1383,6 +1383,24 @@
     "org": "HOSTGLOBAL.PLUS LTD"
   },
   {
+    "ip": "78.153.140.156",
+    "first_seen": "2026-07-01T00:42:46.565Z",
+    "last_seen": "2026-07-01T20:41:38.488Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 18,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "HOSTGLOBAL.PLUS LTD"
+  },
+  {
     "ip": "18.116.101.220",
     "first_seen": "2026-06-28T03:04:17.540Z",
     "last_seen": "2026-07-01T04:24:10.339Z",
@@ -1406,24 +1424,6 @@
     "ip": "78.153.140.250",
     "first_seen": "2026-06-28T01:48:26.507Z",
     "last_seen": "2026-06-28T22:53:47.974Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
-    ],
-    "target_hosts": [
-      "135.148.40.198"
-    ],
-    "connection_count": 16,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "GB",
-    "org": "HOSTGLOBAL.PLUS LTD"
-  },
-  {
-    "ip": "78.153.140.156",
-    "first_seen": "2026-07-01T00:42:46.565Z",
-    "last_seen": "2026-07-01T18:52:21.271Z",
     "user_agents": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
     ],
