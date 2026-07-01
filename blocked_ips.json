@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-07-01T07:59:20.838Z",
+    "last_seen": "2026-07-01T08:59:52.890Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1619,
-    "total_bytes_sent": 69007360,
-    "estimated_cost_usd": 0.16060000000000255,
+    "connection_count": 1643,
+    "total_bytes_sent": 70039552,
+    "estimated_cost_usd": 0.16300000000000262,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -1116,6 +1116,27 @@
     "org": "UCloud (HK) Holdings Group Limited"
   },
   {
+    "ip": "203.159.90.217",
+    "first_seen": "2026-06-27T18:30:58.025Z",
+    "last_seen": "2026-07-01T08:34:29.902Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz",
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 27,
+    "total_bytes_sent": 110439424,
+    "estimated_cost_usd": 0.3086,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "dns.google",
+    "country": "NL",
+    "org": "1337 Services GmbH"
+  },
+  {
     "ip": "87.52.107.135",
     "first_seen": "2026-06-28T16:23:26.217Z",
     "last_seen": "2026-06-28T16:23:28.627Z",
@@ -1144,27 +1165,6 @@
     "hostname": "0x57346b87.static.cust.fastspeed.dk",
     "country": "DK",
     "org": "Fastspeed Aps"
-  },
-  {
-    "ip": "203.159.90.217",
-    "first_seen": "2026-06-27T18:30:58.025Z",
-    "last_seen": "2026-07-01T06:46:12.096Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "aws-api.dev-node-sync-99.xyz",
-      "config-vault.dev-node-sync-99.xyz",
-      "nexus-dev.dev-node-sync-99.xyz",
-      "vpn.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 26,
-    "total_bytes_sent": 110439424,
-    "estimated_cost_usd": 0.3086,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "dns.google",
-    "country": "NL",
-    "org": "1337 Services GmbH"
   },
   {
     "ip": "157.15.40.60",
@@ -1993,6 +1993,24 @@
     "org": "Google Cloud (us-west1)"
   },
   {
+    "ip": "78.153.140.156",
+    "first_seen": "2026-07-01T00:42:46.565Z",
+    "last_seen": "2026-07-01T08:51:40.134Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 8,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "HOSTGLOBAL.PLUS LTD"
+  },
+  {
     "ip": "77.83.39.14",
     "first_seen": "2026-06-28T12:07:09.164Z",
     "last_seen": "2026-06-28T12:08:53.261Z",
@@ -2465,24 +2483,6 @@
     "hostname": "unknown",
     "country": "US",
     "org": "AWS EC2 (us-east-2)"
-  },
-  {
-    "ip": "78.153.140.156",
-    "first_seen": "2026-07-01T00:42:46.565Z",
-    "last_seen": "2026-07-01T06:10:06.640Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
-    ],
-    "target_hosts": [
-      "135.148.40.198"
-    ],
-    "connection_count": 6,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "GB",
-    "org": "HOSTGLOBAL.PLUS LTD"
   },
   {
     "ip": "54.70.53.60",
@@ -3755,6 +3755,26 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "GB",
     "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "71.6.232.29",
+    "first_seen": "2026-06-30T09:27:23.404Z",
+    "last_seen": "2026-07-01T08:29:29.744Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306",
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-3306",
+      "port-6379"
+    ],
+    "connection_count": 3,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "CariNet, Inc."
   },
   {
     "ip": "65.49.20.66",
@@ -5130,26 +5150,6 @@
     "hostname": "unknown",
     "country": "US",
     "org": "Microsoft Azure Cloud (westus)"
-  },
-  {
-    "ip": "71.6.232.29",
-    "first_seen": "2026-06-30T09:27:23.404Z",
-    "last_seen": "2026-07-01T05:10:35.840Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306",
-      "TCP Raw Probe on Port 6379"
-    ],
-    "target_hosts": [
-      "port-3306",
-      "port-6379"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "REDIS_SCANNER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "CariNet, Inc."
   },
   {
     "ip": "68.183.112.75",
@@ -8474,6 +8474,24 @@
     ],
     "target_hosts": [
       "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "EGN Dedicated Servers - Asia Optimized"
+  },
+  {
+    "ip": "23.27.145.188",
+    "first_seen": "2026-07-01T08:29:18.600Z",
+    "last_seen": "2026-07-01T08:29:18.742Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/120.0"
+    ],
+    "target_hosts": [
+      "internal-sync.dev-node-sync-99.xyz"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -14971,6 +14989,24 @@
     "ip": "66.132.186.164",
     "first_seen": "2026-06-29T23:31:06.109Z",
     "last_seen": "2026-06-29T23:31:06.109Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Censys, Inc"
+  },
+  {
+    "ip": "66.132.186.162",
+    "first_seen": "2026-07-01T08:35:41.242Z",
+    "last_seen": "2026-07-01T08:35:41.242Z",
     "user_agents": [
       "TCP Raw Probe on Port 6379"
     ],
