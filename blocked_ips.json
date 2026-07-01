@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-07-01T17:56:59.097Z",
+    "last_seen": "2026-07-01T19:12:53.111Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 15547,
+    "connection_count": 15764,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-07-01T18:47:35.750Z",
+    "last_seen": "2026-07-01T19:59:55.300Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1869,
-    "total_bytes_sent": 79707136,
-    "estimated_cost_usd": 0.18550000000000325,
+    "connection_count": 1891,
+    "total_bytes_sent": 80567296,
+    "estimated_cost_usd": 0.1875000000000033,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -630,14 +630,14 @@
   {
     "ip": "unknown",
     "first_seen": "2026-06-27T23:34:12.851Z",
-    "last_seen": "2026-07-01T17:55:59.065Z",
+    "last_seen": "2026-07-01T19:11:53.099Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 81,
+    "connection_count": 82,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -3079,6 +3079,24 @@
     "org": "AI Spera"
   },
   {
+    "ip": "::ffff:52.17.85.134",
+    "first_seen": "2026-07-01T19:32:55.670Z",
+    "last_seen": "2026-07-01T19:33:05.762Z",
+    "user_agents": [
+      "Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "www.jenkins.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 12288,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "IE",
+    "org": "AWS EC2 (eu-west-1)"
+  },
+  {
     "ip": "::ffff:154.195.180.97",
     "first_seen": "2026-06-28T10:17:26.664Z",
     "last_seen": "2026-06-28T16:47:16.011Z",
@@ -3313,6 +3331,24 @@
     "hostname": "ec2-54-164-201-47.compute-1.amazonaws.com",
     "country": "US",
     "org": "AWS EC2 (us-east-1)"
+  },
+  {
+    "ip": "52.17.85.134",
+    "first_seen": "2026-07-01T19:32:56.105Z",
+    "last_seen": "2026-07-01T19:33:06.198Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0"
+    ],
+    "target_hosts": [
+      "www.jenkins.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 12288,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "IE",
+    "org": "AWS EC2 (eu-west-1)"
   },
   {
     "ip": "5.101.64.6",
@@ -5496,6 +5532,24 @@
     "hostname": "231.200.108.93.rev.vodafone.pt",
     "country": "PT",
     "org": ""
+  },
+  {
+    "ip": "91.92.41.151",
+    "first_seen": "2026-07-01T19:33:35.059Z",
+    "last_seen": "2026-07-01T19:33:35.154Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "BG",
+    "org": "Sino Worldwide Trading Limited"
   },
   {
     "ip": "87.236.176.42",
@@ -13591,6 +13645,24 @@
     "org": "Chinanet GD"
   },
   {
+    "ip": "139.59.61.219",
+    "first_seen": "2026-07-01T19:34:49.536Z",
+    "last_seen": "2026-07-01T19:34:59.665Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"
+    ],
+    "target_hosts": [
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 6144,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "IN",
+    "org": "DigitalOcean, LLC"
+  },
+  {
     "ip": "139.212.70.125",
     "first_seen": "2026-06-30T16:09:30.719Z",
     "last_seen": "2026-06-30T16:13:38.497Z",
@@ -17921,6 +17993,24 @@
     "hostname": "unknown",
     "country": "US",
     "org": "Kuroit Limited"
+  },
+  {
+    "ip": "198.235.24.84",
+    "first_seen": "2026-07-01T19:51:55.715Z",
+    "last_seen": "2026-07-01T19:51:55.715Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Palo Alto Networks, Inc"
   },
   {
     "ip": "198.235.24.72",
