@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-06-30T23:10:39.206Z",
+    "last_seen": "2026-07-01T00:24:38.734Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 12336,
+    "connection_count": 12550,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-06-30T23:59:06.880Z",
+    "last_seen": "2026-07-01T01:00:33.521Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1489,
-    "total_bytes_sent": 63587328,
-    "estimated_cost_usd": 0.14800000000000219,
+    "connection_count": 1497,
+    "total_bytes_sent": 63931392,
+    "estimated_cost_usd": 0.1488000000000022,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -1146,30 +1146,9 @@
     "org": "Fastspeed Aps"
   },
   {
-    "ip": "203.159.90.217",
-    "first_seen": "2026-06-27T18:30:58.025Z",
-    "last_seen": "2026-06-30T21:07:04.188Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    ],
-    "target_hosts": [
-      "aws-api.dev-node-sync-99.xyz",
-      "config-vault.dev-node-sync-99.xyz",
-      "nexus-dev.dev-node-sync-99.xyz",
-      "vpn.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 24,
-    "total_bytes_sent": 110439424,
-    "estimated_cost_usd": 0.3086,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "dns.google",
-    "country": "NL",
-    "org": "1337 Services GmbH"
-  },
-  {
     "ip": "157.15.40.60",
     "first_seen": "2026-06-28T16:47:19.552Z",
-    "last_seen": "2026-06-30T22:55:03.982Z",
+    "last_seen": "2026-07-01T00:02:17.136Z",
     "user_agents": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     ],
@@ -1184,16 +1163,38 @@
       "jenkins.dev-node-sync-99.xyz",
       "nexus-dev.dev-node-sync-99.xyz",
       "portainer.dev-node-sync-99.xyz",
+      "prod-api.dev-node-sync-99.xyz",
       "staging-db.dev-node-sync-99.xyz",
       "telemetry.dev-node-sync-99.xyz"
     ],
-    "connection_count": 24,
+    "connection_count": 26,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "spoofed-browser-header-mismatch",
     "country": "ID",
     "org": "PT Trisari Data Indonesia"
+  },
+  {
+    "ip": "203.159.90.217",
+    "first_seen": "2026-06-27T18:30:58.025Z",
+    "last_seen": "2026-07-01T00:23:29.590Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "target_hosts": [
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "nexus-dev.dev-node-sync-99.xyz",
+      "vpn.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 25,
+    "total_bytes_sent": 110439424,
+    "estimated_cost_usd": 0.3086,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "dns.google",
+    "country": "NL",
+    "org": "1337 Services GmbH"
   },
   {
     "ip": "136.66.130.204",
@@ -4962,6 +4963,24 @@
     "hostname": "unn-79-127-129-214.datapacket.com",
     "country": "JP",
     "org": "Cdnext TYO"
+  },
+  {
+    "ip": "78.153.140.156",
+    "first_seen": "2026-07-01T00:42:46.565Z",
+    "last_seen": "2026-07-01T00:42:46.747Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+    ],
+    "target_hosts": [
+      "135.148.40.198"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "HOSTGLOBAL.PLUS LTD"
   },
   {
     "ip": "72.153.230.168",
