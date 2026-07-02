@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--3f5fb7f1-b1f4-4864-910b-e3f87fb8588d",
+  "id": "bundle--a7f1dd98-db09-4ae4-b874-916ad7eb8b7d",
   "objects": [
     {
       "type": "identity",
@@ -66,9 +66,9 @@
       "spec_version": "2.1",
       "id": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-07-02T03:19:18.653Z",
+      "modified": "2026-07-02T04:58:45.395Z",
       "name": "Attacker Node - 2a06:98c0:3600::103",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 2035.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 2055.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -81,7 +81,7 @@
       "spec_version": "2.1",
       "id": "relationship--4133dc6f-476f-5058-b885-a23fb6b37133",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-07-02T03:19:18.653Z",
+      "modified": "2026-07-02T04:58:45.395Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -14339,6 +14339,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--42aea5f3-1fa2-5e43-b745-fe4a4144badf",
+      "created": "2026-07-02T04:56:54.286Z",
+      "modified": "2026-07-02T04:56:54.373Z",
+      "name": "Attacker Node - 185.247.137.82",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Constantine Cybersecurity LTD. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.247.137.82']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T04:56:54.286Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--2a8485de-daf7-5d0c-8822-39e225f52b60",
+      "created": "2026-07-02T04:56:54.286Z",
+      "modified": "2026-07-02T04:56:54.373Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--42aea5f3-1fa2-5e43-b745-fe4a4144badf",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--9cab5c7e-f0c1-54c4-9899-7105f51fb899",
       "created": "2026-06-30T06:14:15.440Z",
       "modified": "2026-06-30T06:14:15.526Z",
@@ -22339,6 +22364,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--14a8a163-070e-5576-a8a6-bc5579bd9c2b",
+      "created": "2026-07-02T04:29:18.641Z",
+      "modified": "2026-07-02T04:29:18.641Z",
+      "name": "Attacker Node - 81.19.216.103",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Infrawatch Limited. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '81.19.216.103']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T04:29:18.641Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--341b1cbb-ff5c-54ef-a295-cc6f34055658",
+      "created": "2026-07-02T04:29:18.641Z",
+      "modified": "2026-07-02T04:29:18.641Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--14a8a163-070e-5576-a8a6-bc5579bd9c2b",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--1c53a7e0-4275-557b-a11b-6990fd9c4fab",
       "created": "2026-07-01T12:29:18.378Z",
       "modified": "2026-07-01T12:29:18.378Z",
@@ -23209,6 +23259,31 @@
       "modified": "2026-06-28T09:26:07.738Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--2e2f7ef9-31bf-546e-8e3a-9050e6873e8c",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9f1468cd-8a74-5a9e-b6cc-8ca1b892e480",
+      "created": "2026-07-02T04:57:47.281Z",
+      "modified": "2026-07-02T04:57:47.281Z",
+      "name": "Attacker Node - 43.248.108.152",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: . Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '43.248.108.152']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T04:57:47.281Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--db1236a8-49de-57c5-809d-fb1f20129240",
+      "created": "2026-07-02T04:57:47.281Z",
+      "modified": "2026-07-02T04:57:47.281Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9f1468cd-8a74-5a9e-b6cc-8ca1b892e480",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -24764,6 +24839,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--84b1ec91-ab4b-5ea4-9d09-d561bbdb9e8c",
+      "created": "2026-07-02T04:58:03.471Z",
+      "modified": "2026-07-02T04:58:03.471Z",
+      "name": "Attacker Node - 216.226.77.20",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Valence Technology Co. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '216.226.77.20']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T04:58:03.471Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--397f017c-e6f4-5372-b97e-f437c9d7eca2",
+      "created": "2026-07-02T04:58:03.471Z",
+      "modified": "2026-07-02T04:58:03.471Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--84b1ec91-ab4b-5ea4-9d09-d561bbdb9e8c",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--a217a5af-d6c4-5d55-9dd6-779c30589255",
       "created": "2026-07-01T07:05:17.193Z",
       "modified": "2026-07-01T07:05:17.193Z",
@@ -25784,6 +25884,31 @@
       "modified": "2026-07-01T05:01:11.903Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--cff18d5f-0565-5000-aa10-e6808aad2354",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e259e73f-8d8a-5d37-966b-29fb5069e089",
+      "created": "2026-07-02T04:29:12.902Z",
+      "modified": "2026-07-02T04:29:12.902Z",
+      "name": "Attacker Node - 185.216.145.164",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Infrawatch Limited. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '185.216.145.164']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T04:29:12.902Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9176712c-5bc1-54a9-851d-32610b76c3cd",
+      "created": "2026-07-02T04:29:12.902Z",
+      "modified": "2026-07-02T04:29:12.902Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e259e73f-8d8a-5d37-966b-29fb5069e089",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
