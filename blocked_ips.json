@@ -2,14 +2,14 @@
   {
     "ip": "213.209.159.115",
     "first_seen": "2026-06-27T23:34:12.944Z",
-    "last_seen": "2026-07-02T06:27:37.802Z",
+    "last_seen": "2026-07-02T07:42:37.053Z",
     "user_agents": [
       "TCP Raw Probe on Port 3306"
     ],
     "target_hosts": [
       "port-3306"
     ],
-    "connection_count": 17714,
+    "connection_count": 17932,
     "total_bytes_sent": 0,
     "estimated_cost_usd": 0.0,
     "client_type": "DATABASE_SCANNER",
@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-07-02T06:56:31.495Z",
+    "last_seen": "2026-07-02T07:58:23.832Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 2097,
-    "total_bytes_sent": 89512960,
-    "estimated_cost_usd": 0.2083000000000039,
+    "connection_count": 2113,
+    "total_bytes_sent": 90201088,
+    "estimated_cost_usd": 0.20990000000000394,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -1548,6 +1548,34 @@
     "org": "Sichuan Chengdu interesting network technology Co Ltd"
   },
   {
+    "ip": "93.123.109.178",
+    "first_seen": "2026-07-02T05:36:17.989Z",
+    "last_seen": "2026-07-02T07:20:19.257Z",
+    "user_agents": [
+      "HTMLParser/1.6",
+      "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)",
+      "Mozilla/5.0 (Linux; Android 5.0.1; GT-I9500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36",
+      "Mozilla/5.0 (Linux; Android 9; ONEPLUS A5010) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36",
+      "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36",
+      "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "aws-api.dev-node-sync-99.xyz",
+      "config-vault.dev-node-sync-99.xyz",
+      "db-backup.dev-node-sync-99.xyz",
+      "git.dev-node-sync-99.xyz",
+      "prod-api.dev-node-sync-99.xyz",
+      "telemetry.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 14,
+    "total_bytes_sent": 21504,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "AD",
+    "org": "Techoff SRV Limited"
+  },
+  {
     "ip": "3.217.128.115",
     "first_seen": "2026-07-01T17:08:06.032Z",
     "last_seen": "2026-07-01T17:39:22.850Z",
@@ -1839,32 +1867,6 @@
     "estimated_cost_usd": 0.0,
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
-    "country": "AD",
-    "org": "Techoff SRV Limited"
-  },
-  {
-    "ip": "93.123.109.178",
-    "first_seen": "2026-07-02T05:36:17.989Z",
-    "last_seen": "2026-07-02T05:36:22.920Z",
-    "user_agents": [
-      "HTMLParser/1.6",
-      "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)",
-      "Mozilla/5.0 (Linux; Android 5.0.1; GT-I9500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36",
-      "Mozilla/5.0 (Linux; Android 9; ONEPLUS A5010) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36",
-      "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
-    ],
-    "target_hosts": [
-      "aws-api.dev-node-sync-99.xyz",
-      "config-vault.dev-node-sync-99.xyz",
-      "db-backup.dev-node-sync-99.xyz",
-      "prod-api.dev-node-sync-99.xyz",
-      "telemetry.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 10,
-    "total_bytes_sent": 15360,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
     "country": "AD",
     "org": "Techoff SRV Limited"
   },
@@ -2859,6 +2861,24 @@
     "org": "Beijing Tiantexin Tech. Co., Ltd"
   },
   {
+    "ip": "102.129.152.36",
+    "first_seen": "2026-07-02T07:52:19.307Z",
+    "last_seen": "2026-07-02T07:53:58.480Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "auth-service.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 8,
+    "total_bytes_sent": 10240,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Freedomtech Solutions Limited"
+  },
+  {
     "ip": "101.36.118.228",
     "first_seen": "2026-06-28T23:22:47.184Z",
     "last_seen": "2026-06-28T23:23:15.566Z",
@@ -3090,6 +3110,42 @@
     "org": "SkyQuantum Internet Service LLC"
   },
   {
+    "ip": "158.173.241.11",
+    "first_seen": "2026-07-02T07:39:51.387Z",
+    "last_seen": "2026-07-02T07:41:25.657Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "config-vault.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 6,
+    "total_bytes_sent": 6144,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "SE",
+    "org": "VPN Consumer Stockholm, Sweden"
+  },
+  {
+    "ip": "155.2.194.77",
+    "first_seen": "2026-07-02T07:44:54.171Z",
+    "last_seen": "2026-07-02T07:46:32.278Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "admin.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 6,
+    "total_bytes_sent": 7168,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "IE",
+    "org": "VPN Consumer Dublin, Ireland"
+  },
+  {
     "ip": "15.235.149.236",
     "first_seen": "2026-06-29T01:43:28.245Z",
     "last_seen": "2026-07-02T05:37:16.669Z",
@@ -3144,6 +3200,24 @@
     "client_type": "HONEYTOKEN_HIT",
     "hostname": "unknown",
     "country": "JP",
+    "org": ""
+  },
+  {
+    "ip": "140.228.24.187",
+    "first_seen": "2026-07-02T07:53:32.658Z",
+    "last_seen": "2026-07-02T07:55:06.738Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "git.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 6,
+    "total_bytes_sent": 4096,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "CA",
     "org": ""
   },
   {
@@ -3264,6 +3338,24 @@
     "org": "AI Spera"
   },
   {
+    "ip": "::ffff:34.34.103.195",
+    "first_seen": "2026-06-30T10:08:20.541Z",
+    "last_seen": "2026-07-02T07:30:34.376Z",
+    "user_agents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0"
+    ],
+    "target_hosts": [
+      "135.148.40.198:8080"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 2048,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "NL",
+    "org": "Google Cloud (europe-west4)"
+  },
+  {
     "ip": "::ffff:154.195.180.97",
     "first_seen": "2026-06-28T10:17:26.664Z",
     "last_seen": "2026-06-28T16:47:16.011Z",
@@ -3316,6 +3408,42 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "AD",
     "org": "Techoff SRV Limited"
+  },
+  {
+    "ip": "91.90.122.10",
+    "first_seen": "2026-07-02T07:24:22.963Z",
+    "last_seen": "2026-07-02T07:25:55.033Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "nexus-dev.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 4096,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "LI",
+    "org": "M247 Ltd - Liechtenstein Infra"
+  },
+  {
+    "ip": "82.139.195.194",
+    "first_seen": "2026-07-02T06:59:24.843Z",
+    "last_seen": "2026-07-02T07:00:55.725Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "aws-api.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 3072,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "DZ",
+    "org": "Birkenhauer & Partner GmbH"
   },
   {
     "ip": "8.235.16.218",
@@ -4268,6 +4396,25 @@
     "org": "Storm Industries"
   },
   {
+    "ip": "173.239.217.184",
+    "first_seen": "2026-07-02T07:05:46.384Z",
+    "last_seen": "2026-07-02T07:16:28.789Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "db-backup.dev-node-sync-99.xyz",
+      "jenkins.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 6144,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "AD",
+    "org": "Burnaby Mountain Housing Co-op"
+  },
+  {
     "ip": "164.92.91.136",
     "first_seen": "2026-06-27T20:52:57.227Z",
     "last_seen": "2026-06-28T10:12:38.576Z",
@@ -5144,24 +5291,6 @@
     "org": "Alibaba.com LLC"
   },
   {
-    "ip": "::ffff:34.34.103.195",
-    "first_seen": "2026-06-30T10:08:20.541Z",
-    "last_seen": "2026-06-30T10:08:23.452Z",
-    "user_agents": [
-      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0"
-    ],
-    "target_hosts": [
-      "135.148.40.198:8080"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 1024,
-    "estimated_cost_usd": 0.0,
-    "client_type": "EXPLOIT_SCANNER",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "NL",
-    "org": "Google Cloud (europe-west4)"
-  },
-  {
     "ip": "::ffff:207.180.29.33",
     "first_seen": "2026-07-02T00:05:05.931Z",
     "last_seen": "2026-07-02T00:05:07.392Z",
@@ -5916,24 +6045,6 @@
     "hostname": "unknown",
     "country": "GB",
     "org": "Constantine Cybersecurity LTD"
-  },
-  {
-    "ip": "82.139.195.194",
-    "first_seen": "2026-07-02T06:59:24.843Z",
-    "last_seen": "2026-07-02T06:59:30.595Z",
-    "user_agents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
-    ],
-    "target_hosts": [
-      "aws-api.dev-node-sync-99.xyz"
-    ],
-    "connection_count": 2,
-    "total_bytes_sent": 3072,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "unknown",
-    "country": "DZ",
-    "org": "Birkenhauer & Partner GmbH"
   },
   {
     "ip": "8.229.201.210",
@@ -13255,6 +13366,24 @@
     "org": "Bite code"
   },
   {
+    "ip": "158.173.67.60",
+    "first_seen": "2026-07-02T07:25:57.824Z",
+    "last_seen": "2026-07-02T07:26:03.468Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    ],
+    "target_hosts": [
+      "prod-api.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 3072,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "BE",
+    "org": "VPN Consumer Brussels, Belgium"
+  },
+  {
     "ip": "157.230.187.223",
     "first_seen": "2026-06-28T20:38:06.505Z",
     "last_seen": "2026-06-28T20:38:22.129Z",
@@ -14351,6 +14480,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "BE",
     "org": "Google Cloud (europe-west1)"
+  },
+  {
+    "ip": "13.219.1.233",
+    "first_seen": "2026-06-29T08:28:58.683Z",
+    "last_seen": "2026-07-02T07:15:46.022Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "AWS EC2 (us-east-1)"
   },
   {
     "ip": "129.227.238.230",
@@ -17269,6 +17416,24 @@
     "org": "Tencent cloud computing (Beijing) Co., Ltd."
   },
   {
+    "ip": "47.116.44.56",
+    "first_seen": "2026-07-02T07:50:59.312Z",
+    "last_seen": "2026-07-02T07:50:59.312Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "CN",
+    "org": "Alibaba.com LLC"
+  },
+  {
     "ip": "45.82.78.107",
     "first_seen": "2026-06-30T15:17:19.119Z",
     "last_seen": "2026-06-30T15:17:19.119Z",
@@ -19815,24 +19980,6 @@
     "hostname": "unknown",
     "country": "BE",
     "org": "Google Cloud (europe-west1)"
-  },
-  {
-    "ip": "13.219.1.233",
-    "first_seen": "2026-06-29T08:28:58.683Z",
-    "last_seen": "2026-06-29T08:28:58.683Z",
-    "user_agents": [
-      "TCP Raw Probe on Port 3306"
-    ],
-    "target_hosts": [
-      "port-3306"
-    ],
-    "connection_count": 1,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "DATABASE_SCANNER",
-    "hostname": "unknown",
-    "country": "US",
-    "org": "AWS EC2 (us-east-1)"
   },
   {
     "ip": "128.85.97.37",
