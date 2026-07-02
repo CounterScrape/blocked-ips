@@ -38,16 +38,16 @@
   {
     "ip": "2a06:98c0:3600::103",
     "first_seen": "2026-06-27T17:37:17.840Z",
-    "last_seen": "2026-07-01T22:45:55.727Z",
+    "last_seen": "2026-07-01T23:55:10.463Z",
     "user_agents": [
       "http://dev-node-sync-99.xyz/wp-admin/install.php?step=1"
     ],
     "target_hosts": [
       "dev-node-sync-99.xyz"
     ],
-    "connection_count": 1959,
-    "total_bytes_sent": 83577856,
-    "estimated_cost_usd": 0.1945000000000035,
+    "connection_count": 1983,
+    "total_bytes_sent": 84610048,
+    "estimated_cost_usd": 0.19690000000000357,
     "client_type": "EXPLOIT_SCANNER",
     "hostname": "unknown",
     "country": "US",
@@ -541,6 +541,24 @@
     "hostname": "unknown",
     "country": "EC",
     "org": "Clientes NETLIFE Guayaquil - gepon"
+  },
+  {
+    "ip": "152.42.241.61",
+    "first_seen": "2026-07-01T23:29:55.346Z",
+    "last_seen": "2026-07-01T23:31:07.764Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 101,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "SG",
+    "org": "DigitalOcean, LLC"
   },
   {
     "ip": "129.204.45.46",
@@ -2835,6 +2853,26 @@
     "org": "AWS EC2 (us-east-2)"
   },
   {
+    "ip": "::ffff:204.76.203.30",
+    "first_seen": "2026-07-01T18:47:40.411Z",
+    "last_seen": "2026-07-01T23:16:55.278Z",
+    "user_agents": [
+      "Go-http-client/1.1",
+      "Mozilla/5.0"
+    ],
+    "target_hosts": [
+      "api.ipify.org",
+      "ip-api.com"
+    ],
+    "connection_count": 6,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "NL",
+    "org": "Intelligence Hosting LLC"
+  },
+  {
     "ip": "54.70.53.60",
     "first_seen": "2026-06-28T00:00:29.376Z",
     "last_seen": "2026-06-28T01:00:05.917Z",
@@ -3163,26 +3201,6 @@
     "org": "AI Spera"
   },
   {
-    "ip": "::ffff:204.76.203.30",
-    "first_seen": "2026-07-01T18:47:40.411Z",
-    "last_seen": "2026-07-01T21:41:42.679Z",
-    "user_agents": [
-      "Go-http-client/1.1",
-      "Mozilla/5.0"
-    ],
-    "target_hosts": [
-      "api.ipify.org",
-      "ip-api.com"
-    ],
-    "connection_count": 4,
-    "total_bytes_sent": 0,
-    "estimated_cost_usd": 0.0,
-    "client_type": "HONEYTOKEN_HIT",
-    "hostname": "spoofed-browser-header-mismatch",
-    "country": "NL",
-    "org": "Intelligence Hosting LLC"
-  },
-  {
     "ip": "::ffff:154.195.180.97",
     "first_seen": "2026-06-28T10:17:26.664Z",
     "last_seen": "2026-06-28T16:47:16.011Z",
@@ -3362,6 +3380,24 @@
     "hostname": "spoofed-browser-header-mismatch",
     "country": "FI",
     "org": "Hetzner Online GmbH"
+  },
+  {
+    "ip": "64.89.163.97",
+    "first_seen": "2026-07-01T23:04:29.127Z",
+    "last_seen": "2026-07-01T23:04:29.932Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 4,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "DE",
+    "org": "Meowcore Softworks LLC"
   },
   {
     "ip": "64.89.163.159",
@@ -4648,6 +4684,24 @@
     "org": "Constantine Cybersecurity LTD"
   },
   {
+    "ip": "::ffff:87.236.176.225",
+    "first_seen": "2026-07-01T23:53:41.499Z",
+    "last_seen": "2026-07-01T23:53:41.584Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "aws-api.dev-node-sync-99.xyz:8080"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
     "ip": "::ffff:87.236.176.22",
     "first_seen": "2026-06-28T21:31:16.335Z",
     "last_seen": "2026-06-28T21:31:16.419Z",
@@ -5510,6 +5564,24 @@
     "hostname": "unknown",
     "country": "US",
     "org": "Palo Alto Networks, Inc"
+  },
+  {
+    "ip": "::ffff:123.12.8.249",
+    "first_seen": "2026-07-01T23:20:27.569Z",
+    "last_seen": "2026-07-01T23:20:27.848Z",
+    "user_agents": [
+      "unknown"
+    ],
+    "target_hosts": [
+      "unknown"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "unknown",
+    "country": "CN",
+    "org": ""
   },
   {
     "ip": "::ffff:103.213.112.141",
@@ -10223,6 +10295,24 @@
     ],
     "target_hosts": [
       "internal-sync.dev-node-sync-99.xyz"
+    ],
+    "connection_count": 2,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "HONEYTOKEN_HIT",
+    "hostname": "spoofed-browser-header-mismatch",
+    "country": "GB",
+    "org": "Constantine Cybersecurity LTD"
+  },
+  {
+    "ip": "195.96.139.44",
+    "first_seen": "2026-07-01T23:44:14.386Z",
+    "last_seen": "2026-07-01T23:44:14.472Z",
+    "user_agents": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "target_hosts": [
+      "config-vault.dev-node-sync-99.xyz"
     ],
     "connection_count": 2,
     "total_bytes_sent": 0,
@@ -16557,6 +16647,24 @@
     "org": "Censys Inc"
   },
   {
+    "ip": "66.132.172.138",
+    "first_seen": "2026-07-01T23:35:45.238Z",
+    "last_seen": "2026-07-01T23:35:45.238Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 3306"
+    ],
+    "target_hosts": [
+      "port-3306"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "DATABASE_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Censys Inc"
+  },
+  {
     "ip": "66.132.172.106",
     "first_seen": "2026-06-29T21:33:34.816Z",
     "last_seen": "2026-06-29T21:33:34.816Z",
@@ -16699,6 +16807,24 @@
     "hostname": "unknown",
     "country": "GB",
     "org": "OVH"
+  },
+  {
+    "ip": "52.224.241.44",
+    "first_seen": "2026-07-01T23:43:29.621Z",
+    "last_seen": "2026-07-01T23:43:29.621Z",
+    "user_agents": [
+      "TCP Raw Probe on Port 6379"
+    ],
+    "target_hosts": [
+      "port-6379"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "REDIS_SCANNER",
+    "hostname": "unknown",
+    "country": "US",
+    "org": "Microsoft Azure Cloud (eastus)"
   },
   {
     "ip": "5.226.140.9",
@@ -18942,6 +19068,24 @@
     "client_type": "SPIDER_TRAP_HIT",
     "hostname": "spider-trap-active-containment",
     "country": "US",
+    "org": ""
+  },
+  {
+    "ip": "169.239.183.229",
+    "first_seen": "2026-07-01T23:35:48.556Z",
+    "last_seen": "2026-07-01T23:35:48.556Z",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4240.193 Safari/537.36"
+    ],
+    "target_hosts": [
+      "dev-node-sync-99.xyz"
+    ],
+    "connection_count": 1,
+    "total_bytes_sent": 0,
+    "estimated_cost_usd": 0.0,
+    "client_type": "EXPLOIT_SCANNER",
+    "hostname": "unknown",
+    "country": "ZA",
     "org": ""
   },
   {
