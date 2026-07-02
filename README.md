@@ -3,8 +3,8 @@
 Active deception and botnet containment node tracking. This repository hosts a live-updated list of verified automated scraping and vulnerability scanning nodes caught by the CounterScrape honeytrap network.
 
 ## 📊 Live Metrics
-* **Total Unique IPs Blocked:** `1077`
-* **Total Bandwidth Consumed:** `15231 MB` (~14.87 GB)
+* **Total Unique IPs Blocked:** `1080`
+* **Total Bandwidth Consumed:** `15365 MB` (~15.0 GB)
 * **Visual Analytics Dashboard:** [https://counterscrape.github.io/blocked-ips/](https://counterscrape.github.io/blocked-ips/)
 
 ---
@@ -29,9 +29,9 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 
 | IP Address | Country | Organization / ISP | Client Profile | Hits | Data Sent |
 | :--- | :---: | :--- | :--- | :---: | :---: |
-| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 17279 | 0.0 MB |
+| `213.209.159.115` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 17496 | 0.0 MB |
 | `213.209.159.154` | DE | Feo Prest SRL | `DATABASE_SCANNER` | 2329 | 0.0 MB |
-| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 2055 | 83.64 MB |
+| `2a06:98c0:3600::103` | US | Cloudflare, Inc. | `EXPLOIT_SCANNER` | 2073 | 84.38 MB |
 | `54.161.26.151` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `52.90.184.225` | US | AWS EC2 (us-east-1) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
 | `44.249.125.180` | US | AWS EC2 (us-west-2) | `HONEYTOKEN_HIT` | 680 | 0.0 MB |
@@ -56,8 +56,8 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `152.42.241.61` | SG | DigitalOcean, LLC | `DATABASE_SCANNER` | 101 | 0.0 MB |
 | `129.204.45.46` | CN | Tencent Cloud Computing (Beijing) Co., Ltd | `DATABASE_SCANNER` | 101 | 0.0 MB |
 | `45.148.10.62` | NL | Techoff SRV Limited | `EXPLOIT_SCANNER` | 98 | 0.0 MB |
+| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 90 | 0.0 MB |
 | `95.179.250.105` | DE | Vultr Holdings LLC Frankfurt | `EXPLOIT_SCANNER` | 90 | 0.13 MB |
-| `unknown` | ?? | unknown | `DATABASE_SCANNER` | 89 | 0.0 MB |
 | `84.147.62.67` | DE | Deutsche Telekom AG | `HONEYTOKEN_HIT` | 88 | 1.31 MB |
 | `140.245.103.140` | SG | Oracle Corporation | `HONEYTOKEN_HIT` | 74 | 0.0 MB |
 | `::ffff:87.106.163.38` | DE |  | `EXPLOIT_SCANNER` | 72 | 0.0 MB |
@@ -108,6 +108,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `::ffff:216.126.225.168` | US | anyNode | `EXPLOIT_SCANNER` | 10 | 0.17 MB |
 | `::ffff:144.172.96.139` | US | FranTech Solutions | `EXPLOIT_SCANNER` | 10 | 0.11 MB |
 | `93.123.109.52` | AD | Techoff SRV Limited | `HONEYTOKEN_HIT` | 10 | 0.0 MB |
+| `93.123.109.178` | AD | Techoff SRV Limited | `HONEYTOKEN_HIT` | 10 | 0.01 MB |
 | `92.222.9.185` | FR | OVH SAS | `DATACENTER` | 10 | 8018.0 MB |
 | `82.24.98.135` | US |  | `HONEYTOKEN_HIT` | 10 | 0.0 MB |
 | `72.145.76.82` | IE | Microsoft Azure Cloud (northeurope) | `HONEYTOKEN_HIT` | 10 | 0.01 MB |
@@ -170,6 +171,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `185.148.3.241` | FI | Magnacapax | `HONEYTOKEN_HIT` | 6 | 0.01 MB |
 | `185.148.3.232` | FI | Magnacapax | `HONEYTOKEN_HIT` | 6 | 0.01 MB |
 | `167.148.112.155` | US | SkyQuantum Internet Service LLC | `HONEYTOKEN_HIT` | 6 | 0.05 MB |
+| `15.235.149.236` | SG | OVH Singapore PTE. LTD | `EXPLOIT_SCANNER` | 6 | 0.06 MB |
 | `15.204.146.92` | US | Markiyan, Bulich | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
 | `147.185.226.21` | JP |  | `HONEYTOKEN_HIT` | 6 | 0.0 MB |
 | `107.172.58.36` | US | RackNerd LLC | `HONEYTOKEN_HIT` | 6 | 0.02 MB |
@@ -233,7 +235,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `176.65.139.232` | NL | Storm Industries | `HONEYTOKEN_HIT` | 4 | 0.01 MB |
 | `176.65.139.229` | NL | Storm Industries | `HONEYTOKEN_HIT` | 4 | 0.01 MB |
 | `164.92.91.136` | US | DigitalOcean, LLC | `EXPLOIT_SCANNER` | 4 | 3.0 MB |
-| `15.235.149.236` | SG | OVH Singapore PTE. LTD | `EXPLOIT_SCANNER` | 4 | 0.03 MB |
+| `149.102.234.5` | BR | Datacamp Limited | `EXPLOIT_SCANNER` | 4 | 133.42 MB |
 | `136.66.21.30` | US | Google Cloud (us-west1) | `HONEYTOKEN_HIT` | 4 | 0.0 MB |
 | `134.199.175.66` | AU | DigitalOcean, LLC | `EXPLOIT_SCANNER` | 4 | 0.0 MB |
 | `107.173.177.162` | US | WindowsVPS.Host | `SPIDER_TRAP_HIT` | 4 | 0.01 MB |
@@ -697,6 +699,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `172.235.211.107` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `172.235.196.22` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 10.53 MB |
 | `172.235.192.240` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
+| `172.233.91.182` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `172.233.88.70` | JP | Akamai Technologies, Inc. | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `172.203.224.88` | US | Microsoft Azure Cloud (eastus) | `DATABASE_SCANNER` | 2 | 0.0 MB |
 | `171.37.92.121` | CN |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -752,7 +755,6 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `149.154.161.215` | NL |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `149.154.161.213` | NL |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `149.154.161.196` | NL |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
-| `149.102.234.5` | BR | Datacamp Limited | `EXPLOIT_SCANNER` | 2 | 0.0 MB |
 | `147.45.50.96` | NL | Global Connectivity Solutions LLP | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `147.185.226.29` | JP |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
 | `147.185.226.17` | JP |  | `HONEYTOKEN_HIT` | 2 | 0.0 MB |
@@ -1076,6 +1078,7 @@ For automated firewalls (UFW, iptables, Fail2ban, Cloudflare) and security integ
 | `170.106.140.110` | US |  | `SPIDER_TRAP_HIT` | 1 | 0.0 MB |
 | `169.239.183.229` | ZA |  | `EXPLOIT_SCANNER` | 1 | 0.0 MB |
 | `169.150.201.9` | DE | Cdnext FRA | `EXPLOIT_SCANNER` | 1 | 0.0 MB |
+| `167.94.146.61` | DE | Censys, Inc. | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `167.94.146.54` | DE | Censys, Inc. | `REDIS_SCANNER` | 1 | 0.0 MB |
 | `167.94.146.49` | DE | Censys, Inc. | `DATABASE_SCANNER` | 1 | 0.0 MB |
 | `165.154.11.140` | NG | Ucloud Information Technology (hk) Limited | `RESIDENTIAL_PROXY` | 1 | 39.0 MB |
