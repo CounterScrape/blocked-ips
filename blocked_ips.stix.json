@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--482f4d29-80a7-4a41-abc5-7d2de87df7cf",
+  "id": "bundle--df58e3a0-984f-4da5-9585-d0dcc8a0076f",
   "objects": [
     {
       "type": "identity",
@@ -16,9 +16,9 @@
       "spec_version": "2.1",
       "id": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-07-02T00:13:10.474Z",
+      "modified": "2026-07-02T01:29:18.025Z",
       "name": "Attacker Node - 213.209.159.115",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 16628.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: Feo Prest SRL. Trapped connection hits: 16845.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -31,7 +31,7 @@
       "spec_version": "2.1",
       "id": "relationship--0ce8e683-2629-5455-b6c6-0fc5d4a178aa",
       "created": "2026-06-27T23:34:12.944Z",
-      "modified": "2026-07-02T00:13:10.474Z",
+      "modified": "2026-07-02T01:29:18.025Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--5f3f5f20-1fd3-5e8e-9990-0d281e53be3d",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -66,9 +66,9 @@
       "spec_version": "2.1",
       "id": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-07-02T00:59:57.561Z",
+      "modified": "2026-07-02T01:53:37.615Z",
       "name": "Attacker Node - 2a06:98c0:3600::103",
-      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 1994.",
+      "description": "Verified attacker node profile: EXPLOIT_SCANNER. Org/ISP: Cloudflare, Inc.. Trapped connection hits: 2011.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -81,7 +81,7 @@
       "spec_version": "2.1",
       "id": "relationship--4133dc6f-476f-5058-b885-a23fb6b37133",
       "created": "2026-06-27T17:37:17.840Z",
-      "modified": "2026-07-02T00:59:57.561Z",
+      "modified": "2026-07-02T01:53:37.615Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f495a211-1510-5aa5-9158-8bf28462092a",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -741,9 +741,9 @@
       "spec_version": "2.1",
       "id": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
       "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-07-02T00:12:10.455Z",
+      "modified": "2026-07-02T01:28:17.984Z",
       "name": "Attacker Node - unknown",
-      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 86.",
+      "description": "Verified attacker node profile: DATABASE_SCANNER. Org/ISP: unknown. Trapped connection hits: 87.",
       "indicator_types": [
         "malicious-activity"
       ],
@@ -756,7 +756,7 @@
       "spec_version": "2.1",
       "id": "relationship--8af25f98-27dd-55b4-888c-5016110fcea8",
       "created": "2026-06-27T23:34:12.851Z",
-      "modified": "2026-07-02T00:12:10.455Z",
+      "modified": "2026-07-02T01:28:17.984Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--60ba3ab2-704c-5f23-981f-464e471533bc",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
@@ -2784,6 +2784,31 @@
       "modified": "2026-07-01T09:20:29.214Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--f71b39c7-9139-5242-948e-cf21148938d2",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4ccddad6-cd64-5116-b805-288ef740c667",
+      "created": "2026-07-02T01:34:58.253Z",
+      "modified": "2026-07-02T01:35:28.184Z",
+      "name": "Attacker Node - 43.98.188.22",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Alibaba.com LLC. Trapped connection hits: 8.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '43.98.188.22']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T01:34:58.253Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--49b2cf68-31b4-5a90-841d-9409bea43f4f",
+      "created": "2026-07-02T01:34:58.253Z",
+      "modified": "2026-07-02T01:35:28.184Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4ccddad6-cd64-5116-b805-288ef740c667",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -6214,6 +6239,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--f10f6c09-8d05-58f7-850f-56a0d58a7f76",
+      "created": "2026-07-02T01:35:19.880Z",
+      "modified": "2026-07-02T01:35:34.877Z",
+      "name": "Attacker Node - ::ffff:43.98.188.215",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Alibaba.com LLC. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv6-addr:value = '::ffff:43.98.188.215']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T01:35:19.880Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ce71f24a-5f8f-5f37-b092-e922ac2bf1a2",
+      "created": "2026-07-02T01:35:19.880Z",
+      "modified": "2026-07-02T01:35:34.877Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f10f6c09-8d05-58f7-850f-56a0d58a7f76",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--6df8b984-409c-5224-b097-58a11c1e09cd",
       "created": "2026-06-28T23:35:58.433Z",
       "modified": "2026-06-28T23:36:13.435Z",
@@ -8734,6 +8784,31 @@
       "modified": "2026-06-28T23:35:55.145Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--0620c2df-1327-5cff-9acb-e293016c3dcc",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--78391301-b3f1-556b-add1-98211d39b90f",
+      "created": "2026-07-02T01:34:57.262Z",
+      "modified": "2026-07-02T01:35:11.779Z",
+      "name": "Attacker Node - 47.237.18.143",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: Alibaba.com LLC. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '47.237.18.143']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T01:34:57.262Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--87ece985-8f28-51d5-9330-670cd27b74e0",
+      "created": "2026-07-02T01:34:57.262Z",
+      "modified": "2026-07-02T01:35:11.779Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--78391301-b3f1-556b-add1-98211d39b90f",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
@@ -18189,6 +18264,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--acfa7c13-1fee-5426-ade4-22d91fef2798",
+      "created": "2026-07-02T01:24:07.409Z",
+      "modified": "2026-07-02T01:24:18.056Z",
+      "name": "Attacker Node - 144.126.222.130",
+      "description": "Verified attacker node profile: HONEYTOKEN_HIT. Org/ISP: DigitalOcean, LLC. Trapped connection hits: 2.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '144.126.222.130']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T01:24:07.409Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--5a5731a5-c18f-5787-9361-55713c4ca9cc",
+      "created": "2026-07-02T01:24:07.409Z",
+      "modified": "2026-07-02T01:24:18.056Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--acfa7c13-1fee-5426-ade4-22d91fef2798",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--45dcb1bb-18ae-52b1-b974-723b4534103c",
       "created": "2026-06-30T16:11:07.346Z",
       "modified": "2026-06-30T16:15:07.630Z",
@@ -22214,6 +22314,31 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
+      "id": "indicator--ae862df9-b37f-5f3e-aed0-5308fe09909d",
+      "created": "2026-07-02T02:00:20.984Z",
+      "modified": "2026-07-02T02:00:20.984Z",
+      "name": "Attacker Node - 8.134.159.4",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Alibaba.com LLC. Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '8.134.159.4']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T02:00:20.984Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b573ded4-4b7e-5453-9ee2-3ccde33d1117",
+      "created": "2026-07-02T02:00:20.984Z",
+      "modified": "2026-07-02T02:00:20.984Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--ae862df9-b37f-5f3e-aed0-5308fe09909d",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
       "id": "indicator--3d383c9d-cce3-5274-ae1b-65db2210d3d5",
       "created": "2026-06-30T06:26:15.955Z",
       "modified": "2026-06-30T06:26:15.955Z",
@@ -24584,6 +24709,31 @@
       "modified": "2026-07-01T07:05:17.193Z",
       "relationship_type": "indicates",
       "source_ref": "indicator--a217a5af-d6c4-5d55-9dd6-779c30589255",
+      "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c049ea0f-faac-5711-859a-e7def36ce7f5",
+      "created": "2026-07-02T01:49:39.205Z",
+      "modified": "2026-07-02T01:49:39.205Z",
+      "name": "Attacker Node - 20.83.48.204",
+      "description": "Verified attacker node profile: REDIS_SCANNER. Org/ISP: Microsoft Azure Cloud (centralus). Trapped connection hits: 1.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '20.83.48.204']",
+      "pattern_type": "stix",
+      "valid_from": "2026-07-02T01:49:39.205Z"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d90fb54f-1ec9-506a-a5ac-81ac60ec8a41",
+      "created": "2026-07-02T01:49:39.205Z",
+      "modified": "2026-07-02T01:49:39.205Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c049ea0f-faac-5711-859a-e7def36ce7f5",
       "target_ref": "identity--3d052a65-38dc-4db7-8736-224dbec2e76f"
     },
     {
